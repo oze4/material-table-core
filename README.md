@@ -6,8 +6,10 @@ This fork was started from [this](https://github.com/mbrn/material-table/commit/
 
 Over the past 8 months or so, `material-table` has been less than responsive.  `material-table` appears to be slowly going away (nobody seems to be maintaining it anymore) and I was tired of spending my own time submitting PR's with no response.
 
----
----
+## Demo's
+
+[You can check out live demos here](https://oze4.github.io/material-table-core/)
+
 ---
 
 <p align="center" style="box-shadow: 2px 2px;">
