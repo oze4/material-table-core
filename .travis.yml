@@ -11,9 +11,12 @@ script:
   - npm run build
 #deploy:
 #  edge: true
-#  provider: npm
-#  email: "mehmetbaran@mehmetbaran.net"
-#  api_key: "$NPM_TOKEN"
-#  skip_cleanup: true
-#  on:
-#    branch: master
+deploy:
+  edge: true
+  provider: npm
+  email: "matthewpoestreich@gmail.com"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
+  on:
+    tags: deploy
+    branch: master
