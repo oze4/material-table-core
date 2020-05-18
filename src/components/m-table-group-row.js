@@ -6,16 +6,14 @@ import PropTypes from 'prop-types';
 import * as React from 'react';
 /* eslint-enable no-unused-vars */
 
-
 export default class MTableGroupRow extends React.Component {
-
   rotateIconStyle = isOpen => ({
     transform: isOpen ? 'rotate(90deg)' : 'none'
   });
 
   render() {
     let colSpan = this.props.columns.filter(columnDef => !columnDef.hidden).length;
-    this.props.options.selection && colSpan++;    
+    this.props.options.selection && colSpan++;
     this.props.detailPanel && colSpan++;
     this.props.actions && this.props.actions.length > 0 && colSpan++;
     const column = this.props.groups[this.props.level];
@@ -26,13 +24,13 @@ export default class MTableGroupRow extends React.Component {
         detail = this.props.groupData.groups.map((groupData, index) => (
           <this.props.components.GroupRow
             actions={this.props.actions}
-            key={groupData.value || ("" + index)}
+            key={groupData.value || ('' + index)}
             columns={this.props.columns}
             components={this.props.components}
             detailPanel={this.props.detailPanel}
             getFieldValue={this.props.getFieldValue}
             groupData={groupData}
-            groups={this.props.groups}            
+            groups={this.props.groups}
             icons={this.props.icons}
             level={this.props.level + 1}
             path={[...this.props.path, index]}
@@ -48,8 +46,7 @@ export default class MTableGroupRow extends React.Component {
             isTreeData={this.props.isTreeData}
           />
         ));
-      }
-      else {
+      } else {
         detail = this.props.groupData.data.map((rowData, index) => {
           if (rowData.tableData.editing) {
             return (
@@ -107,24 +104,24 @@ export default class MTableGroupRow extends React.Component {
     if (column.lookup) {
       value = column.lookup[value];
     }
-    
+
     let title = column.title;
-    if (typeof this.props.options.groupTitle === "function") {
+    if (typeof this.props.options.groupTitle === 'function') {
       title = this.props.options.groupTitle(this.props.groupData);
-    } else if (typeof title !== "string") {
+    } else if (typeof title !== 'string') {
       title = React.cloneElement(title);
     }
 
-    let separator = this.props.options.groupRowSeparator || ": ";
+    const separator = this.props.options.groupRowSeparator || ': ';
 
     return (
       <>
         <TableRow>
           {freeCells}
-          <this.props.components.Cell 
-            colSpan={colSpan} 
-            padding="none" 
-            columnDef={column} 
+          <this.props.components.Cell
+            colSpan={colSpan}
+            padding="none"
+            columnDef={column}
             value={value}
             icons={this.props.icons}
           >
@@ -167,11 +164,11 @@ MTableGroupRow.propTypes = {
   localization: PropTypes.object,
   onGroupExpandChanged: PropTypes.func,
   onRowSelected: PropTypes.func,
-  onRowClick: PropTypes.func,  
+  onRowClick: PropTypes.func,
   onToggleDetailPanel: PropTypes.func.isRequired,
   onTreeExpandChanged: PropTypes.func.isRequired,
   onEditingCanceled: PropTypes.func,
   onEditingApproved: PropTypes.func,
   options: PropTypes.object,
-  path: PropTypes.arrayOf(PropTypes.number),
+  path: PropTypes.arrayOf(PropTypes.number)
 };

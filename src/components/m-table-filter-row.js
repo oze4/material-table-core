@@ -45,7 +45,7 @@ class MTableFilterRow extends React.Component {
         input={<Input id="select-multiple-checkbox" />}
         renderValue={selecteds => selecteds.map(selected => columnDef.lookup[selected]).join(', ')}
         MenuProps={MenuProps}
-        style={{marginTop: 0}}
+        style={{ marginTop: 0 }}
       >
         {
           Object.keys(columnDef.lookup).map(key => (
@@ -78,6 +78,7 @@ class MTableFilterRow extends React.Component {
 
   renderDefaultFilter = (columnDef) => {
     const localization = { ...MTableFilterRow.defaultProps.localization, ...this.props.localization };
+    const self = this;
     return (
       <TextField
         style={columnDef.type === 'numeric' ? { float: 'right' } : {}}
@@ -91,7 +92,7 @@ class MTableFilterRow extends React.Component {
           startAdornment: (
             <InputAdornment position="start">
               <Tooltip title={localization.filterTooltip}>
-                <this.props.icons.Filter />
+                <self.props.icons.Filter />
               </Tooltip>
             </InputAdornment>
           )
@@ -170,7 +171,7 @@ class MTableFilterRow extends React.Component {
     if (this.props.selection) {
       columns.splice(0, 0, <TableCell padding="none" key="key-selection-column" />);
     }
-    
+
     if (this.props.hasActions) {
       if (this.props.actionsColumnIndex === -1) {
         columns.push(<TableCell key="key-action-column" />);
@@ -191,7 +192,7 @@ class MTableFilterRow extends React.Component {
       columns.splice(0, 0,
         <TableCell
           padding="none"
-          key={"key-tree-data-filter"}
+          key={'key-tree-data-filter'}
         />
       );
     }
@@ -199,7 +200,7 @@ class MTableFilterRow extends React.Component {
     this.props.columns
       .filter(columnDef => columnDef.tableData.groupOrder > -1)
       .forEach(columnDef => {
-        columns.splice(0, 0, <TableCell padding="checkbox" key={"key-group-filter" + columnDef.tableData.id} />);
+        columns.splice(0, 0, <TableCell padding="checkbox" key={'key-group-filter' + columnDef.tableData.id} />);
       });
 
     return (
@@ -217,7 +218,7 @@ MTableFilterRow.defaultProps = {
   localization: {
     filterTooltip: 'Filter'
   },
-  hideFilterIcons: false,
+  hideFilterIcons: false
 };
 
 MTableFilterRow.propTypes = {
@@ -230,7 +231,7 @@ MTableFilterRow.propTypes = {
   actionsColumnIndex: PropTypes.number,
   hasActions: PropTypes.bool,
   localization: PropTypes.object,
-  hideFilterIcons: PropTypes.bool,
+  hideFilterIcons: PropTypes.bool
 };
 
 export default MTableFilterRow;

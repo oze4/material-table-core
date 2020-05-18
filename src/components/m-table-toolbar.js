@@ -64,7 +64,7 @@ export class MTableToolbar extends React.Component {
           className={this.props.searchFieldAlignment === 'left' && this.props.showTitle === false ? null : this.props.classes.searchField}
           value={this.props.searchText}
           onChange={event => this.props.onSearchChanged(event.target.value)}
-          placeholder={localization.searchPlaceholder}          
+          placeholder={localization.searchPlaceholder}
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
@@ -77,7 +77,7 @@ export class MTableToolbar extends React.Component {
               <InputAdornment position="end">
                 <IconButton
                   disabled={!this.props.searchText}
-                  onClick={() => this.props.onSearchChanged("")}
+                  onClick={() => this.props.onSearchChanged('')}
                 >
                   <this.props.icons.ResetSearch color="inherit" fontSize="small" />
                 </IconButton>
@@ -87,15 +87,14 @@ export class MTableToolbar extends React.Component {
           }}
         />
       );
-    }
-    else {
+    } else {
       return null;
     }
   }
 
   renderDefaultActions() {
     const localization = { ...MTableToolbar.defaultProps.localization, ...this.props.localization };
-    const {classes} = this.props;
+    const { classes } = this.props;
 
     return (
       <div>
@@ -114,7 +113,7 @@ export class MTableToolbar extends React.Component {
               anchorEl={this.state.columnsButtonAnchorEl}
               open={Boolean(this.state.columnsButtonAnchorEl)}
               onClose={() => this.setState({ columnsButtonAnchorEl: null })}>
-              <MenuItem key={"text"} disabled style={{ opacity: 1, fontWeight: 600, fontSize: 12 }}>
+              <MenuItem key={'text'} disabled style={{ opacity: 1, fontWeight: 600, fontSize: 12 }}>
                 {localization.addRemoveColumns}
               </MenuItem>
               {
@@ -164,7 +163,7 @@ export class MTableToolbar extends React.Component {
 
         }
         <span>
-          <this.props.components.Actions actions={this.props.actions && this.props.actions.filter(a => a.position === "toolbar")} components={this.props.components} />
+          <this.props.components.Actions actions={this.props.actions && this.props.actions.filter(a => a.position === 'toolbar')} components={this.props.components} />
         </span>
       </div>
     );
@@ -173,7 +172,7 @@ export class MTableToolbar extends React.Component {
   renderSelectedActions() {
     return (
       <React.Fragment>
-        <this.props.components.Actions actions={this.props.actions.filter(a => a.position === "toolbarOnSelect")} data={this.props.selectedRows} components={this.props.components} />
+        <this.props.components.Actions actions={this.props.actions.filter(a => a.position === 'toolbarOnSelect')} data={this.props.selectedRows} components={this.props.components} />
       </React.Fragment>
     );
   }
@@ -296,7 +295,7 @@ export const styles = theme => ({
     flex: '1 1 10%'
   },
   actions: {
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.secondary
   },
   title: {
     overflow: 'hidden'
@@ -307,7 +306,7 @@ export const styles = theme => ({
   },
   formControlLabel: {
     paddingLeft: theme.spacing(1),
-    paddingRight: theme.spacing(1),
+    paddingRight: theme.spacing(1)
   }
 });
 

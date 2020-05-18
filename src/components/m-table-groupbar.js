@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars, react/prop-types */
 import Toolbar from '@material-ui/core/Toolbar';
 import Chip from '@material-ui/core/Chip';
 import Typography from '@material-ui/core/Typography';
@@ -6,7 +6,6 @@ import PropTypes from 'prop-types';
 import * as React from 'react';
 import { Droppable, Draggable } from 'react-beautiful-dnd';
 /* eslint-enable no-unused-vars */
-
 
 class MTableGroupbar extends React.Component {
   constructor(props) {
@@ -25,7 +24,7 @@ class MTableGroupbar extends React.Component {
     // background: isDragging ? 'lightgreen' : 'grey',
 
     // styles we need to apply on draggables
-    ...draggableStyle,
+    ...draggableStyle
   });
 
   getListStyle = isDraggingOver => ({
@@ -76,7 +75,7 @@ class MTableGroupbar extends React.Component {
                                 <this.props.icons.SortArrow
                                   style={{
                                     transition: '300ms ease all',
-                                    transform: columnDef.tableData.groupSort === "asc" ? 'rotate(-180deg)' : 'none',
+                                    transform: columnDef.tableData.groupSort === 'asc' ? 'rotate(-180deg)' : 'none',
                                     fontSize: 18
                                   }}
                                 />
@@ -112,7 +111,7 @@ MTableGroupbar.propTypes = {
   localization: PropTypes.shape({
     groupedBy: PropTypes.string,
     placeholder: PropTypes.string
-  }),
+  })
 };
 
 export default MTableGroupbar;

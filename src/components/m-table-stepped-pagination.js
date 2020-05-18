@@ -36,13 +36,16 @@ class MTablePaginationInner extends React.Component {
     const buttons = [];
 
     for (let p = start; p <= end; p++) {
-      const buttonVariant = p === this.props.page ? "contained" : "text";
+      const buttonVariant = p === this.props.page ? 'contained' : 'text';
       buttons.push(
         <Button
           size="small"
           style={{
             boxShadow: 'none',
-            maxWidth: '30px', maxHeight: '30px', minWidth: '30px', minHeight: '30px'
+            maxWidth: '30px',
+            maxHeight: '30px',
+            minWidth: '30px',
+            minHeight: '30px'
           }}
           disabled={p === this.props.page}
           variant={buttonVariant}
@@ -68,17 +71,17 @@ class MTablePaginationInner extends React.Component {
 
     return (
       <div className={classes.root}>
-      {showFirstLastPageButtons &&
+        {showFirstLastPageButtons &&
         <Tooltip title={localization.firstTooltip}>
-            <span>
-              <IconButton
-                  onClick={this.handleFirstPageButtonClick}
-                  disabled={page === 0}
-                  aria-label={localization.firstAriaLabel}
-              >
-                {theme.direction === 'rtl' ? <this.props.icons.LastPage /> : <this.props.icons.FirstPage />}
-              </IconButton>
-            </span>
+          <span>
+            <IconButton
+              onClick={this.handleFirstPageButtonClick}
+              disabled={page === 0}
+              aria-label={localization.firstAriaLabel}
+            >
+              {theme.direction === 'rtl' ? <this.props.icons.LastPage /> : <this.props.icons.FirstPage />}
+            </IconButton>
+          </span>
         </Tooltip>
         }
         <Tooltip title={localization.previousTooltip}>
@@ -106,19 +109,19 @@ class MTablePaginationInner extends React.Component {
             </IconButton>
           </span>
         </Tooltip>
-      {showFirstLastPageButtons &&
+        {showFirstLastPageButtons &&
         <Tooltip title={localization.lastTooltip}>
-            <span>
-              <IconButton
-                  onClick={this.handleLastPageButtonClick}
-                  disabled={page >= Math.ceil(count / rowsPerPage) - 1}
-                  aria-label={localization.lastAriaLabel}
-              >
-                {theme.direction === 'rtl' ? <this.props.icons.FirstPage /> : <this.props.icons.LastPage />}
-              </IconButton>
-            </span>
+          <span>
+            <IconButton
+              onClick={this.handleLastPageButtonClick}
+              disabled={page >= Math.ceil(count / rowsPerPage) - 1}
+              aria-label={localization.lastAriaLabel}
+            >
+              {theme.direction === 'rtl' ? <this.props.icons.FirstPage /> : <this.props.icons.LastPage />}
+            </IconButton>
+          </span>
         </Tooltip>
-      }
+        }
       </div>
     );
   }

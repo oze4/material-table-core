@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import * as React from 'react';
 import TextField from '@material-ui/core/TextField';
 import Checkbox from '@material-ui/core/Checkbox';
@@ -20,7 +21,7 @@ class MTableEditField extends React.Component {
         value={this.props.value === undefined ? '' : this.props.value}
         onChange={event => this.props.onChange(event.target.value)}
         style={{
-          fontSize: 13,
+          fontSize: 13
         }}
       >
         {Object.keys(this.props.columnDef.lookup).map(key => (
@@ -28,7 +29,6 @@ class MTableEditField extends React.Component {
         )}
       </Select>
     );
-
   }
 
   renderBooleanField() {
@@ -59,13 +59,14 @@ class MTableEditField extends React.Component {
           clearable
           InputProps={{
             style: {
-              fontSize: 13,
+              fontSize: 13
             }
           }}
         />
       </MuiPickersUtilsProvider>
     );
   }
+
   renderTimeField() {
     return (
       <MuiPickersUtilsProvider
@@ -79,7 +80,7 @@ class MTableEditField extends React.Component {
           clearable
           InputProps={{
             style: {
-              fontSize: 13,
+              fontSize: 13
             }
           }}
         />
@@ -99,7 +100,7 @@ class MTableEditField extends React.Component {
           clearable
           InputProps={{
             style: {
-              fontSize: 13,
+              fontSize: 13
             }
           }}
         />
@@ -118,7 +119,7 @@ class MTableEditField extends React.Component {
         onChange={event => this.props.onChange(event.target.value)}
         InputProps={{
           style: {
-            fontSize: 13,
+            fontSize: 13
           }
         }}
       />
@@ -135,7 +136,7 @@ class MTableEditField extends React.Component {
         inputProps={{
           style: {
             fontSize: 13,
-            textAlign: "right"
+            textAlign: 'right'
           }
         }}
       />
@@ -143,32 +144,25 @@ class MTableEditField extends React.Component {
   }
 
   render() {
-    let component = "ok";
+    let component = 'ok';
 
     if (this.props.columnDef.lookup) {
       component = this.renderLookupField();
-    }
-    else if (this.props.columnDef.type === "boolean") {
+    } else if (this.props.columnDef.type === 'boolean') {
       component = this.renderBooleanField();
-    }
-    else if (this.props.columnDef.type === "date") {
+    } else if (this.props.columnDef.type === 'date') {
       component = this.renderDateField();
-    }
-    else if (this.props.columnDef.type === "time") {
+    } else if (this.props.columnDef.type === 'time') {
       component = this.renderTimeField();
-    }
-    else if (this.props.columnDef.type === "datetime") {
+    } else if (this.props.columnDef.type === 'datetime') {
       component = this.renderDateTimeField();
-    }
-    else if (this.props.columnDef.type === "currency") {
+    } else if (this.props.columnDef.type === 'currency') {
       component = this.renderCurrencyField();
-    }
-    else {
+    } else {
       component = this.renderTextField();
     }
 
     return component;
-
   }
 }
 

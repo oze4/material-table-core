@@ -103,12 +103,12 @@ export const defaultProps = {
     defaultExpanded: false,
     detailPanelColumnAlignment: 'left',
     thirdSortClick: true,
-    overflowY: 'auto',
+    overflowY: 'auto'
   },
   localization: {
     grouping: {
       groupedBy: 'Grouped By:',
-      placeholder: 'Drag headers here to group by',
+      placeholder: 'Drag headers here to group by'
     },
     pagination: {
       labelDisplayedRows: '{from}-{to} of {count}',
@@ -122,7 +122,7 @@ export const defaultProps = {
       editRow: {
         saveTooltip: 'Save',
         cancelTooltip: 'Cancel',
-        deleteText: 'Are you sure you want to delete this row?',
+        deleteText: 'Are you sure you want to delete this row?'
       },
       addTooltip: 'Add',
       deleteTooltip: 'Delete',

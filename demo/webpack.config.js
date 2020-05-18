@@ -1,13 +1,23 @@
+const path = require('path');
 const webpack = require('webpack');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: ['babel-polyfill', './demo/demo.js'],
+  entry: ['babel-polyfill', './demo/index.js'],
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader']
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: "html-loader"
+          }
+        ]
       }
     ]
   },
@@ -15,16 +25,21 @@ module.exports = {
     extensions: ['*', '.js', '.jsx']
   },
   output: {
-    path: __dirname + '/dist',
+    path: path.resolve(__dirname, '../docs'),
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: 'material-ui-core.demo.bundle.js'
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebPackPlugin({
+      template: path.resolve(__dirname, "../demo/index.html"),
+      filename: "./index.html"
+    })
   ],
   devServer: {
     contentBase: './demo',
     hot: true,
-    disableHostCheck: true
+    disableHostCheck: true,
+    open: true,
   }
 };

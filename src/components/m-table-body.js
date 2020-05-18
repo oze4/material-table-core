@@ -15,7 +15,7 @@ class MTableBody extends React.Component {
       if (this.props.options.selection) {
         addColumn++;
       }
-      if (this.props.actions && this.props.actions.filter(a => a.position === "row" || typeof a === "function").length > 0) {
+      if (this.props.actions && this.props.actions.filter(a => a.position === 'row' || typeof a === 'function').length > 0) {
         addColumn++;
       }
       if (this.props.hasDetailPanel) {
@@ -61,15 +61,14 @@ class MTableBody extends React.Component {
             getFieldValue={this.props.getFieldValue}
           />
         );
-      }
-      else {
+      } else {
         return (
           <this.props.components.Row
             components={this.props.components}
             icons={this.props.icons}
             data={data}
             index={index}
-            key={"row-" + data.tableData.id}
+            key={'row-' + data.tableData.id}
             level={0}
             options={this.props.options}
             localization={{ ...MTableBody.defaultProps.localization.editRow, ...this.props.localization.editRow }}
@@ -123,7 +122,7 @@ class MTableBody extends React.Component {
   }
 
   render() {
-    let renderData = this.props.renderData;
+    const renderData = this.props.renderData;
     const groups = this.props.columns
       .filter(col => col.tableData.groupOrder > -1)
       .sort((col1, col2) => col1.tableData.groupOrder - col2.tableData.groupOrder);
@@ -139,7 +138,7 @@ class MTableBody extends React.Component {
           <this.props.components.FilterRow
             columns={this.props.columns.filter(columnDef => !columnDef.hidden)}
             icons={this.props.icons}
-            hasActions={this.props.actions.filter(a => a.position === "row" || typeof a === "function").length > 0}
+            hasActions={this.props.actions.filter(a => a.position === 'row' || typeof a === 'function').length > 0}
             actionsColumnIndex={this.props.options.actionsColumnIndex}
             onFilterChanged={this.props.onFilterChanged}
             selection={this.props.options.selection}
@@ -151,7 +150,7 @@ class MTableBody extends React.Component {
           />
         }
 
-        {this.props.showAddRow && this.props.options.addRowPosition === "first" &&
+        {this.props.showAddRow && this.props.options.addRowPosition === 'first' &&
           <this.props.components.EditRow
             columns={this.props.columns.filter(columnDef => { return !columnDef.hidden })}
             data={this.props.initialFormData}
@@ -169,12 +168,12 @@ class MTableBody extends React.Component {
           />
         }
 
-        {groups.length > 0 ?
-          this.renderGroupedRows(groups, renderData) :
-          this.renderUngroupedRows(renderData)
+        {groups.length > 0
+          ? this.renderGroupedRows(groups, renderData)
+          : this.renderUngroupedRows(renderData)
         }
 
-        {this.props.showAddRow && this.props.options.addRowPosition === "last" &&
+        {this.props.showAddRow && this.props.options.addRowPosition === 'last' &&
           <this.props.components.EditRow
             columns={this.props.columns.filter(columnDef => { return !columnDef.hidden })}
             data={this.props.initialFormData}
@@ -236,7 +235,7 @@ MTableBody.propTypes = {
   onTreeExpandChanged: PropTypes.func.isRequired,
   onRowClick: PropTypes.func,
   onEditingCanceled: PropTypes.func,
-  onEditingApproved: PropTypes.func,
+  onEditingApproved: PropTypes.func
 };
 
 export default MTableBody;

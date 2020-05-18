@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars, react/prop-types */
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import TableHead from '@material-ui/core/TableHead';
@@ -13,7 +13,6 @@ import * as CommonValues from '../utils/common-values';
 /* eslint-enable no-unused-vars */
 
 export class MTableHeader extends React.Component {
-
   renderHeader() {
     const size = this.props.options.padding === 'default' ? 'medium' : 'small';
 
@@ -75,7 +74,7 @@ export class MTableHeader extends React.Component {
         return (
           <TableCell
             key={columnDef.tableData.id}
-            align={['numeric'].indexOf(columnDef.type) !== -1 ? "right" : "left"}
+            align={['numeric'].indexOf(columnDef.type) !== -1 ? 'right' : 'left'}
             className={this.props.classes.header}
             style={{ ...this.props.headerStyle, ...columnDef.headerStyle, boxSizing: 'border-box', width: columnDef.tableData.width }}
             size={size}
@@ -86,8 +85,6 @@ export class MTableHeader extends React.Component {
       });
     return mapArr;
   }
-
-
 
   renderActionsHeader() {
     const localization = { ...MTableHeader.defaultProps.localization, ...this.props.localization };
@@ -103,6 +100,7 @@ export class MTableHeader extends React.Component {
       </TableCell>
     );
   }
+
   renderSelectionHeader() {
     const selectionWidth = CommonValues.selectionMaxWidth(this.props, this.props.treeDataMaxLevel);
 
@@ -163,7 +161,7 @@ export class MTableHeader extends React.Component {
       headers.splice(0, 0,
         <TableCell
           padding="none"
-          key={"key-tree-data-header"}
+          key={'key-tree-data-header'}
           className={this.props.classes.header}
           style={{ ...this.props.headerStyle }}
         />
@@ -173,7 +171,7 @@ export class MTableHeader extends React.Component {
     this.props.columns
       .filter(columnDef => columnDef.tableData.groupOrder > -1)
       .forEach(columnDef => {
-        headers.splice(0, 0, <TableCell padding="checkbox" key={"key-group-header" + columnDef.tableData.id} className={this.props.classes.header} />);
+        headers.splice(0, 0, <TableCell padding="checkbox" key={'key-group-header' + columnDef.tableData.id} className={this.props.classes.header} />);
       });
 
     return (
@@ -198,9 +196,9 @@ MTableHeader.defaultProps = {
   orderBy: undefined,
   orderDirection: 'asc',
   actionsHeaderIndex: 0,
-  detailPanelColumnAlignment: "left",
+  detailPanelColumnAlignment: 'left',
   draggable: true,
-  thirdSortClick: true,
+  thirdSortClick: true
 };
 
 MTableHeader.propTypes = {
@@ -225,13 +223,12 @@ MTableHeader.propTypes = {
   tooltip: PropTypes.string
 };
 
-
 export const styles = theme => ({
   header: {
     position: 'sticky',
     top: 0,
     zIndex: 10,
-    backgroundColor: theme.palette.background.paper, // Change according to theme,
+    backgroundColor: theme.palette.background.paper // Change according to theme,
   }
 });
 
