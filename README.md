@@ -1,16 +1,20 @@
-# This is a fork of [`material-table`](https://github.com/mbrn/material-table)
+## This is a *maintained* fork of [`material-table`](https://github.com/mbrn/material-table)
 
-This fork was started from [this](https://github.com/mbrn/material-table/commit/3031eab70105df8d88c17984ca5cea878a9eae3f) commit, which is version 1.57.2
+This fork was started from [this](https://github.com/mbrn/material-table/commit/3031eab70105df8d88c17984ca5cea878a9eae3f) commit, which is version `1.57.2`.  Versioning for this repo will start at `2.0.0` due to this.
 
 ## Why?
 
-Over the past 8 months or so, `material-table` has been less than responsive.  `material-table` appears to be slowly going away (nobody seems to be maintaining it anymore) and I was tired of spending my own time submitting PR's with no response.
+Over the past 8 months or so, `material-table` has been less than responsive.  `material-table` appears to be slowly going away (nobody seems to be maintaining it anymore) and I was tired of spending my own time submitting PR's with no response.  
+
+I even [asked to help them out](https://github.com/mbrn/material-table/issues/1171) but was ignored, so I am publishing my locally maintained fork.
 
 ## Demo's
 
 [You can check out live demos here](https://oze4.github.io/material-table-core/)
 
 ---
+
+## Original `README.md`:
 
 <p align="center" style="box-shadow: 2px 2px;">
   <a href="https://material-table.com" rel="noopener" target="_blank" ><img width="200" src="https://raw.githubusercontent.com/mbrn/material-table.com/master/docs/assets/logo-back.png" alt="material-table"></a></p>
