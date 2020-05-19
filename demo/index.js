@@ -1,5 +1,5 @@
-import React, { useState, Fragment } from 'react';
-import { Link, Route, Switch, BrowserRouter } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, Route, Switch, HashRouter } from 'react-router-dom';
 import { render } from 'react-dom';
 
 import {
@@ -107,12 +107,12 @@ const MTableDemoAppBar = () => {
         <Typography variant="h6" className={classes.title}>
           material-table Examples
         </Typography>
-        <Link to="/material-table-core">
+        <Link to="/">
           <IconButton style={{ color: 'white' }}>
             <HomeIcon />
           </IconButton>
         </Link>
-        <Link to="/material-table-core/issue-tracker">
+        <Link to="/issue-tracker">
           <Button style={{ color: 'white' }}>Issue Tracker</Button>
         </Link>
       </Toolbar>
@@ -125,18 +125,18 @@ const App = () => {
 
   return (
     <ErrorBoundary>
-      <BrowserRouter>
+      <HashRouter>
         <MTableDemoAppBar />
         <CssBaseline />
         <Container className={classes.mt20}>
           <div style={{ marginTop: 40 }}>
             <Switch>
-              <Route exact path="/material-table-core" component={Home} />
-              <Route exact path="/material-table-core/issue-tracker" component={IssueTracker} />
+              <Route exact path="/" component={Home} />
+              <Route exact path="/issue-tracker" component={IssueTracker} />
             </Switch>
           </div>
         </Container>
-      </BrowserRouter>
+      </HashRouter>
     </ErrorBoundary>
   );
 };
