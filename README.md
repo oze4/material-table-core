@@ -11,7 +11,7 @@
  - [Goals](#goals)
  - [Want to help?](#want-to-help)
 
- ### Getting Started
+### Getting Started
 
  - [Installation](#installation)
  - [Documentation](#documentation)
