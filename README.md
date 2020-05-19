@@ -1,6 +1,6 @@
-### This is a *maintained* [fork*](#explain-fork) of [*mbrn/material-table*](https://github.com/mbrn/material-table) `v1.57.2`
+[![Build Status](https://travis-ci.org/oze4/material-table-core.svg?branch=master)](https://travis-ci.org/oze4/material-table-core)
 
-<small id="explain-fork">*fork means I downloaded the repo to .zip and started this repo with that code</small>
+<b>This is a *maintained* <a href="#explain-fork">fork*</a> of <a href="https://github.com/mbrn/material-table">mbrn/material-table</a><code>v1.57.2</code></b><br/><small id="explain-fork">*fork means I downloaded the repo to .zip and started this repo with that code</small>
 
 # Table of Contents
 
@@ -11,7 +11,7 @@
  - [Goals](#goals)
  - [Want to help?](#want-to-help)
 
- ### Setup
+ ### Getting Started
 
  - [Installation](#installation)
  - [Documentation](#documentation)
