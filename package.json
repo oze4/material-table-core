@@ -1,5 +1,8 @@
 {
   "name": "@material-table/core",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "2.0.0",
   "description": "Datatable for React based on https://material-ui.com/api/table/ with additional features",
   "main": "dist/index.js",
