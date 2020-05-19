@@ -26,6 +26,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../docs'),
+    publicPath: '/material-table-core',
     filename: 'material-ui-core.demo.bundle.js'
   },
   plugins: [

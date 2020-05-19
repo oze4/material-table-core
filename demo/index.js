@@ -107,12 +107,12 @@ const MTableDemoAppBar = () => {
         <Typography variant="h6" className={classes.title}>
           material-table Examples
         </Typography>
-        <Link to="/">
+        <Link to="/material-table-core">
           <IconButton style={{ color: 'white' }}>
             <HomeIcon />
           </IconButton>
         </Link>
-        <Link to="/issue-tracker">
+        <Link to="/material-table-core/issue-tracker">
           <Button style={{ color: 'white' }}>Issue Tracker</Button>
         </Link>
       </Toolbar>
@@ -131,8 +131,8 @@ const App = () => {
         <Container className={classes.mt20}>
           <div style={{ marginTop: 40 }}>
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/issue-tracker" component={IssueTracker} />
+              <Route exact path="/material-table-core" component={Home} />
+              <Route exact path="/material-table-core/issue-tracker" component={IssueTracker} />
             </Switch>
           </div>
         </Container>
