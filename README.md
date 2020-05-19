@@ -42,7 +42,7 @@ import MaterialTable /*, { MTableBodyRow, etc.. } */ from '@material-table/core'
 
 ## Why?
 
-Over the past 8 months or so, `material-table` has been less than responsive. `material-table` appears to be slowly going away (nobody seems to be maintaining it anymore) and I was tired of spending my own time submitting PR's with no response. I have also [seen](https://github.com/mbrn/material-table/issues/1896) others express concern about this.
+Over the past 8 months or so, `material-table` has been less than responsive. `material-table` appears to be slowly going away (nobody seems to be maintaining it anymore) and I was tired of spending my own time submitting PR's with no response. I have also [seen](https://github.com/mbrn/material-table/issues/1896) others [express](https://github.com/mbrn/material-table/issues/1217) concern about this.
 
 I even [asked to help them out](https://github.com/mbrn/material-table/issues/1171) but was ignored, thus this fork was born.
 

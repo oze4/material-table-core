@@ -1,36 +1,34 @@
 import React, { useState, Fragment } from 'react';
+import { Link, Route, Switch, BrowserRouter } from 'react-router-dom';
 import { render } from 'react-dom';
-import { CssBaseline, Container, Grid, TextField, AppBar, Toolbar, Typography } from '@material-ui/core';
+
+import {
+  CssBaseline,
+  Container,
+  Grid,
+  TextField,
+  AppBar,
+  Toolbar,
+  Typography,
+  IconButton,
+  Button,
+} from '@material-ui/core';
+import {
+  BugReport as BugReportIcon,
+  Home as HomeIcon,
+  Menu as MenuIcon,
+} from '@material-ui/icons';
 import { Autocomplete } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
 
 import ErrorBoundary from './ErrorBoundary';
 
-import OriginalDemo from './src/OriginalDemo/demo';
-import BasicDemo from './src/BasicDemo';
-import OverrideOnRowAddDemo from './src/OverrideOnRowAddDemo';
+// Page that displays issues and their status
+import IssueTracker from './src/_IssueTracker/IsssueTracker';
 
-/**
- * To add a new demo component, add a new object to the `demos` array below.
- * Make sure the shape matches: `{ value: string, component: DemoComponent, id: unique_string }`
- */
-const DEMOS = [
-  {
-    value: 'Original material-table Demo',
-    component: OriginalDemo,
-    id: '000',
-  },
-  {
-    value: 'Basic Demo',
-    component: BasicDemo,
-    id: '001',
-  },
-  {
-    value: 'Override onRowAdd',
-    component: OverrideOnRowAddDemo,
-    id: '002',
-  },
-];
+// To add a new demo component, add a new object to the `demos` array below.
+// Make sure the shape matches: `{ value: string, component: DemoComponent, id: unique_string }`
+import DEMOS from './DEMOS';
 
 const useStyles = makeStyles((theme) => ({
   '@global html body': {
@@ -47,66 +45,113 @@ const useStyles = makeStyles((theme) => ({
   mt20: {
     marginTop: '20px',
   },
+  root: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+  title: {
+    flexGrow: 1,
+  },
 }));
 
-const App = () => {
-  const [selected, setSelected] = useState('');
+const findDefaultDemo = () => DEMOS.find((d) => d.default);
+
+const Home = () => {
+  const [selected, setSelected] = useState(findDefaultDemo().value);
   const classes = useStyles();
 
   const handleSelectionChange = (event, selectedObject, reason) =>
     setSelected(selectedObject.value);
 
   return (
-    <Fragment>
-      <CssBaseline />
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6">
-            @material-table/core Demo's
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Container className={classes.mt20}>
-        <Grid
-          container
-          direction="row"
-          justify="center"
-          alignItems="center"
-          spacing={1}
-          className={classes.taCenter}
-        >
-          <Grid item xs={12}>
-            <div className={classes.autocompleteContainer}>
-              <Autocomplete
-                options={DEMOS}
-                style={{ width: 400 }}
-                getOptionLabel={(option) => option.value}
-                onChange={handleSelectionChange}
-                renderInput={(params) => (
-                  <TextField
-                    {...params}
-                    label="Select Demo"
-                    variant="outlined"
-                  />
-                )}
-              />
-            </div>
-          </Grid>
-          <Grid item xs={12}>
-            {DEMOS.length &&
-              DEMOS.map((demo) =>
-                demo.value === selected ? <demo.component key={demo.id} /> : ''
-              )}
-          </Grid>
-        </Grid>
-      </Container>
-    </Fragment>
+    <Grid
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+      spacing={1}
+      className={classes.taCenter}
+    >
+      <Grid item xs={12}>
+        <div className={classes.autocompleteContainer}>
+          <Autocomplete
+            options={DEMOS}
+            defaultValue={findDefaultDemo()}
+            style={{ width: 400 }}
+            getOptionLabel={(option) => option.value}
+            onChange={handleSelectionChange}
+            renderInput={(params) => (
+              <TextField {...params} label="Select Demo" variant="outlined" />
+            )}
+          />
+        </div>
+      </Grid>
+      <Grid item xs={12}>
+        {DEMOS.length &&
+          DEMOS.map((demo) =>
+            demo.value === selected ? <demo.component key={demo.id} /> : ''
+          )}
+      </Grid>
+    </Grid>
   );
 };
 
-render(
-  <ErrorBoundary>
-    <App />
-  </ErrorBoundary>,
-  document.querySelector('#app')
-);
+const MTableDemoAppBar = () => {
+  const classes = useStyles();
+
+  return (
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6" className={classes.title}>
+          material-table Examples
+        </Typography>
+        <Link to="/issue-tracker">
+          <Button>Issue Tracker</Button>
+        </Link>
+        <Link to="/">
+          <Button>Home</Button>
+        </Link>
+      </Toolbar>
+    </AppBar>
+    /*
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6">material-table Examples</Typography>
+        <div>
+          <IconButton>
+            <HomeIcon />
+          </IconButton>
+          <IconButton>
+            <BugReportIcon />
+          </IconButton>
+        </div>
+      </Toolbar>
+    </AppBar>
+    */
+  );
+};
+
+const App = () => {
+  const classes = useStyles();
+
+  return (
+    <ErrorBoundary>
+      <BrowserRouter>
+        <MTableDemoAppBar />
+        <CssBaseline />
+        <Container className={classes.mt20}>
+          <div style={{ marginTop: 40 }}>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/issue-tracker" component={IssueTracker} />
+            </Switch>
+          </div>
+        </Container>
+      </BrowserRouter>
+    </ErrorBoundary>
+  );
+};
+
+render(<App />, document.querySelector('#app'));
