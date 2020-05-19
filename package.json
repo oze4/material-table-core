@@ -15,7 +15,7 @@
     "extends": "./configs/.babelrc"
   },
   "scripts": {
-    "start": "webpack-dev-server --config ./demo/webpack.config.js --mode development",
+    "start": "webpack-dev-server --config ./demo/webpack.config.js --mode development --env.DEV_SERVER=true",
     "build": "babel --config-file ./configs/.babelrc src --out-dir dist",
     "build:demo": "webpack --config=./demo/webpack.config.js --mode=development",
     "lint": "npm run eslint && npm run tsc",

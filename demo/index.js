@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, Route, Switch, HashRouter } from 'react-router-dom';
+import { Link, Route, Switch, HashRouter, Redirect } from 'react-router-dom';
 import { render } from 'react-dom';
 
 import {
@@ -12,11 +12,11 @@ import {
   Typography,
   IconButton,
   Button,
+  Tooltip,
 } from '@material-ui/core';
 import {
   BugReport as BugReportIcon,
   Home as HomeIcon,
-  Menu as MenuIcon,
 } from '@material-ui/icons';
 import { Autocomplete } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
@@ -24,7 +24,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import ErrorBoundary from './ErrorBoundary';
 
 // Page that displays issues and their status
-import IssueTracker from './src/_IssueTracker/IsssueTracker';
+import IssueTracker from './src/_IssueTracker';
+import ToDo from './src/_ToDo';
 
 // To add a new demo component, add a new object to the `demos` array below.
 // Make sure the shape matches: `{ value: string, component: DemoComponent, id: unique_string }`
@@ -107,14 +108,20 @@ const MTableDemoAppBar = () => {
         <Typography variant="h6" className={classes.title}>
           material-table Examples
         </Typography>
-        <Link to="/">
-          <IconButton style={{ color: 'white' }}>
-            <HomeIcon />
-          </IconButton>
-        </Link>
-        <Link to="/issue-tracker">
-          <Button style={{ color: 'white' }}>Issue Tracker</Button>
-        </Link>
+        <Tooltip title="Examples">
+          <Link to="/">
+            <IconButton style={{ color: 'white' }}>
+              <HomeIcon />
+            </IconButton>
+          </Link>
+        </Tooltip>
+        <Tooltip title="Issue Tracker">
+          <Link to="/issue-tracker">
+            <Button style={{ color: 'white' }}>
+              <BugReportIcon />
+            </Button>
+          </Link>
+        </Tooltip>
       </Toolbar>
     </AppBar>
   );
@@ -132,6 +139,7 @@ const App = () => {
           <div style={{ marginTop: 40 }}>
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route exact path="/material-table-core" component={Home} />
               <Route exact path="/issue-tracker" component={IssueTracker} />
             </Switch>
           </div>
