@@ -14,6 +14,6 @@ deploy:
   api_key:
     secure: xB4bfTVWifXcA9Bg9kuqX+vkhQA9uRBgHptA7pqZZ+psPho2Jn0pIWElsvwyCzFNcqOc7AdCJ4c+1HWUmbqUDZ+xZBFbg4uV8t6KhQCN5bIM4qHXaXaCuHwq9vRq848WHQMw/eCgIMC0u1JH2ZssPq+/SufCDEC9KPgv3KHCV9gnkI+HXySIjDaSpWc2JReCqMq3GjmKSegzHkAX8pQxm5vbP8Ssj4k56XUMj9Jdk/ZmuadYSvwKLMMk4amPbvi2zvH5gI33SXTwDkPr9x4tM0QDmEpIHsTCGfUQe8ra83L9YqdYIkZZVXHsXQuw3paELKKgroJLU5ulz9jBETpP+fkRWfzCldflhLMh7VbRM5ffdU1VgFqDznH7d3fDhW1tTDKnBqOElc4lJ/G4RVo47VDUqUN/CWkPl8pnkyHplx9J6sTVMk9Ahm30awG4MBxWK7/KFgp7QLXj5TXuYj5nEZ25unNNv6Gh0T2gd4spFY9TBu2+8p5X0fFLHjHIppcz0eSKeZG/0ZUWNaSZ93AHl6J+lKaj9ruLWQ3AJpubpfa6e4B23O+O+0Py1u0RFpt2ScTL6N2DaVKVbf/2cWM1cMARcj4kRxgICZcfOJ7Pata68Kn+CJ+6yLfQMJFwmbV8v8RxO3mSJjKQIk6pDWxL3iW7rf9960xvmzWl1q/0hq4=
   on:
-    tags: deploy
+    tags: true
     repo: oze4/material-table-core
   skip_cleanup: 'true'
