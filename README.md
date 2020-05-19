@@ -1,4 +1,4 @@
-### This is a *maintained* [*fork](#explain-fork) of [*mbrn/material-table*](https://github.com/mbrn/material-table) `v1.57.2`
+### This is a *maintained* [fork*](#explain-fork) of [*mbrn/material-table*](https://github.com/mbrn/material-table) `v1.57.2`
 
 <small id="explain-fork">*fork means I downloaded the repo to .zip and started this repo with that code</small>
 
