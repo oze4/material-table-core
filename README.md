@@ -10,8 +10,7 @@
  - [Intent](#intent)
  - [Goals](#goals)
  - [Want to help?](#want-to-help)
-
-  - #### [Todo]()
+ - [Todo (coming soon)]()
 
 # Getting Started 
 
