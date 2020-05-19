@@ -7,7 +7,7 @@
 ### We will remain 100% compatable with `material-table`
 
  - [Why?](#why)
- - [Intent](#hmm)
+ - [Intent](#intent)
  - [Goals](#goals)
  - [Want to help?](#want-to-help)
 
@@ -16,8 +16,7 @@
  - [Installation](#installation)
  - [Examples](https://oze4.github.io/material-table-core/)
  - [Documentation](#documentation)
-
- - [Issue Tracker](https://oze4.github.io/material-table-core/issue-tracker)
+ - [Issue Tracker](https://oze4.github.io/material-table-core/#/issue-tracker)
 
  ---
 
