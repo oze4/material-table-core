@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, Route, Switch, HashRouter, Redirect } from 'react-router-dom';
+import { Link, Route, Switch, HashRouter, NavLink } from 'react-router-dom';
 import { render } from 'react-dom';
 
 import {
@@ -13,10 +13,15 @@ import {
   IconButton,
   Button,
   Tooltip,
+  Hidden,
+  Menu,
+  MenuItem,
 } from '@material-ui/core';
 import {
   BugReport as BugReportIcon,
   Home as HomeIcon,
+  Assignment as ToDoIcon,
+  Menu as MenuIcon,
 } from '@material-ui/icons';
 import { Autocomplete } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
@@ -45,6 +50,9 @@ const useStyles = makeStyles((theme) => ({
   },
   mt20: {
     marginTop: '20px',
+  },
+  mt120: {
+    marginTop: '120px',
   },
   root: {
     flexGrow: 1,
@@ -100,28 +108,71 @@ const Home = () => {
 };
 
 const MTableDemoAppBar = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
   const classes = useStyles();
 
+  const handleOpenMenu = event => {
+    setAnchorEl(event.currentTarget);
+  }
+
+  const handleCloseMenu = () => {
+    setAnchorEl(null);
+  }
+
+  const links = [
+    {
+      title: "Examples",
+      to: "/",
+      icon: HomeIcon,
+      id: 0
+    },
+    {
+      title: "Issue Tracker",
+      to: "/issue-tracker",
+      icon: BugReportIcon,
+      id: 1
+    },
+    {
+      title: "To Do",
+      to: "/to-do",
+      icon: ToDoIcon,
+      id: 2
+    }
+  ];
+
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
           material-table Examples
         </Typography>
-        <Tooltip title="Examples">
-          <Link to="/">
-            <IconButton style={{ color: 'white' }}>
-              <HomeIcon />
-            </IconButton>
-          </Link>
-        </Tooltip>
-        <Tooltip title="Issue Tracker">
-          <Link to="/issue-tracker">
-            <Button style={{ color: 'white' }}>
-              <BugReportIcon />
-            </Button>
-          </Link>
-        </Tooltip>
+        <Hidden mdUp>
+          <IconButton onClick={handleOpenMenu} style={{ color: 'white' }}>
+            <MenuIcon />
+          </IconButton>
+          <Menu
+            id="simple-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleCloseMenu}
+          >
+            {links.map(l => (
+              <MenuItem onClick={handleCloseMenu} key={l.id} component={Link} to={l.to}>{l.title}</MenuItem>
+            ))}
+          </Menu>
+        </Hidden>
+        <Hidden smDown>
+          {links.map(l => (
+            <Tooltip key={l.id} title={l.title}>
+              <Link to={l.to}>
+                <IconButton style={{ color: 'white' }}>
+                  <l.icon />
+                </IconButton>
+              </Link>
+            </Tooltip>
+          ))}
+        </Hidden>
       </Toolbar>
     </AppBar>
   );
@@ -135,12 +186,13 @@ const App = () => {
       <HashRouter>
         <MTableDemoAppBar />
         <CssBaseline />
-        <Container className={classes.mt20}>
+        <Container className={classes.mt120}>
           <div style={{ marginTop: 40 }}>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/material-table-core" component={Home} />
               <Route exact path="/issue-tracker" component={IssueTracker} />
+              <Route exact path="/to-do" component={ToDo} />
             </Switch>
           </div>
         </Container>

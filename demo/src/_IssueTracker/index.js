@@ -1,4 +1,6 @@
 import React from 'react';
+import { useTheme } from '@material-ui/core/styles';
+import { Grid, Typography, useMediaQuery } from '@material-ui/core';
 import MaterialTable from '../../../src';
 import issues from './issues-may-18-2020.json';
 
@@ -42,10 +44,18 @@ const columns = [
   }
 ]
 
+const DATE_LAST_RAN = "May 18, 2020";
+const MESSAGE = `As of ${DATE_LAST_RAN} there are ${issues.length} open issues (according to the GitHub API)`
+
 const IssueTracker = () => {
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
+
   return (
     <div>
-      <h1>{`As of May 18, 2020 there are ${issues.length} open issues (according to the GitHub API)`}</h1>
+      <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+        <Typography variant={matches ? 'h4' : 'h6'}>{MESSAGE}</Typography>
+      </div>
       <MaterialTable title="Issues" data={issues} columns={columns} options={{ pageSize: 20 }} />
     </div>
   )

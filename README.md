@@ -10,7 +10,7 @@
  - [Intent](#intent)
  - [Goals](#goals)
  - [Want to help?](#want-to-help)
- - [Todo (coming soon)]()
+ - [Todo](https://oze4.github.io/material-table-core/#/to-do)
 
 # Getting Started 
 
