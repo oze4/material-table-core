@@ -45,7 +45,7 @@ const columns = [
 const IssueTracker = () => {
   return (
     <div>
-      <h1>{`As of May 18, 2020 there are ${issues.length} open issues`}</h1>
+      <h1>{`As of May 18, 2020 there are ${issues.length} open issues (according to the GitHub API)`}</h1>
       <MaterialTable title="Issues" data={issues} columns={columns} options={{ pageSize: 20 }} />
     </div>
   )
