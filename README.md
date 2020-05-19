@@ -8,21 +8,16 @@
 
 # Table of Contents
 
-### About 
-
  - [Why?](#why)
  - [Intent](#hmm)
  - [Goals](#goals)
  - [Want to help?](#want-to-help)
 
-### Getting Started
-
  - [Installation](#installation)
+ - [Examples](https://oze4.github.io/material-table-core/)
  - [Documentation](#documentation)
 
----
-
-[`material-table` GitHub](https://github.com/mbrn/material-table)
+ - [Issue Tracker](https://oze4.github.io/material-table-core/issue-tracker)
 
  ---
 

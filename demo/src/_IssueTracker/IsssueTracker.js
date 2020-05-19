@@ -1,15 +1,17 @@
 import React from 'react';
 import MaterialTable from '../../../src';
-import issues from './issues-may-19-2020.json';
+import issues from './issues-may-18-2020.json';
 
 const columns = [
   {
-    title: 'Id',
-    field: 'id',
+    title: 'Resolved Internally?',
+    field: 'materialTableCore.resolved',
+    type: 'boolean'
   },
   {
     title: 'URL',
     field: 'url',
+    render: rowData => <a href={rowData.url} rel="noopener noreferrer" target="_blank">{rowData.url}</a>
   },
   {
     title: 'Title',
@@ -24,34 +26,28 @@ const columns = [
     field: 'state',
   },
   {
-    title: 'Assignee',
-    field: 'assignee',
-  },
-  {
-    title: 'Assignees',
-    field: 'assignees',
-  },
-  {
     title: 'Comments',
     field: 'comments',
+    type: 'numeric'
   },
   {
     title: 'Created At',
     field: 'created_at',
+    type: 'date'
   },
   {
     title: 'Updated At',
     field: 'updated_at',
-  },
-  {
-    title: 'Resolved Internally?',
-    field: 'materialTableCore.resolved',
-  },
+    type: 'date'
+  }
 ]
 
 const IssueTracker = () => {
   return (
-    <MaterialTable data={issues} columns={columns} />
+    <div>
+      <h1>{`As of May 18, 2020 there are ${issues.length} open issues`}</h1>
+      <MaterialTable title="Issues" data={issues} columns={columns} options={{ pageSize: 20 }} />
+    </div>
   )
 }
 

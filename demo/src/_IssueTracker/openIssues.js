@@ -38,12 +38,12 @@ const getOpenIssues = async (gitHubUsername, gitHubRepository, token) => {
 getOpenIssues(
   'mbrn',
   'material-table',
-  '3ffd473482306a9e82e1f6724e729d737ae06f8c'
+  '--'
 )
   .then(datas => {
     const reformattedData = datas.map(data => ({
       id: data.id,
-      url: data.url,
+      url: data.html_url,
       title: data.title,
       user: data.user.login,
       state: data.state,
@@ -60,23 +60,3 @@ getOpenIssues(
     fs.writeFileSync('issues-may-19-2020.json', JSON.stringify(reformattedData, null, 2));
   })
   .catch((err) => console.trace(err));
-
-// const issues = JSON.parse(
-//   fs.readFileSync('./issues-may-19-2020.json', { encoding: 'utf-8' })
-// );
-
-/*
-{
-  url: 'https://api.github.com/repos/mbrn/material-table/issues/1927',
-  title: 'Is there any thing like OnCellClick event?',
-  user: {
-    login: 'saiava',
-  },
-  state: 'open',
-  assignee: null,
-  assignees: [],
-  comments: 0,
-  created_at: '2020-05-19T06:09:35Z',
-  updated_at: '2020-05-19T06:09:35Z',
-}
-*/

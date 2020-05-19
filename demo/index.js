@@ -107,29 +107,16 @@ const MTableDemoAppBar = () => {
         <Typography variant="h6" className={classes.title}>
           material-table Examples
         </Typography>
-        <Link to="/issue-tracker">
-          <Button>Issue Tracker</Button>
-        </Link>
         <Link to="/">
-          <Button>Home</Button>
-        </Link>
-      </Toolbar>
-    </AppBar>
-    /*
-    <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6">material-table Examples</Typography>
-        <div>
-          <IconButton>
+          <IconButton style={{ color: 'white' }}>
             <HomeIcon />
           </IconButton>
-          <IconButton>
-            <BugReportIcon />
-          </IconButton>
-        </div>
+        </Link>
+        <Link to="/issue-tracker">
+          <Button style={{ color: 'white' }}>Issue Tracker</Button>
+        </Link>
       </Toolbar>
     </AppBar>
-    */
   );
 };
 
