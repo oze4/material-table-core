@@ -4,6 +4,8 @@
 
 <b>This is a *maintained* <a href="#explain-fork">fork*</a> of <a href="https://github.com/mbrn/material-table">mbrn/material-table</a><code>v1.57.2</code></b><br/><small id="explain-fork">*fork means I downloaded the repo to .zip and started this repo with that code</small>
 
+### We will remain 100% compatable with `material-table`
+
 # Table of Contents
 
 ### About 
@@ -29,7 +31,7 @@
  - `npm install @material-table/core`
  - `yarn add @material-table/core`
 
-Instead of using `material-table` for `import` statements, use `@material-table/core` - this code will remain 100% compatable with `material-table`, just change your import statements.
+Instead of using `material-table` for `import` statements, use `@material-table/core`. Simply change your import statements.
 
 ```javascript
 // This
@@ -40,7 +42,7 @@ import MaterialTable /*, { MTableBodyRow, etc.. } */ from '@material-table/core'
 
 ## Why?
 
-Over the past 8 months or so, `material-table` has been less than responsive. `material-table` appears to be slowly going away (nobody seems to be maintaining it anymore) and I was tired of spending my own time submitting PR's with no response. I have also [seen](https://github.com/mbrn/material-table/issues/1896) others [express](https://github.com/mbrn/material-table/issues/1896) concern about this.
+Over the past 8 months or so, `material-table` has been less than responsive. `material-table` appears to be slowly going away (nobody seems to be maintaining it anymore) and I was tired of spending my own time submitting PR's with no response. I have also [seen](https://github.com/mbrn/material-table/issues/1896) others express concern about this.
 
 I even [asked to help them out](https://github.com/mbrn/material-table/issues/1171) but was ignored, thus this fork was born.
 
