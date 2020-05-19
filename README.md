@@ -6,12 +6,12 @@
 
 ### We will remain 100% compatable with `material-table`
 
-# Table of Contents
-
  - [Why?](#why)
  - [Intent](#hmm)
  - [Goals](#goals)
  - [Want to help?](#want-to-help)
+
+# Getting Started 
 
  - [Installation](#installation)
  - [Examples](https://oze4.github.io/material-table-core/)
