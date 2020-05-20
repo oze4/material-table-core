@@ -109,11 +109,9 @@ class OriginalDemo extends Component {
                 let url = 'https://reqres.in/api/users?'
                 url += 'per_page=' + query.pageSize
                 url += '&page=' + (query.page + 1)
-                console.log(query);
                 fetch(url)
                   .then(response => response.json())
                   .then(result => {
-                    console.log({ result });
                     resolve({
                       data: result.data,
                       page: result.page - 1,

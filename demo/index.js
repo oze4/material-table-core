@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, Route, Switch, HashRouter, NavLink } from 'react-router-dom';
+import { Link, Route, Switch, HashRouter } from 'react-router-dom';
 import { render } from 'react-dom';
 
 import {
@@ -11,17 +11,22 @@ import {
   Toolbar,
   Typography,
   IconButton,
-  Button,
   Tooltip,
   Hidden,
-  Menu,
-  MenuItem,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  Dialog,
+  Slide,
 } from '@material-ui/core';
 import {
   BugReport as BugReportIcon,
   Home as HomeIcon,
   Assignment as ToDoIcon,
   Menu as MenuIcon,
+  Close as CloseIcon,
+  GitHub as GitHubIcon,
 } from '@material-ui/icons';
 import { Autocomplete } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
@@ -67,6 +72,9 @@ const useStyles = makeStyles((theme) => ({
 
 const findDefaultDemo = () => DEMOS.find((d) => d.default);
 
+/**
+ * MAIN HOME PAGE
+ */
 const Home = () => {
   const [selected, setSelected] = useState(findDefaultDemo().value);
   const classes = useStyles();
@@ -107,36 +115,43 @@ const Home = () => {
   );
 };
 
+/**
+ * APP BAR
+ */
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
+
 const MTableDemoAppBar = () => {
-  const [anchorEl, setAnchorEl] = useState(null);
+  const [open, setOpen] = useState(false);
   const classes = useStyles();
 
-  const handleOpenMenu = event => {
-    setAnchorEl(event.currentTarget);
-  }
+  const handleOpenDialog = () => {
+    setOpen(true);
+  };
 
-  const handleCloseMenu = () => {
-    setAnchorEl(null);
-  }
+  const handleCloseDialog = () => {
+    setOpen(false);
+  };
 
   const links = [
     {
-      title: "Examples",
-      to: "/",
+      title: 'Examples',
+      to: '/',
       icon: HomeIcon,
-      id: 0
+      id: 0,
     },
     {
-      title: "Issue Tracker",
-      to: "/issue-tracker",
+      title: 'Issue Tracker',
+      to: '/issue-tracker',
       icon: BugReportIcon,
-      id: 1
+      id: 1,
     },
     {
-      title: "To Do",
-      to: "/to-do",
+      title: 'To Do',
+      to: '/to-do',
       icon: ToDoIcon,
-      id: 2
+      id: 2,
     }
   ];
 
@@ -147,23 +162,56 @@ const MTableDemoAppBar = () => {
           material-table Examples
         </Typography>
         <Hidden mdUp>
-          <IconButton onClick={handleOpenMenu} style={{ color: 'white' }}>
+          <IconButton onClick={handleOpenDialog} style={{ color: 'white' }}>
             <MenuIcon />
           </IconButton>
-          <Menu
-            id="simple-menu"
-            anchorEl={anchorEl}
+          <Dialog
+            fullScreen
+            open={open}
             keepMounted
-            open={Boolean(anchorEl)}
-            onClose={handleCloseMenu}
+            TransitionComponent={Transition}
+            onClose={handleCloseDialog}
+            onEscapeKeyDown={handleCloseDialog}
           >
-            {links.map(l => (
-              <MenuItem onClick={handleCloseMenu} key={l.id} component={Link} to={l.to}>{l.title}</MenuItem>
-            ))}
-          </Menu>
+            <AppBar color="secondary">
+              <Toolbar>
+                <div style={{ flex: 1 }}></div>
+                <IconButton
+                  style={{ color: 'white' }}
+                  onClick={handleCloseDialog}
+                >
+                  <CloseIcon />
+                </IconButton>
+              </Toolbar>
+            </AppBar>
+            <div style={{ marginTop: '90px' }}>
+              <List component="nav">
+                {links.map((l) => (
+                  <ListItem
+                    button
+                    key={l.id}
+                    component={Link}
+                    to={l.to}
+                    onClick={handleCloseDialog}
+                  >
+                    <ListItemIcon>
+                      <l.icon />
+                    </ListItemIcon>
+                    <ListItemText primary={l.title} />
+                  </ListItem>
+                ))}
+                <ListItem button component="a" target="_blank" href="https://github.com/oze4/material-table-core">
+                  <ListItemIcon>
+                    <GitHubIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="GitHub Repository" />
+                </ListItem>
+              </List>
+            </div>
+          </Dialog>
         </Hidden>
         <Hidden smDown>
-          {links.map(l => (
+          {links.map((l) => (
             <Tooltip key={l.id} title={l.title}>
               <Link to={l.to}>
                 <IconButton style={{ color: 'white' }}>
@@ -172,12 +220,18 @@ const MTableDemoAppBar = () => {
               </Link>
             </Tooltip>
           ))}
+          <IconButton target="_blank" href="https://github.com/oze4/material-table-core" style={{ color: 'white' }}>
+            <GitHubIcon />
+          </IconButton>
         </Hidden>
       </Toolbar>
     </AppBar>
   );
 };
 
+/**
+ * APPLICATION
+ */
 const App = () => {
   const classes = useStyles();
 
