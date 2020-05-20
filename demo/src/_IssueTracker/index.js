@@ -1,19 +1,22 @@
 import React from 'react';
-import { useTheme } from '@material-ui/core/styles';
-import { Grid, Typography, useMediaQuery } from '@material-ui/core';
-import MaterialTable from '../../../src';
+import { Typography } from '@material-ui/core';
+import MaterialTable, { MTableToolbar } from '../../../src';
 import issues from './issues-may-18-2020.json';
 
 const columns = [
   {
     title: 'Resolved Internally?',
     field: 'materialTableCore.resolved',
-    type: 'boolean'
+    type: 'boolean',
   },
   {
     title: 'URL',
     field: 'url',
-    render: rowData => <a href={rowData.url} rel="noopener noreferrer" target="_blank">{rowData.url}</a>
+    render: (rowData) => (
+      <a href={rowData.url} rel="noopener noreferrer" target="_blank">
+        {rowData.url}
+      </a>
+    ),
   },
   {
     title: 'Title',
@@ -30,35 +33,50 @@ const columns = [
   {
     title: 'Comments',
     field: 'comments',
-    type: 'numeric'
+    type: 'numeric',
   },
   {
     title: 'Created At',
     field: 'created_at',
-    type: 'date'
+    type: 'date',
   },
   {
     title: 'Updated At',
     field: 'updated_at',
-    type: 'date'
-  }
-]
+    type: 'date',
+  },
+];
 
-const DATE_LAST_RAN = "May 18, 2020";
-const MESSAGE = `As of ${DATE_LAST_RAN} there are ${issues.length} open issues (according to the GitHub API)`
+const DATE_LAST_RAN = 'May 18, 2020';
+const MESSAGE = `As of ${DATE_LAST_RAN} there are ${issues.length} open issues (according to the GitHub API)`;
 
 const IssueTracker = () => {
-  const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('md'));
-
   return (
     <div>
+      <Typography variant="h4">Issue Tracker</Typography>
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        <Typography variant={matches ? 'h4' : 'h6'}>{MESSAGE}</Typography>
+        <p>
+          One of our goals is to resolve open issues in the{' '}
+          <code>material-table</code> repository. This is where we track our
+          progress.
+        </p>
       </div>
-      <MaterialTable title="Issues" data={issues} columns={columns} options={{ pageSize: 20 }} />
+      <MaterialTable
+        title="Issues"
+        data={issues}
+        columns={columns}
+        options={{ pageSize: 20 }}
+        components={{
+          Toolbar: props => (
+            <div>
+              <MTableToolbar {...props} />
+              <p style={{ margin: '20px' }}>{MESSAGE}</p>
+            </div>
+          )
+        }}
+      />
     </div>
-  )
-}
+  );
+};
 
 export default IssueTracker;

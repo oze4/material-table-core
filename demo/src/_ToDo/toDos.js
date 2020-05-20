@@ -5,10 +5,10 @@ export default [
     completed: false,
     id: "000",
   },
-  // {
-  //   title: "Testing",
-  //   description: "Testing to make sure this is working..",
-  //   completed: true,
-  //   id: "001",
-  // }
+  {
+    title: "Add NPM info to README",
+    description: "Add NPM info to README",
+    completed: false,
+    id: "001"
+  },
 ]
