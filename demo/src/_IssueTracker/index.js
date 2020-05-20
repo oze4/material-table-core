@@ -54,25 +54,23 @@ const IssueTracker = () => {
   return (
     <div>
       <Typography variant="h4">Issue Tracker</Typography>
-      <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        <p>
-          One of our goals is to resolve open issues in the{' '}
-          <code>material-table</code> repository. This is where we track our
-          progress.
-        </p>
-      </div>
+      <p>
+        One of our goals is to resolve open issues in the{' '}
+        <code>material-table</code> repository. This is where we track our
+        progress.
+      </p>
       <MaterialTable
         title="Issues"
         data={issues}
         columns={columns}
         options={{ pageSize: 20 }}
         components={{
-          Toolbar: props => (
+          Toolbar: (props) => (
             <div>
               <MTableToolbar {...props} />
               <p style={{ margin: '20px' }}>{MESSAGE}</p>
             </div>
-          )
+          ),
         }}
       />
     </div>
