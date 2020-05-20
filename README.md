@@ -28,6 +28,7 @@
 
  - [Compatibility with `material-table`](#compatibility)
  - [Installation](#installation)
+ - [Examples](https://oze4.github.io/material-table-core/)
  - [Documentation](#documentation)
  - [`material-table` Issue Tracker](https://oze4.github.io/material-table-core/#/issue-tracker)
  - [To-Do List](https://oze4.github.io/material-table-core/#/to-do)
