@@ -8,7 +8,7 @@ export default [
   {
     title: "Add NPM info to README",
     description: "Add NPM info to README",
-    completed: false,
+    completed: true,
     id: "001"
   },
 ]

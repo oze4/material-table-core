@@ -48,7 +48,8 @@ const ToDo = () => {
 
   return (
     <Fragment>
-      <AppBar position="static">
+      <Typography variant="h4">To-Do List</Typography>
+      <AppBar position="static" style={{ marginTop: '20px' }}>
         <Tabs
           value={selectedTab}
           onChange={handleTabsChange}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { Link, Route, Switch, HashRouter } from 'react-router-dom';
 import { render } from 'react-dom';
 
@@ -83,35 +83,38 @@ const Home = () => {
     setSelected(selectedObject.value);
 
   return (
-    <Grid
-      container
-      direction="row"
-      justify="center"
-      alignItems="center"
-      spacing={1}
-      className={classes.taCenter}
-    >
-      <Grid item xs={12}>
-        <div className={classes.autocompleteContainer}>
-          <Autocomplete
-            options={DEMOS}
-            defaultValue={findDefaultDemo()}
-            style={{ width: 400 }}
-            getOptionLabel={(option) => option.value}
-            onChange={handleSelectionChange}
-            renderInput={(params) => (
-              <TextField {...params} label="Select Demo" variant="outlined" />
+    <Fragment>
+      <Typography variant="h4">Examples</Typography>
+      <Grid
+        container
+        direction="row"
+        justify="center"
+        alignItems="center"
+        spacing={1}
+        className={classes.taCenter}
+      >
+        <Grid item xs={12}>
+          <div className={classes.autocompleteContainer}>
+            <Autocomplete
+              options={DEMOS}
+              defaultValue={findDefaultDemo()}
+              style={{ width: 400 }}
+              getOptionLabel={(option) => option.value}
+              onChange={handleSelectionChange}
+              renderInput={(params) => (
+                <TextField {...params} label="Select Demo" variant="outlined" />
+              )}
+            />
+          </div>
+        </Grid>
+        <Grid item xs={12}>
+          {DEMOS.length &&
+            DEMOS.map((demo) =>
+              demo.value === selected ? <demo.component key={demo.id} /> : ''
             )}
-          />
-        </div>
+        </Grid>
       </Grid>
-      <Grid item xs={12}>
-        {DEMOS.length &&
-          DEMOS.map((demo) =>
-            demo.value === selected ? <demo.component key={demo.id} /> : ''
-          )}
-      </Grid>
-    </Grid>
+    </Fragment>
   );
 };
 
@@ -238,8 +241,8 @@ const App = () => {
   return (
     <ErrorBoundary>
       <HashRouter>
-        <MTableDemoAppBar />
         <CssBaseline />
+        <MTableDemoAppBar />
         <Container className={classes.mt120}>
           <div style={{ marginTop: 40 }}>
             <Switch>
