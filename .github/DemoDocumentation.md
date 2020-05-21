@@ -14,8 +14,8 @@ The demo is a small React app with it's own Webpack config that we build and ser
 
 # Demo Documentation
 
- - Place all demo components in `/demo/src/Demos`
- - Open `/demo/DEMOS.js` and import your component
+ - Place all demo components in [/demo/src/Components/Demos](https://github.com/oze4/material-table-core/tree/master/demo/src/Components/Demos)
+ - Open [/demo/DEMOS.js](https://github.com/oze4/material-table-core/blob/master/demo/DEMOS.js) and import your component
    - Create a new object with the shape specified below
 
 **Demo objects must have the following shape:**
