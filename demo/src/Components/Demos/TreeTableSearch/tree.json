@@ -1,0 +1,3392 @@
+[
+  {
+    "id": 135,
+    "value": "Aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis",
+    "parentId": 783
+  },
+  {
+    "id": 136,
+    "value": "Aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis: gecombineerd beeld",
+    "parentId": 135
+  },
+  {
+    "id": 137,
+    "value": "Aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis: gecombineerd beeld - gedeeltelijk in remissie",
+    "parentId": 135
+  },
+  {
+    "id": 140,
+    "value": "Aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis: overwegend hyperactief-impulsief beeld",
+    "parentId": 135
+  },
+  {
+    "id": 673,
+    "value": "Aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis: overwegend hyperactief-impulsief beeld - gedeeltelijk in remissie",
+    "parentId": 135
+  },
+  {
+    "id": 138,
+    "value": "Aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis: overwegend onoplettend beeld",
+    "parentId": 135
+  },
+  {
+    "id": 139,
+    "value": "Aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis: overwegend onoplettend beeld - gedeeltelijk in remissie",
+    "parentId": 135
+  },
+  { "id": 773, "value": "Aanpassingsstoornissen", "parentId": 768 },
+  {
+    "id": 501,
+    "value": "Aanpassingsstoornissen - Ongespecificeerd",
+    "parentId": 773
+  },
+  {
+    "id": 502,
+    "value": "Aanpassingsstoornissen - Ongespecificeerd: acuut",
+    "parentId": 501
+  },
+  {
+    "id": 503,
+    "value": "Aanpassingsstoornissen - Ongespecificeerd: persisterend (chronisch)",
+    "parentId": 501
+  },
+  { "id": 489, "value": "Aanpassingsstoornissen - met angst", "parentId": 773 },
+  {
+    "id": 490,
+    "value": "Aanpassingsstoornissen - met angst: acuut",
+    "parentId": 489
+  },
+  {
+    "id": 491,
+    "value": "Aanpassingsstoornissen - met angst: persisterend (chronisch)",
+    "parentId": 489
+  },
+  {
+    "id": 498,
+    "value": "Aanpassingsstoornissen - met een gemengde stoornis van emoties en gedrag",
+    "parentId": 773
+  },
+  {
+    "id": 499,
+    "value": "Aanpassingsstoornissen - met een gemengde stoornis van emoties en gedrag: acuut",
+    "parentId": 498
+  },
+  {
+    "id": 500,
+    "value": "Aanpassingsstoornissen - met een gemengde stoornis van emoties en gedrag: persisterend (chronisch)",
+    "parentId": 498
+  },
+  {
+    "id": 774,
+    "value": "Aanpassingsstoornissen - met een sombere stemming",
+    "parentId": 773
+  },
+  {
+    "id": 775,
+    "value": "Aanpassingsstoornissen - met een sombere stemming: acuut",
+    "parentId": 774
+  },
+  {
+    "id": 488,
+    "value": "Aanpassingsstoornissen - met een sombere stemming: persisterend (chronisch)",
+    "parentId": 774
+  },
+  {
+    "id": 495,
+    "value": "Aanpassingsstoornissen - met een stoornis in het gedrag",
+    "parentId": 773
+  },
+  {
+    "id": 496,
+    "value": "Aanpassingsstoornissen - met een stoornis in het gedrag: acuut",
+    "parentId": 495
+  },
+  {
+    "id": 497,
+    "value": "Aanpassingsstoornissen - met een stoornis in het gedrag: persisterend (chronisch)",
+    "parentId": 495
+  },
+  {
+    "id": 492,
+    "value": "Aanpassingsstoornissen - met gemengd angstige en sombere stemming",
+    "parentId": 773
+  },
+  {
+    "id": 493,
+    "value": "Aanpassingsstoornissen - met gemengd angstige en sombere stemming: acuut",
+    "parentId": 492
+  },
+  {
+    "id": 494,
+    "value": "Aanpassingsstoornissen - met gemengd angstige en sombere stemming: persisterend (chronisch)",
+    "parentId": 492
+  },
+  { "id": 611, "value": "Acculturatieprobleem", "parentId": 202 },
+  { "id": 708, "value": "Acute acathisie door medicatie", "parentId": 704 },
+  { "id": 707, "value": "Acute dystonie door medicatie", "parentId": 704 },
+  { "id": 772, "value": "Acute stressstoornis", "parentId": 768 },
+  {
+    "id": 581,
+    "value": "Ademhalingsgerelateerde slaapstoornissen",
+    "parentId": 551
+  },
+  {
+    "id": 559,
+    "value": "Afhankelijke persoonlijkheidsstoornis",
+    "parentId": 557
+  },
+  { "id": 114, "value": "Agorafobie", "parentId": 81 },
+  { "id": 32, "value": "Alcoholgerelateerde stoornissen", "parentId": 31 },
+  { "id": 205, "value": "Alcoholintoxicatie", "parentId": 32 },
+  { "id": 206, "value": "Alcoholonttrekkingssyndroom", "parentId": 32 },
+  { "id": 208, "value": "Alcoholonttrekkingssyndroom", "parentId": 206 },
+  {
+    "id": 207,
+    "value": "Alcoholonttrekkingssyndroom: met perceptiestoornissen",
+    "parentId": 206
+  },
+  {
+    "id": 618,
+    "value": "Ander consult voor voorlichting en medisch advies",
+    "parentId": 716
+  },
+  { "id": 320, "value": "Ander gespecificeerde delirium", "parentId": 319 },
+  {
+    "id": 188,
+    "value": "Ander probleem verband houdend met werk of werkeloosheid",
+    "parentId": 185
+  },
+  {
+    "id": 189,
+    "value": "Ander probleem verband houdend met werk of werkeloosheid (psychosociale en omgevingsproblemen)",
+    "parentId": 185
+  },
+  { "id": 348, "value": "Andere angststoornissen", "parentId": 81 },
+  {
+    "id": 713,
+    "value": "Andere bewegingsstoornis door medicatie",
+    "parentId": 704
+  },
+  { "id": 715, "value": "Andere bijwerkingen van medicatie", "parentId": 704 },
+  {
+    "id": 602,
+    "value": "Andere bipolaire stemmingsstoornissen",
+    "parentId": 393
+  },
+  { "id": 319, "value": "Andere delirium", "parentId": 96 },
+  {
+    "id": 78,
+    "value": "Andere depressieve stemmingsstoornissen",
+    "parentId": 605
+  },
+  {
+    "id": 27,
+    "value": "Andere disruptieve, impulsbeheersings- of andere gedragsstoornissen",
+    "parentId": 17
+  },
+  { "id": 426, "value": "Andere dissociatieve stoornissen", "parentId": 507 },
+  { "id": 14, "value": "Andere genderdysforie", "parentId": 12 },
+  {
+    "id": 674,
+    "value": "Andere gespecificeerde aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis",
+    "parentId": 135
+  },
+  {
+    "id": 349,
+    "value": "Andere gespecificeerde angststoornis",
+    "parentId": 348
+  },
+  {
+    "id": 603,
+    "value": "Andere gespecificeerde bipolaire-stemmingsstoornis",
+    "parentId": 602
+  },
+  {
+    "id": 79,
+    "value": "Andere gespecificeerde depressieve-stemmingsstoornis",
+    "parentId": 78
+  },
+  {
+    "id": 28,
+    "value": "Andere gespecificeerde disruptieve, impulsbeheersings- of andere gedragsstoornis",
+    "parentId": 27
+  },
+  {
+    "id": 427,
+    "value": "Andere gespecificeerde dissociatieve stoornis",
+    "parentId": 426
+  },
+  {
+    "id": 16,
+    "value": "Andere gespecificeerde genderdysforie",
+    "parentId": 14
+  },
+  {
+    "id": 789,
+    "value": "Andere gespecificeerde hypersomnolentiestoornis",
+    "parentId": 182
+  },
+  {
+    "id": 183,
+    "value": "Andere gespecificeerde insomniastoornis",
+    "parentId": 182
+  },
+  {
+    "id": 691,
+    "value": "Andere gespecificeerde neurobiologische ontwikkelingsstoornis",
+    "parentId": 690
+  },
+  {
+    "id": 766,
+    "value": "Andere gespecificeerde obsessieve-compulsieve of verwante stoornis",
+    "parentId": 765
+  },
+  {
+    "id": 163,
+    "value": "Andere gespecificeerde parafiele stoornis",
+    "parentId": 162
+  },
+  {
+    "id": 573,
+    "value": "Andere gespecificeerde persoonlijkheidsstoornis",
+    "parentId": 572
+  },
+  {
+    "id": 702,
+    "value": "Andere gespecificeerde psychische stoornis",
+    "parentId": 701
+  },
+  {
+    "id": 699,
+    "value": "Andere gespecificeerde psychische stoornis door een somatische aandoening",
+    "parentId": 698
+  },
+  {
+    "id": 391,
+    "value": "Andere gespecificeerde schizofreniespectrum- of andere psychotische stoornis",
+    "parentId": 390
+  },
+  {
+    "id": 378,
+    "value": "Andere gespecificeerde seksuele disfunctie",
+    "parentId": 377
+  },
+  {
+    "id": 791,
+    "value": "Andere gespecificeerde slaap-waakstoornis",
+    "parentId": 182
+  },
+  {
+    "id": 444,
+    "value": "Andere gespecificeerde somatisch-symptoomstoornis of verwante stoornis",
+    "parentId": 443
+  },
+  {
+    "id": 547,
+    "value": "Andere gespecificeerde stoornis in de zindelijkheid met urinaire symptomen",
+    "parentId": 546
+  },
+  {
+    "id": 548,
+    "value": "Andere gespecificeerde stoornis in de zindelijkheid: met fecale symptomen",
+    "parentId": 546
+  },
+  { "id": 688, "value": "Andere gespecificeerde ticstoornis", "parentId": 684 },
+  {
+    "id": 505,
+    "value": "Andere gespecificeerde trauma- of stressorgerelateerde stoornis",
+    "parentId": 504
+  },
+  {
+    "id": 536,
+    "value": "Andere gespecificeerde voedings- of eetstoornis",
+    "parentId": 535
+  },
+  {
+    "id": 267,
+    "value": "Andere hulpverlenende instanties niet beschikbaar of niet toegankelijk",
+    "parentId": 265
+  },
+  {
+    "id": 690,
+    "value": "Andere neurobiologische ontwikkelingsstoornissen",
+    "parentId": 783
+  },
+  {
+    "id": 765,
+    "value": "Andere obsessieve-compulsieve of verwante stoornissen",
+    "parentId": 351
+  },
+  {
+    "id": 630,
+    "value": "Andere omstandigheden in de persoonlijke voorgeschiedenis",
+    "parentId": 716
+  },
+  { "id": 162, "value": "Andere parafiele stoornissen", "parentId": 575 },
+  { "id": 261, "value": "Andere persoonlijke risicofactoren", "parentId": 630 },
+  { "id": 561, "value": "Andere persoonlijkheidsstoornissen", "parentId": 468 },
+  { "id": 572, "value": "Andere persoonlijkheidsstoornissen", "parentId": 562 },
+  { "id": 716, "value": "Andere problemen die een reden van zorg kunnen zijn" },
+  {
+    "id": 615,
+    "value": "Andere problemen die verband houden met misdaad of aanraking met justitie",
+    "parentId": 716
+  },
+  {
+    "id": 822,
+    "value": "Andere problemen verband houdend met de naaste kring van verwanten",
+    "parentId": 717
+  },
+  {
+    "id": 202,
+    "value": "Andere problemen verband houdend met de sociale omgeving",
+    "parentId": 716
+  },
+  {
+    "id": 628,
+    "value": "Andere problemen verband houdend met psychosociale omstandigheden",
+    "parentId": 621
+  },
+  { "id": 701, "value": "Andere psychische stoornissen", "parentId": 697 },
+  {
+    "id": 698,
+    "value": "Andere psychische stoornissen door een somatische aandoening",
+    "parentId": 697
+  },
+  {
+    "id": 390,
+    "value": "Andere schizofreniespectrum- of andere psychotische stoornissen",
+    "parentId": 693
+  },
+  { "id": 377, "value": "Andere seksuele disfuncties", "parentId": 793 },
+  { "id": 182, "value": "Andere slaap- waakstoornissen", "parentId": 551 },
+  {
+    "id": 443,
+    "value": "Andere somatisch-symptoomstoornis of verwante stoornissen",
+    "parentId": 429
+  },
+  {
+    "id": 546,
+    "value": "Andere stoornissen in de zindelijkheid",
+    "parentId": 538
+  },
+  {
+    "id": 504,
+    "value": "Andere trauma- of stressor-gerelateerde stoornissen",
+    "parentId": 773
+  },
+  { "id": 535, "value": "Andere voedings- of eetstoornissen", "parentId": 446 },
+  {
+    "id": 631,
+    "value": "Andere voorgeschiedenis van psychotrauma",
+    "parentId": 630
+  },
+  { "id": 620, "value": "Andere voorlichting of advies", "parentId": 618 },
+  { "id": 117, "value": "Angststoornis door alcohol", "parentId": 116 },
+  {
+    "id": 118,
+    "value": "Angststoornis door alcohol: met begin tijdens intoxicatie",
+    "parentId": 117
+  },
+  {
+    "id": 298,
+    "value": "Angststoornis door alcohol: met begin tijdens onttrekking",
+    "parentId": 117
+  },
+  {
+    "id": 338,
+    "value": "Angststoornis door amfetamine (of andere stimulantia)",
+    "parentId": 116
+  },
+  {
+    "id": 339,
+    "value": "Angststoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie",
+    "parentId": 338
+  },
+  {
+    "id": 340,
+    "value": "Angststoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking",
+    "parentId": 338
+  },
+  {
+    "id": 305,
+    "value": "Angststoornis door andere hallucinogenen",
+    "parentId": 116
+  },
+  {
+    "id": 306,
+    "value": "Angststoornis door andere hallucinogenen: met begin tijdens intoxicatie",
+    "parentId": 305
+  },
+  { "id": 299, "value": "Angststoornis door cafe\u00efne", "parentId": 116 },
+  {
+    "id": 300,
+    "value": "Angststoornis door cafe\u00efne: met begin tijdens intoxicatie",
+    "parentId": 299
+  },
+  { "id": 301, "value": "Angststoornis door cannabis", "parentId": 116 },
+  {
+    "id": 302,
+    "value": "Angststoornis door cannabis: met begin tijdens intoxicatie",
+    "parentId": 301
+  },
+  { "id": 341, "value": "Angststoornis door coca\u00efne", "parentId": 116 },
+  {
+    "id": 342,
+    "value": "Angststoornis door coca\u00efne: met begin tijdens intoxicatie",
+    "parentId": 341
+  },
+  {
+    "id": 343,
+    "value": "Angststoornis door coca\u00efne: met begin tijdens onttrekking",
+    "parentId": 341
+  },
+  {
+    "id": 344,
+    "value": "Angststoornis door een ander (of onbekend) middel",
+    "parentId": 116
+  },
+  {
+    "id": 345,
+    "value": "Angststoornis door een ander (of onbekend) middel: met begin tijdens intoxicatie",
+    "parentId": 344
+  },
+  {
+    "id": 346,
+    "value": "Angststoornis door een ander (of onbekend) middel: met begin tijdens onttrekking",
+    "parentId": 344
+  },
+  { "id": 116, "value": "Angststoornis door een middel", "parentId": 81 },
+  {
+    "id": 347,
+    "value": "Angststoornis door een somatische aandoening",
+    "parentId": 81
+  },
+  { "id": 303, "value": "Angststoornis door fencyclidine", "parentId": 116 },
+  {
+    "id": 304,
+    "value": "Angststoornis door fencyclidine: met begin tijdens intoxicatie",
+    "parentId": 303
+  },
+  {
+    "id": 336,
+    "value": "Angststoornis door hypnotica of anxiolytica",
+    "parentId": 116
+  },
+  {
+    "id": 337,
+    "value": "Angststoornis door hypnotica of anxiolytica: met begin tijdens onttrekking",
+    "parentId": 336
+  },
+  { "id": 307, "value": "Angststoornis door inhalantia", "parentId": 116 },
+  {
+    "id": 308,
+    "value": "Angststoornis door inhalantia: met begin tijdens intoxicatie",
+    "parentId": 307
+  },
+  { "id": 309, "value": "Angststoornis door opio\u00efden", "parentId": 116 },
+  {
+    "id": 334,
+    "value": "Angststoornis door opio\u00efden: met begin tijdens intoxicatie",
+    "parentId": 309
+  },
+  {
+    "id": 335,
+    "value": "Angststoornis door opio\u00efden: met begin tijdens onttrekking",
+    "parentId": 309
+  },
+  { "id": 81, "value": "Angststoornissen" },
+  { "id": 529, "value": "Anorexia nervosa", "parentId": 446 },
+  {
+    "id": 531,
+    "value": "Anorexia nervosa: eetbuien- /purgerende type",
+    "parentId": 529
+  },
+  {
+    "id": 530,
+    "value": "Anorexia nervosa: restrictieve type",
+    "parentId": 529
+  },
+  {
+    "id": 714,
+    "value": "Antidepressiva-discontinueringssyndroom",
+    "parentId": 704
+  },
+  {
+    "id": 264,
+    "value": "Antisociaal gedrag van kind of adolescent",
+    "parentId": 630
+  },
+  { "id": 263, "value": "Antisociaal gedrag van volwassene", "parentId": 630 },
+  { "id": 24, "value": "Antisociale persoonlijkheidsstoornis", "parentId": 17 },
+  {
+    "id": 553,
+    "value": "Antisociale persoonlijkheidsstoornis",
+    "parentId": 528
+  },
+  { "id": 133, "value": "Autismespectrumstoornis", "parentId": 783 },
+  { "id": 134, "value": "Autismespectrumstoornis", "parentId": 133 },
+  {
+    "id": 781,
+    "value": "Beperkte  neurocognitieve stoornis door alcohol",
+    "parentId": 780
+  },
+  {
+    "id": 333,
+    "value": "Beperkte frontotemporale neurocognitieve stoornis",
+    "parentId": 329
+  },
+  {
+    "id": 780,
+    "value": "Beperkte neurocognitieve stoornis door alcohol",
+    "parentId": 776
+  },
+  {
+    "id": 455,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte een andere somatische aandoening",
+    "parentId": 451
+  },
+  {
+    "id": 326,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Alzheimer",
+    "parentId": 322
+  },
+  {
+    "id": 327,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Alzheimer: met gedragsstoornissen",
+    "parentId": 326
+  },
+  {
+    "id": 328,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Alzheimer: zonder gedragsstoornissen",
+    "parentId": 326
+  },
+  {
+    "id": 424,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Huntington",
+    "parentId": 420
+  },
+  {
+    "id": 425,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Huntington: met gedragsstoornissen",
+    "parentId": 424
+  },
+  {
+    "id": 450,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Huntington: zonder gedragsstoornissen",
+    "parentId": 424
+  },
+  {
+    "id": 417,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Parkinson",
+    "parentId": 523
+  },
+  {
+    "id": 418,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Parkinson: met gedragsstoornissen",
+    "parentId": 417
+  },
+  {
+    "id": 419,
+    "value": "Beperkte neurocognitieve stoornis door de ziekte van Parkinson: zonder gedragsstoornissen",
+    "parentId": 417
+  },
+  {
+    "id": 483,
+    "value": "Beperkte neurocognitieve stoornis door een ander (of onbekend) middel",
+    "parentId": 480
+  },
+  {
+    "id": 484,
+    "value": "Beperkte neurocognitieve stoornis door een ander (of onbekend) middel",
+    "parentId": 483
+  },
+  {
+    "id": 456,
+    "value": "Beperkte neurocognitieve stoornis door een andere somatische aandoening: met gedragsstoornissen",
+    "parentId": 455
+  },
+  {
+    "id": 457,
+    "value": "Beperkte neurocognitieve stoornis door een andere somatische aandoening: zonder gedragsstoornissen",
+    "parentId": 455
+  },
+  {
+    "id": 358,
+    "value": "Beperkte neurocognitieve stoornis door frontotemporale lobaire degeneratie: met gedragsstoornissen",
+    "parentId": 333
+  },
+  {
+    "id": 119,
+    "value": "Beperkte neurocognitieve stoornis door frontotemporale lobaire degeneratie: zonder gedragsstoornissen",
+    "parentId": 333
+  },
+  {
+    "id": 513,
+    "value": "Beperkte neurocognitieve stoornis door hiv-infectie",
+    "parentId": 485
+  },
+  {
+    "id": 514,
+    "value": "Beperkte neurocognitieve stoornis door hiv-infectie: met gedragsstoornissen",
+    "parentId": 513
+  },
+  {
+    "id": 515,
+    "value": "Beperkte neurocognitieve stoornis door hiv-infectie: zonder gedragsstoornissen",
+    "parentId": 513
+  },
+  {
+    "id": 478,
+    "value": "Beperkte neurocognitieve stoornis door hypnotica of anxiolytica",
+    "parentId": 475
+  },
+  {
+    "id": 479,
+    "value": "Beperkte neurocognitieve stoornis door hypnotica of anxiolytica",
+    "parentId": 478
+  },
+  {
+    "id": 473,
+    "value": "Beperkte neurocognitieve stoornis door inhalantia",
+    "parentId": 782
+  },
+  {
+    "id": 474,
+    "value": "Beperkte neurocognitieve stoornis door inhalantia",
+    "parentId": 473
+  },
+  {
+    "id": 462,
+    "value": "Beperkte neurocognitieve stoornis door multipele oorzaken",
+    "parentId": 458
+  },
+  {
+    "id": 463,
+    "value": "Beperkte neurocognitieve stoornis door multipele oorzaken: met gedragsstoornissen",
+    "parentId": 462
+  },
+  {
+    "id": 464,
+    "value": "Beperkte neurocognitieve stoornis door multipele oorzaken: zonder gedragsstoornissen",
+    "parentId": 462
+  },
+  {
+    "id": 520,
+    "value": "Beperkte neurocognitieve stoornis door prionziekte",
+    "parentId": 516
+  },
+  {
+    "id": 867,
+    "value": "Beperkte neurocognitieve stoornis door prionziekte: met gedragsstoornissen",
+    "parentId": 520
+  },
+  {
+    "id": 868,
+    "value": "Beperkte neurocognitieve stoornis door prionziekte: zonder gedragsstoornissen",
+    "parentId": 520
+  },
+  {
+    "id": 749,
+    "value": "Beperkte neurocognitieve stoornis door traumatisch hersenletsel: met gedragsstoornissen",
+    "parentId": 748
+  },
+  {
+    "id": 750,
+    "value": "Beperkte neurocognitieve stoornis door traumatisch hersenletsel: zonder gedragsstoornissen",
+    "parentId": 748
+  },
+  {
+    "id": 734,
+    "value": "Beperkte neurocognitieve stoornis met lewylichaampjes",
+    "parentId": 120
+  },
+  {
+    "id": 735,
+    "value": "Beperkte neurocognitieve stoornis met lewylichaampjes: met gedragsstoornissen",
+    "parentId": 734
+  },
+  {
+    "id": 736,
+    "value": "Beperkte neurocognitieve stoornis met lewylichaampjes: zonder gedragsstoornissen",
+    "parentId": 734
+  },
+  {
+    "id": 741,
+    "value": "Beperkte vasculaire neurocognitieve stoornis",
+    "parentId": 737
+  },
+  {
+    "id": 742,
+    "value": "Beperkte vasculaire neurocognitieve stoornis: met gedragsstoornissen",
+    "parentId": 741
+  },
+  {
+    "id": 743,
+    "value": "Beperkte vasculaire neurocognitieve stoornis: zonder gedragsstoornissen",
+    "parentId": 741
+  },
+  {
+    "id": 704,
+    "value": "Bewegingsstoornissen en andere bijwerkingen van medicatie"
+  },
+  { "id": 48, "value": "Bipolaire II stoornis", "parentId": 393 },
+  { "id": 50, "value": "Bipolaire II stoornis: depressief", "parentId": 48 },
+  { "id": 49, "value": "Bipolaire II stoornis: hypomanisch", "parentId": 48 },
+  { "id": 394, "value": "Bipolaire-I-stoornis", "parentId": 393 },
+  {
+    "id": 47,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode Ongespecificeerd",
+    "parentId": 39
+  },
+  {
+    "id": 39,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief",
+    "parentId": 394
+  },
+  {
+    "id": 44,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief - Gedeeltelijk in remissie",
+    "parentId": 39
+  },
+  {
+    "id": 43,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief - Met psychotische kenmerken",
+    "parentId": 39
+  },
+  {
+    "id": 46,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief - Ongespecificeerd",
+    "parentId": 39
+  },
+  {
+    "id": 45,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief - Volledig in remissie",
+    "parentId": 39
+  },
+  {
+    "id": 42,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief - ernstig",
+    "parentId": 39
+  },
+  {
+    "id": 40,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief - licht",
+    "parentId": 39
+  },
+  {
+    "id": 41,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode depressief - matig",
+    "parentId": 39
+  },
+  {
+    "id": 403,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch",
+    "parentId": 394
+  },
+  {
+    "id": 871,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Gedeeltelijk in remissie",
+    "parentId": 403
+  },
+  {
+    "id": 873,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Ongespecificeerd",
+    "parentId": 403
+  },
+  {
+    "id": 872,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Volledig in remissie",
+    "parentId": 403
+  },
+  {
+    "id": 395,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch",
+    "parentId": 394
+  },
+  {
+    "id": 400,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch - Gedeeltelijk in remissie",
+    "parentId": 395
+  },
+  {
+    "id": 402,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch - Ongespecificeerd",
+    "parentId": 395
+  },
+  {
+    "id": 401,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch - Volledig in remissie",
+    "parentId": 395
+  },
+  {
+    "id": 398,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch - ernstig",
+    "parentId": 395
+  },
+  {
+    "id": 396,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch - licht",
+    "parentId": 395
+  },
+  {
+    "id": 397,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch - matig",
+    "parentId": 395
+  },
+  {
+    "id": 399,
+    "value": "Bipolaire-I-stoornis: actuele of meest recente episode manisch - met psychotische kenmerken",
+    "parentId": 395
+  },
+  {
+    "id": 53,
+    "value": "Bipolaire-stemmingsstoornis door alcohol",
+    "parentId": 52
+  },
+  {
+    "id": 54,
+    "value": "Bipolaire-stemmingsstoornis door alcohol: met begin tijdens intoxicatie",
+    "parentId": 53
+  },
+  {
+    "id": 55,
+    "value": "Bipolaire-stemmingsstoornis door alcohol: met begin tijdens onttrekking",
+    "parentId": 53
+  },
+  {
+    "id": 231,
+    "value": "Bipolaire-stemmingsstoornis door amfetamine (of andere stimulantia)",
+    "parentId": 52
+  },
+  {
+    "id": 232,
+    "value": "Bipolaire-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie",
+    "parentId": 231
+  },
+  {
+    "id": 233,
+    "value": "Bipolaire-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking",
+    "parentId": 231
+  },
+  {
+    "id": 58,
+    "value": "Bipolaire-stemmingsstoornis door andere hallucinogenen",
+    "parentId": 52
+  },
+  {
+    "id": 849,
+    "value": "Bipolaire-stemmingsstoornis door andere hallucinogenen: met begin tijdens intoxicatie",
+    "parentId": 58
+  },
+  {
+    "id": 234,
+    "value": "Bipolaire-stemmingsstoornis door coca\u00efne",
+    "parentId": 52
+  },
+  {
+    "id": 235,
+    "value": "Bipolaire-stemmingsstoornis door coca\u00efne: met begin tijdens intoxicatie",
+    "parentId": 234
+  },
+  {
+    "id": 236,
+    "value": "Bipolaire-stemmingsstoornis door coca\u00efne: met begin tijdens onttrekking",
+    "parentId": 234
+  },
+  {
+    "id": 237,
+    "value": "Bipolaire-stemmingsstoornis door een ander (of onbekend middel)",
+    "parentId": 52
+  },
+  {
+    "id": 238,
+    "value": "Bipolaire-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens intoxicatie",
+    "parentId": 237
+  },
+  {
+    "id": 239,
+    "value": "Bipolaire-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens onttrekking",
+    "parentId": 237
+  },
+  {
+    "id": 52,
+    "value": "Bipolaire-stemmingsstoornis door een middel",
+    "parentId": 393
+  },
+  {
+    "id": 56,
+    "value": "Bipolaire-stemmingsstoornis door fencyclidine",
+    "parentId": 52
+  },
+  {
+    "id": 57,
+    "value": "Bipolaire-stemmingsstoornis door fencyclidine: met begin tijdens intoxicatie",
+    "parentId": 56
+  },
+  {
+    "id": 228,
+    "value": "Bipolaire-stemmingsstoornis door hypnotica of anxiolytica",
+    "parentId": 52
+  },
+  {
+    "id": 229,
+    "value": "Bipolaire-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens intoxicatie",
+    "parentId": 228
+  },
+  {
+    "id": 230,
+    "value": "Bipolaire-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens onttrekking",
+    "parentId": 228
+  },
+  { "id": 393, "value": "Bipolaire-stemmingsstoornissen" },
+  {
+    "id": 240,
+    "value": "Bipolaire-stemminsstoornis door een somatische aandoening",
+    "parentId": 393
+  },
+  {
+    "id": 601,
+    "value": "Bipolaire-stemminsstoornis door een somatische aandoening: met gemengde kenmerken",
+    "parentId": 240
+  },
+  {
+    "id": 60,
+    "value": "Bipolaire-stemminsstoornis door een somatische aandoening: met maniforme of hypomaniforme episode",
+    "parentId": 240
+  },
+  {
+    "id": 59,
+    "value": "Bipolaire-stemminsstoornis door een somatische aandoening: met manische kenmerken",
+    "parentId": 240
+  },
+  {
+    "id": 627,
+    "value": "Blootstelling aan ramp, oorlog of andere vijandigheden",
+    "parentId": 621
+  },
+  {
+    "id": 554,
+    "value": "Borderline persoonlijkheidsstoornis",
+    "parentId": 528
+  },
+  { "id": 532, "value": "Bulimia nervosa", "parentId": 446 },
+  { "id": 211, "value": "Cafe\u00efne-intoxicatie", "parentId": 210 },
+  {
+    "id": 210,
+    "value": "Cafe\u00efnegerelateerde stoornissen",
+    "parentId": 31
+  },
+  { "id": 212, "value": "Cafe\u00efneonttrekkingssyndroom", "parentId": 210 },
+  { "id": 214, "value": "Cannabis gerelateerde stoornissen", "parentId": 31 },
+  { "id": 218, "value": "Cannabisintoxicatie", "parentId": 214 },
+  { "id": 219, "value": "Cannabisonttrekkingssyndroom", "parentId": 214 },
+  { "id": 583, "value": "Centrale slaapapneusyndroom", "parentId": 581 },
+  {
+    "id": 586,
+    "value": "Centrale slaapapneusyndroom bij het gebruik van opio\u00efden",
+    "parentId": 583
+  },
+  { "id": 585, "value": "Cheyne-Stokes-ademhaling", "parentId": 583 },
+  {
+    "id": 591,
+    "value": "Circadianeritme-slaap-waakstoornissen",
+    "parentId": 581
+  },
+  {
+    "id": 594,
+    "value": "Circadianeritme-slaap-waakstoornissen: ongespecificeerde circadianeritme-slaap-waakstoornissen",
+    "parentId": 591
+  },
+  {
+    "id": 593,
+    "value": "Circadianeritme-slaap-waakstoornissen: type ploegendienst",
+    "parentId": 591
+  },
+  {
+    "id": 592,
+    "value": "Circadianeritme-slaap-waakstoornissen: type verlate slaapfase",
+    "parentId": 591
+  },
+  {
+    "id": 469,
+    "value": "Cluster A-persoonlijkheidsstoornissen",
+    "parentId": 468
+  },
+  {
+    "id": 528,
+    "value": "Cluster B-persoonlijkheidsstoornissen",
+    "parentId": 468
+  },
+  {
+    "id": 557,
+    "value": "Cluster C-persoonlijkheidsstoornissen",
+    "parentId": 468
+  },
+  { "id": 125, "value": "Communicatiestoornissen", "parentId": 783 },
+  {
+    "id": 590,
+    "value": "Comorbide slaapgerelateerde hypoventilatie",
+    "parentId": 587
+  },
+  {
+    "id": 589,
+    "value": "Congenitale centrale alveolaire hypoventilatie",
+    "parentId": 587
+  },
+  {
+    "id": 411,
+    "value": "Consult voor pleger van lichamelijk geweld door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 833,
+    "value": "Consult voor pleger van mishandeling van een kind waarvan de betrokkene niet de ouder is",
+    "parentId": 828
+  },
+  {
+    "id": 850,
+    "value": "Consult voor pleger van mishandeling van een volwassene door iemand die niet de levenspartner is",
+    "parentId": 407
+  },
+  {
+    "id": 832,
+    "value": "Consult voor pleger van mishandeling van eigen kind",
+    "parentId": 828
+  },
+  {
+    "id": 7,
+    "value": "Consult voor pleger van psychische mishandeling door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 406,
+    "value": "Consult voor pleger van psychische mishandeling van een kind waarvan de betrokkene niet de ouder is.",
+    "parentId": 828
+  },
+  {
+    "id": 405,
+    "value": "Consult voor pleger van psychische mishandeling van eigen kind",
+    "parentId": 828
+  },
+  {
+    "id": 415,
+    "value": "Consult voor pleger van seksueel geweld door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 838,
+    "value": "Consult voor pleger van seksueel misbruik van een kind waarvan de betrokkene niet de ouder is",
+    "parentId": 828
+  },
+  {
+    "id": 837,
+    "value": "Consult voor pleger van seksueel misbruik van eigen kind",
+    "parentId": 828
+  },
+  {
+    "id": 3,
+    "value": "Consult voor pleger van verwaarlozing door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 842,
+    "value": "Consult voor pleger van verwaarlozing van eigen kind",
+    "parentId": 828
+  },
+  {
+    "id": 843,
+    "value": "Consult voor pleger van verwaarlozing ven een kind waarvan de betrokkene niet de ouder is",
+    "parentId": 828
+  },
+  {
+    "id": 409,
+    "value": "Consult voor slachtoffer van lichamelijk geweld door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 11,
+    "value": "Consult voor slachtoffer van mishandeling van een volwassene door iemand die niet de levenspartner is",
+    "parentId": 407
+  },
+  {
+    "id": 830,
+    "value": "Consult voor slachtoffer van mishandeling, kind",
+    "parentId": 828
+  },
+  {
+    "id": 5,
+    "value": "Consult voor slachtoffer van psychische mishandeling door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 845,
+    "value": "Consult voor slachtoffer van psychische mishandeling, kind",
+    "parentId": 828
+  },
+  {
+    "id": 413,
+    "value": "Consult voor slachtoffer van seksueel geweld door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 835,
+    "value": "Consult voor slachtoffer van seksueel misbruik, kind",
+    "parentId": 828
+  },
+  {
+    "id": 1,
+    "value": "Consult voor slachtoffer van verwaarlozing door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 840,
+    "value": "Consult voor slachtoffer van verwaarlozing, kind",
+    "parentId": 828
+  },
+  {
+    "id": 432,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis)",
+    "parentId": 429
+  },
+  {
+    "id": 437,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met aanvullen of convulsies",
+    "parentId": 432
+  },
+  {
+    "id": 434,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met abnormale bewegingen",
+    "parentId": 432
+  },
+  {
+    "id": 438,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met anesthesie of sensibiliteitsverlies",
+    "parentId": 432
+  },
+  {
+    "id": 440,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met gemengde symptomen",
+    "parentId": 432
+  },
+  {
+    "id": 435,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met sliksymptomen",
+    "parentId": 432
+  },
+  {
+    "id": 439,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met speciale zintuigelijke symptomen",
+    "parentId": 432
+  },
+  {
+    "id": 436,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met spraaksymptomen",
+    "parentId": 432
+  },
+  {
+    "id": 433,
+    "value": "Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met zwakte of paralyse",
+    "parentId": 432
+  },
+  {
+    "id": 681,
+    "value": "Co\u00f6rdinatieontwikkelingsstoornis",
+    "parentId": 680
+  },
+  { "id": 51, "value": "Cyclothyme stoornis", "parentId": 393 },
+  { "id": 192, "value": "Dakloosheid", "parentId": 191 },
+  { "id": 96, "value": "Delirium", "parentId": 95 },
+  {
+    "id": 317,
+    "value": "Delirium door een somatische aandoening",
+    "parentId": 96
+  },
+  {
+    "id": 98,
+    "value": "Delirium door intoxicatie door alcohol",
+    "parentId": 97
+  },
+  {
+    "id": 310,
+    "value": "Delirium door intoxicatie door ander (of onbekend) middel",
+    "parentId": 97
+  },
+  {
+    "id": 102,
+    "value": "Delirium door intoxicatie door andere hallucinogenen",
+    "parentId": 97
+  },
+  {
+    "id": 100,
+    "value": "Delirium door intoxicatie door cannabis",
+    "parentId": 97
+  },
+  {
+    "id": 101,
+    "value": "Delirium door intoxicatie door coca\u00efne",
+    "parentId": 97
+  },
+  {
+    "id": 97,
+    "value": "Delirium door intoxicatie door een middel",
+    "parentId": 96
+  },
+  {
+    "id": 105,
+    "value": "Delirium door intoxicatie door fencyclidine",
+    "parentId": 97
+  },
+  {
+    "id": 106,
+    "value": "Delirium door intoxicatie door hypnotica of anxiolytica",
+    "parentId": 97
+  },
+  {
+    "id": 103,
+    "value": "Delirium door intoxicatie door inhalantia",
+    "parentId": 97
+  },
+  {
+    "id": 104,
+    "value": "Delirium door intoxicatie door opio\u00efden",
+    "parentId": 97
+  },
+  {
+    "id": 99,
+    "value": "Delirium door intoxicatie door stimulantia",
+    "parentId": 97
+  },
+  { "id": 316, "value": "Delirium door medicatie", "parentId": 96 },
+  { "id": 318, "value": "Delirium door multipele oorzaken", "parentId": 96 },
+  {
+    "id": 312,
+    "value": "Delirium door onttrekking van alcohol",
+    "parentId": 311
+  },
+  {
+    "id": 315,
+    "value": "Delirium door onttrekking van een ander (of onbekend) middel",
+    "parentId": 311
+  },
+  {
+    "id": 311,
+    "value": "Delirium door onttrekking van een middel",
+    "parentId": 96
+  },
+  {
+    "id": 314,
+    "value": "Delirium door onttrekking van hypnotica of anxiolytica",
+    "parentId": 311
+  },
+  {
+    "id": 313,
+    "value": "Delirium door onttrekking van opio\u00efden",
+    "parentId": 311
+  },
+  {
+    "id": 511,
+    "value": "Depersonalisatie- / derealisatiestoornis",
+    "parentId": 507
+  },
+  {
+    "id": 256,
+    "value": "Depressieve stemmingsstoornis door een middel",
+    "parentId": 605
+  },
+  { "id": 607, "value": "Depressieve stoornis", "parentId": 605 },
+  {
+    "id": 608,
+    "value": "Depressieve stoornis: eenmalige episode",
+    "parentId": 607
+  },
+  {
+    "id": 661,
+    "value": "Depressieve stoornis: eenmalige episode - Gedeeltelijk in remissie",
+    "parentId": 608
+  },
+  {
+    "id": 660,
+    "value": "Depressieve stoornis: eenmalige episode - Met psychotische kenmerken",
+    "parentId": 608
+  },
+  {
+    "id": 242,
+    "value": "Depressieve stoornis: eenmalige episode - Ongespecificeerd",
+    "parentId": 608
+  },
+  {
+    "id": 241,
+    "value": "Depressieve stoornis: eenmalige episode - Volledig in remissie",
+    "parentId": 608
+  },
+  {
+    "id": 659,
+    "value": "Depressieve stoornis: eenmalige episode - ernstig",
+    "parentId": 608
+  },
+  {
+    "id": 609,
+    "value": "Depressieve stoornis: eenmalige episode - licht",
+    "parentId": 608
+  },
+  {
+    "id": 658,
+    "value": "Depressieve stoornis: eenmalige episode - matig",
+    "parentId": 608
+  },
+  {
+    "id": 243,
+    "value": "Depressieve stoornis: recidiverende episode",
+    "parentId": 607
+  },
+  {
+    "id": 248,
+    "value": "Depressieve stoornis: recidiverende episode - Gedeeltelijk in remissie",
+    "parentId": 243
+  },
+  {
+    "id": 247,
+    "value": "Depressieve stoornis: recidiverende episode - Met psychotische kenmerken",
+    "parentId": 243
+  },
+  {
+    "id": 250,
+    "value": "Depressieve stoornis: recidiverende episode - Ongespecificeerd",
+    "parentId": 243
+  },
+  {
+    "id": 249,
+    "value": "Depressieve stoornis: recidiverende episode - Volledig in remissie",
+    "parentId": 243
+  },
+  {
+    "id": 246,
+    "value": "Depressieve stoornis: recidiverende episode - ernstig",
+    "parentId": 243
+  },
+  {
+    "id": 244,
+    "value": "Depressieve stoornis: recidiverende episode - licht",
+    "parentId": 243
+  },
+  {
+    "id": 245,
+    "value": "Depressieve stoornis: recidiverende episode - matig",
+    "parentId": 243
+  },
+  {
+    "id": 257,
+    "value": "Depressieve-stemmingsstoornis door alcohol",
+    "parentId": 256
+  },
+  {
+    "id": 258,
+    "value": "Depressieve-stemmingsstoornis door alcohol: met begin tijdens intoxicatie",
+    "parentId": 257
+  },
+  {
+    "id": 259,
+    "value": "Depressieve-stemmingsstoornis door alcohol: met begin tijdens onttrekking",
+    "parentId": 257
+  },
+  {
+    "id": 65,
+    "value": "Depressieve-stemmingsstoornis door amfetamine (of andere stimulantia)",
+    "parentId": 256
+  },
+  {
+    "id": 66,
+    "value": "Depressieve-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie",
+    "parentId": 65
+  },
+  {
+    "id": 67,
+    "value": "Depressieve-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking",
+    "parentId": 65
+  },
+  {
+    "id": 663,
+    "value": "Depressieve-stemmingsstoornis door andere hallucinogenen",
+    "parentId": 256
+  },
+  {
+    "id": 61,
+    "value": "Depressieve-stemmingsstoornis door andere hallucinogenen: met begin tijdens intoxicatie",
+    "parentId": 663
+  },
+  {
+    "id": 68,
+    "value": "Depressieve-stemmingsstoornis door coca\u00efne",
+    "parentId": 256
+  },
+  {
+    "id": 69,
+    "value": "Depressieve-stemmingsstoornis door coca\u00efne: met begin tijdens intoxicatie",
+    "parentId": 68
+  },
+  {
+    "id": 70,
+    "value": "Depressieve-stemmingsstoornis door coca\u00efne: met begin tijdens onttrekking",
+    "parentId": 68
+  },
+  {
+    "id": 71,
+    "value": "Depressieve-stemmingsstoornis door een ander (of onbekend middel)",
+    "parentId": 256
+  },
+  {
+    "id": 72,
+    "value": "Depressieve-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens intoxicatie",
+    "parentId": 71
+  },
+  {
+    "id": 73,
+    "value": "Depressieve-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens onttrekking",
+    "parentId": 71
+  },
+  {
+    "id": 74,
+    "value": "Depressieve-stemmingsstoornis door een somatische aandoening",
+    "parentId": 605
+  },
+  {
+    "id": 76,
+    "value": "Depressieve-stemmingsstoornis door een somatische aandoening: met depressieve episode",
+    "parentId": 74
+  },
+  {
+    "id": 75,
+    "value": "Depressieve-stemmingsstoornis door een somatische aandoening: met depressieve kenmerken",
+    "parentId": 74
+  },
+  {
+    "id": 77,
+    "value": "Depressieve-stemmingsstoornis door een somatische aandoening: met gemengde kenmerken",
+    "parentId": 74
+  },
+  {
+    "id": 260,
+    "value": "Depressieve-stemmingsstoornis door fencyclidine",
+    "parentId": 256
+  },
+  {
+    "id": 662,
+    "value": "Depressieve-stemmingsstoornis door fencyclidine: met begin tijdens intoxicatie",
+    "parentId": 260
+  },
+  {
+    "id": 62,
+    "value": "Depressieve-stemmingsstoornis door hypnotica of anxiolytica",
+    "parentId": 256
+  },
+  {
+    "id": 63,
+    "value": "Depressieve-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens intoxicatie",
+    "parentId": 62
+  },
+  {
+    "id": 64,
+    "value": "Depressieve-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens onttrekking",
+    "parentId": 62
+  },
+  { "id": 605, "value": "Depressieve-stemmingsstoornissen" },
+  {
+    "id": 606,
+    "value": "Disruptieve stemmingsdisregulatiestoornis",
+    "parentId": 605
+  },
+  {
+    "id": 17,
+    "value": "Disruptieve, impulsbeheersings- en andere gedragsstoornissen"
+  },
+  { "id": 509, "value": "Dissociatieve amnesie", "parentId": 507 },
+  {
+    "id": 510,
+    "value": "Dissociatieve amnesie: met dissociatieve fugue",
+    "parentId": 509
+  },
+  { "id": 508, "value": "Dissociatieve identiteitsstoornis", "parentId": 507 },
+  { "id": 507, "value": "Dissociatieve stoornissen" },
+  {
+    "id": 613,
+    "value": "Doelwit van (vermeende) discriminatie of vervolging",
+    "parentId": 202
+  },
+  {
+    "id": 560,
+    "value": "Dwangmatige persoonlijkheidsstoornis",
+    "parentId": 557
+  },
+  { "id": 196, "value": "Economische problemen", "parentId": 190 },
+  { "id": 533, "value": "Eetbuistoornis: licht", "parentId": 532 },
+  {
+    "id": 534,
+    "value": "Eetbuistoornis: matig, ernstig, zeer ernstig",
+    "parentId": 532
+  },
+  { "id": 543, "value": "Encopresis", "parentId": 538 },
+  {
+    "id": 544,
+    "value": "Encopresis: met obstipatie en overloop incontinentie",
+    "parentId": 543
+  },
+  {
+    "id": 545,
+    "value": "Encopresis: zonder obstipatie en overloop incontinentie",
+    "parentId": 543
+  },
+  { "id": 539, "value": "Enuresis", "parentId": 538 },
+  { "id": 540, "value": "Enuresis: alleen 's nachts", "parentId": 539 },
+  { "id": 541, "value": "Enuresis: alleen overdag", "parentId": 539 },
+  { "id": 542, "value": "Enuresis: s Nachts en overdag", "parentId": 539 },
+  { "id": 795, "value": "Erectiestoornis", "parentId": 793 },
+  {
+    "id": 752,
+    "value": "Excoriatiestoornis (huidpulkstoornis)",
+    "parentId": 351
+  },
+  {
+    "id": 753,
+    "value": "Excoriatiestoornis (huidpulkstoornis): ernstige lichamelijke complicaties",
+    "parentId": 752
+  },
+  { "id": 141, "value": "Exhibitionismestoornis", "parentId": 575 },
+  { "id": 198, "value": "Extreme armoede", "parentId": 196 },
+  { "id": 634, "value": "Fencyclidine-intoxicatie", "parentId": 221 },
+  { "id": 160, "value": "Fetisjismestoornis", "parentId": 575 },
+  { "id": 142, "value": "Frotteurismestoornis", "parentId": 575 },
+  { "id": 115, "value": "Gegeneraliseerde-angststoornis", "parentId": 81 },
+  { "id": 12, "value": "Genderdysforie" },
+  {
+    "id": 13,
+    "value": "Genderdysforie bij adolescenten of volwassenen",
+    "parentId": 12
+  },
+  {
+    "id": 846,
+    "value": "Genitopelvienepijn-/penetratiestoornis",
+    "parentId": 793
+  },
+  {
+    "id": 266,
+    "value": "Gezondheidsvoorzieningen niet beschikbaar of niet toegankelijk",
+    "parentId": 265
+  },
+  { "id": 123, "value": "Globale ontwikkelingsachterstand", "parentId": 784 },
+  { "id": 94, "value": "Gokstoornis", "parentId": 93 },
+  {
+    "id": 221,
+    "value": "Hallucinogeen gerelateerde stoornissen",
+    "parentId": 31
+  },
+  {
+    "id": 555,
+    "value": "Histrionische persoonlijkheidsstoornis",
+    "parentId": 528
+  },
+  {
+    "id": 825,
+    "value": "Hoog niveau van gevoelsuitingen binnen een gezin",
+    "parentId": 822
+  },
+  { "id": 712, "value": "Houdingstremor door medicatie", "parentId": 704 },
+  {
+    "id": 190,
+    "value": "Huisvestings- en economische problemen",
+    "parentId": 716
+  },
+  { "id": 191, "value": "Huisvestingsproblemen", "parentId": 190 },
+  { "id": 577, "value": "Hypersomnolentiestoornis", "parentId": 551 },
+  {
+    "id": 652,
+    "value": "Hypnoticum- of anxiolyticum gerelateerde stoornissen",
+    "parentId": 31
+  },
+  {
+    "id": 847,
+    "value": "Hypoactief-seksueelverlangenstoornis bij de man",
+    "parentId": 793
+  },
+  {
+    "id": 584,
+    "value": "Idiopatische centrale-slaapapneusyndroom",
+    "parentId": 583
+  },
+  { "id": 588, "value": "Idiopatische hypoventilatie", "parentId": 587 },
+  { "id": 193, "value": "Inadequate behuizing", "parentId": 191 },
+  {
+    "id": 639,
+    "value": "Inhalantium gerelateerde stoornissen",
+    "parentId": 31
+  },
+  { "id": 552, "value": "Insomniastoornis", "parentId": 551 },
+  { "id": 289, "value": "Intoxicatie door coca\u00efne", "parentId": 286 },
+  {
+    "id": 287,
+    "value": "Intoxicatie door een amfetamine of een ander stimulantium",
+    "parentId": 286
+  },
+  {
+    "id": 288,
+    "value": "Intoxicatie door een amfetamine of een ander stimulantium: met perceptiestoornissen",
+    "parentId": 287
+  },
+  {
+    "id": 90,
+    "value": "Intoxicatie door een ander (of onbekend) middel",
+    "parentId": 86
+  },
+  { "id": 635, "value": "Intoxicatie door een hallucinogeen", "parentId": 221 },
+  {
+    "id": 866,
+    "value": "Intoxicatie door een hypnoticum of anxiolyticum",
+    "parentId": 652
+  },
+  { "id": 643, "value": "Intoxicatie door een inhalantium", "parentId": 639 },
+  { "id": 649, "value": "Intoxicatie door een opio\u00efde", "parentId": 645 },
+  { "id": 286, "value": "Intoxicatie door een stimulantium", "parentId": 275 },
+  {
+    "id": 388,
+    "value": "Katatone stoornis door een somatische aandoening",
+    "parentId": 386
+  },
+  { "id": 386, "value": "Katatonie", "parentId": 693 },
+  {
+    "id": 387,
+    "value": "Katatonie bij een andere psychische stoornis (katatonie als specificatie)",
+    "parentId": 386
+  },
+  { "id": 25, "value": "Kleptomanie", "parentId": 17 },
+  { "id": 804, "value": "Kortdurende psychotische stoornis", "parentId": 693 },
+  {
+    "id": 807,
+    "value": "Kortdurende psychotische stoornis: met begin peri partum",
+    "parentId": 804
+  },
+  {
+    "id": 805,
+    "value": "Kortdurende psychotische stoornis: met duidelijke stressor(en)",
+    "parentId": 804
+  },
+  {
+    "id": 806,
+    "value": "Kortdurende psychotische stoornis: zonder duidelijke stressor(en)",
+    "parentId": 804
+  },
+  { "id": 199, "value": "Laag inkomen", "parentId": 196 },
+  { "id": 853, "value": "Leer- of onderwijsprobleem", "parentId": 852 },
+  {
+    "id": 184,
+    "value": "Leer- of onderwijsprobleem (psychosociale en omgevingsproblemen)",
+    "parentId": 852
+  },
+  { "id": 203, "value": "Levensfaseprobleem", "parentId": 202 },
+  {
+    "id": 408,
+    "value": "Lichamelijk geweld door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 829,
+    "value": "Lichamelijke mishandeling van een kind",
+    "parentId": 828
+  },
+  {
+    "id": 8,
+    "value": "Lichamelijke mishandeling van een volwassene door iemand die niet de levenspartner is",
+    "parentId": 407
+  },
+  { "id": 706, "value": "Maligne neurolepticasyndroom", "parentId": 704 },
+  { "id": 30, "value": "Middelgerelateerde en verslavingsstoornissen" },
+  { "id": 31, "value": "Middelgerelateerde stoornissen", "parentId": 30 },
+  { "id": 827, "value": "Misbruik en verwaarlozing", "parentId": 716 },
+  { "id": 356, "value": "Morfodysfore stoornis", "parentId": 351 },
+  { "id": 680, "value": "Motorische stoornissen", "parentId": 783 },
+  { "id": 599, "value": "Nachtmerriestoornis", "parentId": 595 },
+  { "id": 442, "value": "Nagebootste stoornis (pathomimie)", "parentId": 429 },
+  {
+    "id": 556,
+    "value": "Narcistische persoonlijkheidsstoornis",
+    "parentId": 528
+  },
+  { "id": 578, "value": "Narcolepsie", "parentId": 551 },
+  {
+    "id": 579,
+    "value": "Narcolepsie: met kataplexie,zonder hypocretinedefici\u00ebntie",
+    "parentId": 578
+  },
+  {
+    "id": 580,
+    "value": "Narcolepsie: secundair aan een andere somatische aandoening",
+    "parentId": 578
+  },
+  { "id": 783, "value": "Neurobiologische ontwikkelingsstoornissen" },
+  { "id": 95, "value": "Neurocognitieve stoornissen" },
+  {
+    "id": 268,
+    "value": "Niet opvolgen van medische behandeling",
+    "parentId": 716
+  },
+  {
+    "id": 269,
+    "value": "Niet opvolgen van medische behandeling",
+    "parentId": 268
+  },
+  { "id": 93, "value": "Niet-middelgerelateerde stoornissen", "parentId": 30 },
+  { "id": 596, "value": "Non-remslaap-arausalstoornissen", "parentId": 595 },
+  {
+    "id": 598,
+    "value": "Non-remslaap-arausalstoornissen: type pavor nocturnus",
+    "parentId": 596
+  },
+  {
+    "id": 597,
+    "value": "Non-remslaap-arausalstoornissen: type slaapwandelen",
+    "parentId": 596
+  },
+  { "id": 20, "value": "Normoverschrijdend-gedragsstoornis", "parentId": 17 },
+  {
+    "id": 23,
+    "value": "Normoverschrijdend-gedragsstoornis: begin ongespecificeerd",
+    "parentId": 20
+  },
+  {
+    "id": 22,
+    "value": "Normoverschrijdend-gedragsstoornis: met begin in de adolescentie",
+    "parentId": 20
+  },
+  {
+    "id": 21,
+    "value": "Normoverschrijdend-gedragsstoornis: met begin in de kindertijd",
+    "parentId": 20
+  },
+  { "id": 351, "value": "Obsessieve-compulsieve en verwante stoornissen" },
+  {
+    "id": 755,
+    "value": "Obsessieve-compulsieve of verwante stoornis door amfetamine (of andere stimulantia)",
+    "parentId": 754
+  },
+  {
+    "id": 756,
+    "value": "Obsessieve-compulsieve of verwante stoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie",
+    "parentId": 755
+  },
+  {
+    "id": 757,
+    "value": "Obsessieve-compulsieve of verwante stoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking",
+    "parentId": 755
+  },
+  {
+    "id": 758,
+    "value": "Obsessieve-compulsieve of verwante stoornis door coca\u00efne",
+    "parentId": 754
+  },
+  {
+    "id": 759,
+    "value": "Obsessieve-compulsieve of verwante stoornis door coca\u00efne: met begin tijdens intoxicatie",
+    "parentId": 758
+  },
+  {
+    "id": 760,
+    "value": "Obsessieve-compulsieve of verwante stoornis door coca\u00efne: met begin tijdens onttrekking",
+    "parentId": 758
+  },
+  {
+    "id": 761,
+    "value": "Obsessieve-compulsieve of verwante stoornis door een ander (of onbekend) middel",
+    "parentId": 754
+  },
+  {
+    "id": 762,
+    "value": "Obsessieve-compulsieve of verwante stoornis door een ander (of onbekend) middel: met begin tijdens intoxicatie",
+    "parentId": 761
+  },
+  {
+    "id": 763,
+    "value": "Obsessieve-compulsieve of verwante stoornis door een ander (of onbekend) middel: met begin tijdens onttrekking",
+    "parentId": 761
+  },
+  {
+    "id": 754,
+    "value": "Obsessieve-compulsieve of verwante stoornis door een middel",
+    "parentId": 351
+  },
+  {
+    "id": 764,
+    "value": "Obsessieve-compulsieve of verwante stoornis door een somatische aandoening",
+    "parentId": 351
+  },
+  { "id": 352, "value": "Obsessieve-compulsieve stoornis", "parentId": 351 },
+  {
+    "id": 353,
+    "value": "Obsessieve-compulsieve stoornis: met gering realiteitsbesef",
+    "parentId": 352
+  },
+  {
+    "id": 582,
+    "value": "Obstructieve-slaapapneu/hypopneusyndroom",
+    "parentId": 581
+  },
+  {
+    "id": 194,
+    "value": "Onenigheid met buur, huurder of verhuurder",
+    "parentId": 191
+  },
+  {
+    "id": 625,
+    "value": "Onenigheid met medewerker van sociale voorziening of reclassering, casemanager of maatschappelijk werkende",
+    "parentId": 621
+  },
+  { "id": 826, "value": "Ongecompliceerde rouw", "parentId": 822 },
+  {
+    "id": 629,
+    "value": "Ongespecificeerd probleem verband houdend met niet gespecificeerde psychosociale omstandigheden",
+    "parentId": 621
+  },
+  {
+    "id": 614,
+    "value": "Ongespecificeerd probleemverband houdend met de sociale omgeving",
+    "parentId": 202
+  },
+  {
+    "id": 675,
+    "value": "Ongespecificeerde aandachtsdefici\u00ebntie-/hyperactiviteitsstoornis",
+    "parentId": 135
+  },
+  {
+    "id": 209,
+    "value": "Ongespecificeerde alcoholgerelateerde stoornis",
+    "parentId": 32
+  },
+  { "id": 350, "value": "Ongespecificeerde angststoornis", "parentId": 348 },
+  {
+    "id": 604,
+    "value": "Ongespecificeerde bipolaire-stemmingsstoornis",
+    "parentId": 602
+  },
+  {
+    "id": 213,
+    "value": "Ongespecificeerde cafe\u00efnegerelateerde stoornis",
+    "parentId": 210
+  },
+  {
+    "id": 220,
+    "value": "Ongespecificeerde cannabis gerelateerde stoornis",
+    "parentId": 214
+  },
+  {
+    "id": 132,
+    "value": "Ongespecificeerde communicatiestoornis",
+    "parentId": 125
+  },
+  { "id": 321, "value": "Ongespecificeerde delirium", "parentId": 319 },
+  {
+    "id": 80,
+    "value": "Ongespecificeerde depressieve-stemmingsstoornis",
+    "parentId": 78
+  },
+  {
+    "id": 29,
+    "value": "Ongespecificeerde disruptieve, impulsbeheersings- of andere gedragsstoornis",
+    "parentId": 27
+  },
+  {
+    "id": 428,
+    "value": "Ongespecificeerde dissociatieve stoornis",
+    "parentId": 426
+  },
+  {
+    "id": 637,
+    "value": "Ongespecificeerde fencyclidinegerelateerde stoornis",
+    "parentId": 221
+  },
+  { "id": 15, "value": "Ongespecificeerde genderdysforie", "parentId": 14 },
+  {
+    "id": 638,
+    "value": "Ongespecificeerde hallucinogeengerelateerde stoornis",
+    "parentId": 221
+  },
+  {
+    "id": 201,
+    "value": "Ongespecificeerde huisvestings- of economisch probleem",
+    "parentId": 196
+  },
+  {
+    "id": 790,
+    "value": "Ongespecificeerde hypersomnolentiestoornis",
+    "parentId": 182
+  },
+  {
+    "id": 274,
+    "value": "Ongespecificeerde hypnoticum- of anxiolyticumgerelateerde stoornis",
+    "parentId": 652
+  },
+  {
+    "id": 644,
+    "value": "Ongespecificeerde inhalantiumgerelateerde stoornis",
+    "parentId": 639
+  },
+  { "id": 788, "value": "Ongespecificeerde insomniastoornis", "parentId": 182 },
+  { "id": 389, "value": "Ongespecificeerde katatonie", "parentId": 386 },
+  {
+    "id": 692,
+    "value": "Ongespecificeerde neurobiologische ontwikkelingsstoornis",
+    "parentId": 690
+  },
+  {
+    "id": 465,
+    "value": "Ongespecificeerde neurocognitieve stoornis",
+    "parentId": 751
+  },
+  {
+    "id": 466,
+    "value": "Ongespecificeerde neurocognitieve stoornis: met gedragsstoornissen",
+    "parentId": 465
+  },
+  {
+    "id": 467,
+    "value": "Ongespecificeerde neurocognitieve stoornis: zonder gedragsstoornissen",
+    "parentId": 465
+  },
+  {
+    "id": 767,
+    "value": "Ongespecificeerde obsessieve-compulsieve of verwante stoornis",
+    "parentId": 765
+  },
+  {
+    "id": 651,
+    "value": "Ongespecificeerde opio\u00efdegerelateerde stoornis",
+    "parentId": 645
+  },
+  {
+    "id": 164,
+    "value": "Ongespecificeerde parafiele stoornis",
+    "parentId": 162
+  },
+  {
+    "id": 574,
+    "value": "Ongespecificeerde persoonlijkheidsstoornis",
+    "parentId": 572
+  },
+  {
+    "id": 703,
+    "value": "Ongespecificeerde psychische stoornis",
+    "parentId": 701
+  },
+  {
+    "id": 700,
+    "value": "Ongespecificeerde psychische stoornis door een somatische aandoening",
+    "parentId": 698
+  },
+  {
+    "id": 869,
+    "value": "Ongespecificeerde schizofreniespectrum- of andere psychotische stoornis",
+    "parentId": 390
+  },
+  {
+    "id": 379,
+    "value": "Ongespecificeerde seksuele disfunctie",
+    "parentId": 377
+  },
+  {
+    "id": 792,
+    "value": "Ongespecificeerde slaap-waakstoornis",
+    "parentId": 182
+  },
+  {
+    "id": 445,
+    "value": "Ongespecificeerde somatisch-symptoomstoornis of verwante stoornis",
+    "parentId": 443
+  },
+  {
+    "id": 294,
+    "value": "Ongespecificeerde stimulantiumgerelateerde stoornis",
+    "parentId": 275
+  },
+  {
+    "id": 92,
+    "value": "Ongespecificeerde stoornis gereleateerd aan een ander (of onbekend) middel",
+    "parentId": 86
+  },
+  {
+    "id": 549,
+    "value": "Ongespecificeerde stoornis in de zindelijkheid met urinaire symptomen",
+    "parentId": 546
+  },
+  {
+    "id": 550,
+    "value": "Ongespecificeerde stoornis in de zindelijkheid: met fecale symptomen",
+    "parentId": 546
+  },
+  {
+    "id": 85,
+    "value": "Ongespecificeerde tabaksgerelateerde stoornis",
+    "parentId": 295
+  },
+  { "id": 689, "value": "Ongespecificeerde ticstoornis", "parentId": 684 },
+  {
+    "id": 506,
+    "value": "Ongespecificeerde trauma- of stressor-gerelateerde stoornis",
+    "parentId": 504
+  },
+  {
+    "id": 124,
+    "value": "Ongespecificeerde verstandelijke beperking (verstandelijke ontwikkelingsstoornis)",
+    "parentId": 784
+  },
+  {
+    "id": 537,
+    "value": "Ongespecificeerde voedings- of eetstoornis",
+    "parentId": 535
+  },
+  {
+    "id": 197,
+    "value": "Ontbreken van adequaat voedsel of veilig drinkwater",
+    "parentId": 196
+  },
+  {
+    "id": 200,
+    "value": "Ontoereikende sociale verzekering of welzijnsvoorzieningen",
+    "parentId": 196
+  },
+  {
+    "id": 292,
+    "value": "Onttrekkingssyndroom van coca\u00efne",
+    "parentId": 290
+  },
+  {
+    "id": 291,
+    "value": "Onttrekkingssyndroom van een amfetamineachtig middel",
+    "parentId": 290
+  },
+  {
+    "id": 91,
+    "value": "Onttrekkingssyndroom van een ander (of onbekend) middel",
+    "parentId": 86
+  },
+  {
+    "id": 293,
+    "value": "Onttrekkingssyndroom van een ander of ongespecificeerd stimulantium",
+    "parentId": 290
+  },
+  {
+    "id": 657,
+    "value": "Onttrekkingssyndroom van een hypnoticum of anxiolyticum",
+    "parentId": 652
+  },
+  {
+    "id": 650,
+    "value": "Onttrekkingssyndroom van een opio\u00efde",
+    "parentId": 645
+  },
+  {
+    "id": 290,
+    "value": "Onttrekkingssyndroom van een stimulantium",
+    "parentId": 275
+  },
+  {
+    "id": 645,
+    "value": "Opio\u00efde gerelateerde stoornissen",
+    "parentId": 31
+  },
+  {
+    "id": 18,
+    "value": "Oppositioneel-opstandige gedragsstoornis",
+    "parentId": 17
+  },
+  { "id": 718, "value": "Opvoedingsproblemen", "parentId": 717 },
+  { "id": 796, "value": "Orgasmestoornis bij de vrouw", "parentId": 793 },
+  { "id": 719, "value": "Ouder-kindrelatieprobleem", "parentId": 718 },
+  { "id": 270, "value": "Overgewicht of obesitas", "parentId": 268 },
+  { "id": 697, "value": "Overige psychische stoornissen" },
+  { "id": 113, "value": "Paniekstoornis", "parentId": 81 },
+  { "id": 575, "value": "Parafiele stoornissen" },
+  {
+    "id": 470,
+    "value": "Parano\u00efde-persoonlijkheidsstoornis",
+    "parentId": 469
+  },
+  { "id": 595, "value": "Parasomnia's", "parentId": 551 },
+  {
+    "id": 705,
+    "value": "Parkinsonisme door neuroleptica of andere medicatie",
+    "parentId": 704
+  },
+  { "id": 823, "value": "Partner-relatieprobleem", "parentId": 822 },
+  { "id": 145, "value": "Pedofiele stoornis", "parentId": 575 },
+  {
+    "id": 146,
+    "value": "Pedofiele stoornis: exclusieve type",
+    "parentId": 145
+  },
+  {
+    "id": 151,
+    "value": "Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot beide seksen",
+    "parentId": 146
+  },
+  {
+    "id": 152,
+    "value": "Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot beide seksen - Beperkt tot incest",
+    "parentId": 151
+  },
+  {
+    "id": 147,
+    "value": "Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot jongens",
+    "parentId": 146
+  },
+  {
+    "id": 149,
+    "value": "Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot meisjes",
+    "parentId": 146
+  },
+  {
+    "id": 150,
+    "value": "Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot meisjes - Beperkt tot incest",
+    "parentId": 149
+  },
+  {
+    "id": 148,
+    "value": "Pedofiele stoornis: exclusieve type - seksueel aangetrokken tot jongens - beperkt tot incest",
+    "parentId": 147
+  },
+  {
+    "id": 153,
+    "value": "Pedofiele stoornis: niet-exclusieve type",
+    "parentId": 145
+  },
+  {
+    "id": 158,
+    "value": "Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot beide seksen",
+    "parentId": 153
+  },
+  {
+    "id": 159,
+    "value": "Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot beide seksen - Beperkt tot incest",
+    "parentId": 158
+  },
+  {
+    "id": 154,
+    "value": "Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot jongens",
+    "parentId": 153
+  },
+  {
+    "id": 155,
+    "value": "Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot jongens -Beperkt tot incest",
+    "parentId": 154
+  },
+  {
+    "id": 156,
+    "value": "Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot meisjes",
+    "parentId": 153
+  },
+  {
+    "id": 157,
+    "value": "Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot meisjes - Beperkt tot incest",
+    "parentId": 156
+  },
+  { "id": 19, "value": "Periodieke explosieve stoornis", "parentId": 17 },
+  {
+    "id": 686,
+    "value": "Persisterende (chronische) motorische- of vocale-ticstoornis",
+    "parentId": 684
+  },
+  {
+    "id": 251,
+    "value": "Persisterende depressieve stoornis (dysthymie)",
+    "parentId": 605
+  },
+  {
+    "id": 253,
+    "value": "Persisterende depressieve stoornis (dysthymie): laat begin",
+    "parentId": 251
+  },
+  {
+    "id": 254,
+    "value": "Persisterende depressieve stoornis (dysthymie): met atypische kenmerken",
+    "parentId": 251
+  },
+  {
+    "id": 252,
+    "value": "Persisterende depressieve stoornis (dysthymie): vroeg begin",
+    "parentId": 251
+  },
+  {
+    "id": 636,
+    "value": "Persisterende perceptiestoornis door een hallucinogeen",
+    "parentId": 221
+  },
+  {
+    "id": 410,
+    "value": "Persoonlijke anamnese met lichamelijk geweld door een levenspartner (in het verleden)",
+    "parentId": 407
+  },
+  {
+    "id": 831,
+    "value": "Persoonlijke anamnese met lichamelijke mishandeling als kind ( in het verleden)",
+    "parentId": 828
+  },
+  {
+    "id": 404,
+    "value": "Persoonlijke anamnese met psychische mishandeling als kind (in het verleden)",
+    "parentId": 828
+  },
+  {
+    "id": 6,
+    "value": "Persoonlijke anamnese met psychische mishandeling door een levenspartner (in het verleden)",
+    "parentId": 407
+  },
+  {
+    "id": 414,
+    "value": "Persoonlijke anamnese met seksueel geweld door een levenspartner (in het verleden)",
+    "parentId": 407
+  },
+  {
+    "id": 836,
+    "value": "Persoonlijke anamnese met seksueel misbruik als kind ( in het verleden)",
+    "parentId": 828
+  },
+  {
+    "id": 841,
+    "value": "Persoonlijke anamnese met verwaarlozing als kind ( in het verleden)",
+    "parentId": 828
+  },
+  {
+    "id": 2,
+    "value": "Persoonlijke anamnese met verwaarlozing door een levenspartner (in het verleden)",
+    "parentId": 407
+  },
+  { "id": 468, "value": "Persoonlijkheidsstoornissen" },
+  {
+    "id": 562,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening",
+    "parentId": 561
+  },
+  {
+    "id": 563,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening",
+    "parentId": 562
+  },
+  {
+    "id": 566,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: agressieve type",
+    "parentId": 562
+  },
+  {
+    "id": 569,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: andere type",
+    "parentId": 562
+  },
+  {
+    "id": 567,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: apatische type",
+    "parentId": 562
+  },
+  {
+    "id": 570,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: gecombineerde type",
+    "parentId": 562
+  },
+  {
+    "id": 564,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: labiele type",
+    "parentId": 562
+  },
+  {
+    "id": 571,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: ongespecificeerde type",
+    "parentId": 562
+  },
+  {
+    "id": 565,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: ontremde type",
+    "parentId": 562
+  },
+  {
+    "id": 568,
+    "value": "Persoonlijkheidsverandering door een somatische aandoening: parano\u00efde type",
+    "parentId": 562
+  },
+  { "id": 447, "value": "Pica", "parentId": 446 },
+  {
+    "id": 770,
+    "value": "Posttraumatische stressstoornis (incl. de posttraumatische-stressstoornis bij kinderen van 6 jaar en jonger)",
+    "parentId": 769
+  },
+  {
+    "id": 771,
+    "value": "Posttraumatische stressstoornis (incl. de posttraumatische-stressstoornis bij kinderen van 6 jaar en jonger): met uitgestelde expressie",
+    "parentId": 769
+  },
+  { "id": 769, "value": "Posttraumatische-stressstoornis", "parentId": 768 },
+  { "id": 255, "value": "Premenstruele stemmingsstoornis", "parentId": 605 },
+  {
+    "id": 186,
+    "value": "Probleem verband houdend met actuele militaire uitzending",
+    "parentId": 185
+  },
+  {
+    "id": 187,
+    "value": "Probleem verband houdend met actuele militaire uitzending (psychosociale en omgevingsproblemen)",
+    "parentId": 185
+  },
+  {
+    "id": 610,
+    "value": "Probleem verband houdend met alleen wonen",
+    "parentId": 202
+  },
+  {
+    "id": 262,
+    "value": "Probleem verband houdend met levensstijl",
+    "parentId": 630
+  },
+  {
+    "id": 621,
+    "value": "Problemen die verband houden met andere psychosociale, persoonlijke en omgevingsomstandigheden",
+    "parentId": 716
+  },
+  {
+    "id": 828,
+    "value": "Problemen door mishandeling en verwaarlozing van een kind",
+    "parentId": 827
+  },
+  {
+    "id": 407,
+    "value": "Problemen door mishandeling en verwaarlozing van een volwassene",
+    "parentId": 827
+  },
+  { "id": 185, "value": "Problemen met arbeid", "parentId": 851 },
+  { "id": 852, "value": "Problemen met onderwijs", "parentId": 851 },
+  { "id": 851, "value": "Problemen met onderwijs en arbeid", "parentId": 716 },
+  {
+    "id": 265,
+    "value": "Problemen verband houdend met de toegankelijkheid van medische en andere vormen van zorg",
+    "parentId": 716
+  },
+  {
+    "id": 617,
+    "value": "Problemen verband houdend met justiti\u00eble maatregelen",
+    "parentId": 615
+  },
+  {
+    "id": 624,
+    "value": "Problemen verband houdend met multipariteit",
+    "parentId": 621
+  },
+  {
+    "id": 623,
+    "value": "Problemen verband houdend met ongewenste zwangerschap",
+    "parentId": 621
+  },
+  {
+    "id": 195,
+    "value": "Problemen verband houdend met wonen in een instelling",
+    "parentId": 191
+  },
+  {
+    "id": 441,
+    "value": "Psychische factoren die somatische aandoeningen be\u00efnvloeden",
+    "parentId": 429
+  },
+  {
+    "id": 4,
+    "value": "Psychische mishandeling door een levenspartner",
+    "parentId": 407
+  },
+  {
+    "id": 844,
+    "value": "Psychische mishandeling van een kind",
+    "parentId": 828
+  },
+  {
+    "id": 10,
+    "value": "Psychische mishandeling van een volwassene door iemand die niet de levenspartner is",
+    "parentId": 407
+  },
+  { "id": 816, "value": "Psychotische stoornis door alcohol", "parentId": 815 },
+  {
+    "id": 380,
+    "value": "Psychotische stoornis door amfetamine (of andere stimulantia)",
+    "parentId": 815
+  },
+  {
+    "id": 819,
+    "value": "Psychotische stoornis door andere hallucinogenen",
+    "parentId": 815
+  },
+  {
+    "id": 817,
+    "value": "Psychotische stoornis door cannabis",
+    "parentId": 815
+  },
+  {
+    "id": 381,
+    "value": "Psychotische stoornis door coca\u00efne",
+    "parentId": 815
+  },
+  {
+    "id": 382,
+    "value": "Psychotische stoornis door een ander (of onbekend) middel",
+    "parentId": 815
+  },
+  {
+    "id": 815,
+    "value": "Psychotische stoornis door een middel",
+    "parentId": 693
+  },
+  {
+    "id": 383,
+    "value": "Psychotische stoornis door een somatische aandoening",
+    "parentId": 693
+  },
+  {
+    "id": 385,
+    "value": "Psychotische stoornis door een somatische aandoening: met hallucinaties",
+    "parentId": 383
+  },
+  {
+    "id": 384,
+    "value": "Psychotische stoornis door een somatische aandoening: met wanen",
+    "parentId": 383
+  },
+  {
+    "id": 818,
+    "value": "Psychotische stoornis door fencyclidine",
+    "parentId": 815
+  },
+  {
+    "id": 821,
+    "value": "Psychotische stoornis door hypnotica of anxiolytica",
+    "parentId": 815
+  },
+  {
+    "id": 820,
+    "value": "Psychotische stoornis door inhalantia",
+    "parentId": 815
+  },
+  { "id": 26, "value": "Pyromanie", "parentId": 17 },
+  { "id": 717, "value": "Relatieproblemen", "parentId": 716 },
+  {
+    "id": 720,
+    "value": "Relatieproblemen tussen brussen (siblings)",
+    "parentId": 718
+  },
+  { "id": 622, "value": "Religieus of spiritueel probleem", "parentId": 621 },
+  { "id": 600, "value": "Remslaapgedragstoornis", "parentId": 595 },
+  {
+    "id": 272,
+    "value": "Rondzwerven samenhangend met een psychische stoornis",
+    "parentId": 268
+  },
+  { "id": 448, "value": "Ruminatiestoornis", "parentId": 446 },
+  { "id": 165, "value": "Rustelozebenensyndroom", "parentId": 595 },
+  { "id": 812, "value": "Schizoaffectieve stoornis", "parentId": 693 },
+  {
+    "id": 813,
+    "value": "Schizoaffectieve stoornis: bipolaire type",
+    "parentId": 812
+  },
+  {
+    "id": 814,
+    "value": "Schizoaffectieve stoornis: depressieve type",
+    "parentId": 812
+  },
+  { "id": 811, "value": "Schizofrenie", "parentId": 808 },
+  {
+    "id": 693,
+    "value": "Schizofreniespectrum- en andere psychotische stoornissen"
+  },
+  { "id": 808, "value": "Schizofreniforme stoornis", "parentId": 693 },
+  {
+    "id": 809,
+    "value": "Schizofreniforme stoornis: met goede prognostische kenmerken",
+    "parentId": 808
+  },
+  {
+    "id": 810,
+    "value": "Schizofreniforme stoornis: zonder goede prognostische kenmerken",
+    "parentId": 808
+  },
+  {
+    "id": 527,
+    "value": "Schizotypische-(persoonlijkheids)stoornis",
+    "parentId": 469
+  },
+  {
+    "id": 694,
+    "value": "Schizotypische-(persoonlijkheids)stoornis",
+    "parentId": 693
+  },
+  {
+    "id": 526,
+    "value": "Schizo\u00efde-persoonlijkheidsstoornis",
+    "parentId": 469
+  },
+  {
+    "id": 412,
+    "value": "Seksueel geweld door een levenspartner",
+    "parentId": 407
+  },
+  { "id": 834, "value": "Seksueel misbruik van een kind", "parentId": 828 },
+  {
+    "id": 9,
+    "value": "Seksueel misbruik van een volwassene door iemand die niet de levenspartner is",
+    "parentId": 407
+  },
+  { "id": 143, "value": "Seksueel-masochismestoornis", "parentId": 575 },
+  { "id": 144, "value": "Seksueel-sadismestoornis", "parentId": 575 },
+  { "id": 360, "value": "Seksuele disfunctie door alcohol", "parentId": 359 },
+  {
+    "id": 361,
+    "value": "Seksuele disfunctie door alcohol: met begin tijdens intoxicatie",
+    "parentId": 360
+  },
+  {
+    "id": 362,
+    "value": "Seksuele disfunctie door alcohol: met begin tijdens onttrekking",
+    "parentId": 360
+  },
+  {
+    "id": 369,
+    "value": "Seksuele disfunctie door amfetamine (of andere stimulantia)",
+    "parentId": 359
+  },
+  {
+    "id": 370,
+    "value": "Seksuele disfunctie door amfetamine (of andere stimulantia): met begin tijdens intoxicatie",
+    "parentId": 369
+  },
+  {
+    "id": 371,
+    "value": "Seksuele disfunctie door amfetamine (of andere stimulantia): met begin tijdens onttrekking",
+    "parentId": 369
+  },
+  {
+    "id": 372,
+    "value": "Seksuele disfunctie door coca\u00efne",
+    "parentId": 359
+  },
+  {
+    "id": 373,
+    "value": "Seksuele disfunctie door coca\u00efne: met begin tijdens intoxicatie",
+    "parentId": 372
+  },
+  {
+    "id": 374,
+    "value": "Seksuele disfunctie door een ander (of onbekend) middel",
+    "parentId": 359
+  },
+  {
+    "id": 375,
+    "value": "Seksuele disfunctie door een ander (of onbekend) middel: met begin tijdens intoxicatie",
+    "parentId": 374
+  },
+  {
+    "id": 376,
+    "value": "Seksuele disfunctie door een ander (of onbekend) middel: met begin tijdens ontrekking",
+    "parentId": 374
+  },
+  {
+    "id": 359,
+    "value": "Seksuele disfunctie door een middel / medicatie",
+    "parentId": 793
+  },
+  {
+    "id": 363,
+    "value": "Seksuele disfunctie door een opio\u00efde",
+    "parentId": 359
+  },
+  {
+    "id": 364,
+    "value": "Seksuele disfunctie door een opio\u00efde: met begin tijdens intoxicatie",
+    "parentId": 363
+  },
+  {
+    "id": 365,
+    "value": "Seksuele disfunctie door een opio\u00efde: met begin tijdens onttrekking",
+    "parentId": 363
+  },
+  {
+    "id": 366,
+    "value": "Seksuele disfunctie door hypnotica of anxiolytica",
+    "parentId": 359
+  },
+  {
+    "id": 367,
+    "value": "Seksuele disfunctie door hypnotica of anxiolytica: met begin tijdens intoxicatie",
+    "parentId": 366
+  },
+  {
+    "id": 368,
+    "value": "Seksuele disfunctie door hypnotica of anxiolytica: met begin tijdens onttrekking",
+    "parentId": 366
+  },
+  { "id": 793, "value": "Seksuele disfuncties" },
+  { "id": 619, "value": "Seksuele voorlichting en advies", "parentId": 618 },
+  {
+    "id": 797,
+    "value": "Seksuele-interesse-/opwindingsstoornis bij de vrouw",
+    "parentId": 793
+  },
+  { "id": 271, "value": "Simuleren", "parentId": 268 },
+  { "id": 551, "value": "Slaap-waakstoornissen" },
+  { "id": 587, "value": "Slaapgerelateerde hypoventilatie", "parentId": 581 },
+  { "id": 167, "value": "Slaapstoornis door alcohol", "parentId": 166 },
+  {
+    "id": 173,
+    "value": "Slaapstoornis door alcohol: gemengd type",
+    "parentId": 167
+  },
+  {
+    "id": 170,
+    "value": "Slaapstoornis door alcohol: insomnia type",
+    "parentId": 167
+  },
+  {
+    "id": 168,
+    "value": "Slaapstoornis door alcohol: met begin tijdens intoxicatie",
+    "parentId": 167
+  },
+  {
+    "id": 169,
+    "value": "Slaapstoornis door alcohol: met begin tijdens onttrekking",
+    "parentId": 167
+  },
+  {
+    "id": 172,
+    "value": "Slaapstoornis door alcohol: parasomnia type",
+    "parentId": 167
+  },
+  {
+    "id": 171,
+    "value": "Slaapstoornis door alcohol: type met slaperigheid",
+    "parentId": 167
+  },
+  { "id": 174, "value": "Slaapstoornis door cafe\u00efne", "parentId": 166 },
+  {
+    "id": 178,
+    "value": "Slaapstoornis door cafe\u00efne: gemengd type",
+    "parentId": 174
+  },
+  {
+    "id": 175,
+    "value": "Slaapstoornis door cafe\u00efne: insomnia type",
+    "parentId": 174
+  },
+  {
+    "id": 177,
+    "value": "Slaapstoornis door cafe\u00efne: parasomnia type",
+    "parentId": 174
+  },
+  {
+    "id": 176,
+    "value": "Slaapstoornis door cafe\u00efne: type met slaperigheid",
+    "parentId": 174
+  },
+  { "id": 179, "value": "Slaapstoornis door cannabis", "parentId": 174 },
+  {
+    "id": 728,
+    "value": "Slaapstoornis door een ander (of onbekend) middel",
+    "parentId": 166
+  },
+  {
+    "id": 181,
+    "value": "Slaapstoornis door een ander (of onbekend) middel: gemengd type",
+    "parentId": 728
+  },
+  {
+    "id": 729,
+    "value": "Slaapstoornis door een ander (of onbekend) middel: insomnia type",
+    "parentId": 728
+  },
+  {
+    "id": 180,
+    "value": "Slaapstoornis door een ander (of onbekend) middel: parasomnia type",
+    "parentId": 728
+  },
+  {
+    "id": 730,
+    "value": "Slaapstoornis door een ander (of onbekend) middel: type met slaperigheid",
+    "parentId": 728
+  },
+  {
+    "id": 166,
+    "value": "Slaapstoornis door een middel / medicatie",
+    "parentId": 595
+  },
+  {
+    "id": 722,
+    "value": "Slaapstoornis door hypnotica of anxiolytica",
+    "parentId": 166
+  },
+  {
+    "id": 726,
+    "value": "Slaapstoornis door hypnotica of anxiolytica: gemengd type",
+    "parentId": 722
+  },
+  {
+    "id": 723,
+    "value": "Slaapstoornis door hypnotica of anxiolytica: insomnia type",
+    "parentId": 722
+  },
+  {
+    "id": 725,
+    "value": "Slaapstoornis door hypnotica of anxiolytica: parasomnia type",
+    "parentId": 722
+  },
+  {
+    "id": 724,
+    "value": "Slaapstoornis door hypnotica of anxiolytica: type met slaperigheid",
+    "parentId": 722
+  },
+  { "id": 669, "value": "Slaapstoornis door opio\u00efden", "parentId": 166 },
+  {
+    "id": 721,
+    "value": "Slaapstoornis door opio\u00efden: gemengd type",
+    "parentId": 669
+  },
+  {
+    "id": 670,
+    "value": "Slaapstoornis door opio\u00efden: insomnia type",
+    "parentId": 669
+  },
+  {
+    "id": 672,
+    "value": "Slaapstoornis door opio\u00efden: parasomnia type",
+    "parentId": 669
+  },
+  {
+    "id": 671,
+    "value": "Slaapstoornis door opio\u00efden: type met slaperigheid",
+    "parentId": 669
+  },
+  { "id": 664, "value": "Slaapstoornis door stimulantia", "parentId": 166 },
+  {
+    "id": 668,
+    "value": "Slaapstoornis door stimulantia: gemengd type",
+    "parentId": 664
+  },
+  {
+    "id": 665,
+    "value": "Slaapstoornis door stimulantia: insomnia type",
+    "parentId": 664
+  },
+  {
+    "id": 667,
+    "value": "Slaapstoornis door stimulantia: parasomnia type",
+    "parentId": 664
+  },
+  {
+    "id": 666,
+    "value": "Slaapstoornis door stimulantia: type met slaperigheid",
+    "parentId": 664
+  },
+  { "id": 727, "value": "Slaapstoornis door tabak", "parentId": 722 },
+  { "id": 616, "value": "Slachtoffer van misdaad", "parentId": 615 },
+  {
+    "id": 626,
+    "value": "Slachtoffer van terrorisme of marteling",
+    "parentId": 621
+  },
+  {
+    "id": 131,
+    "value": "Sociale (pragmatische) communicatiestoornis",
+    "parentId": 125
+  },
+  {
+    "id": 112,
+    "value": "Sociale angststoornis (sociale fobie)",
+    "parentId": 81
+  },
+  { "id": 612, "value": "Sociale uitsluiting of uitstoting", "parentId": 202 },
+  { "id": 430, "value": "Somatisch-symptoomstoornis", "parentId": 429 },
+  { "id": 429, "value": "Somatisch-symptoomstoornis en verwante stoornissen" },
+  { "id": 82, "value": "Specifieke fobie", "parentId": 81 },
+  {
+    "id": 109,
+    "value": "Specifieke fobie: bloed-injecties-verwonding",
+    "parentId": 82
+  },
+  { "id": 107, "value": "Specifieke fobie: dier", "parentId": 82 },
+  {
+    "id": 108,
+    "value": "Specifieke fobie: natuurlijke omgeving",
+    "parentId": 82
+  },
+  { "id": 111, "value": "Specifieke fobie: overige", "parentId": 82 },
+  { "id": 110, "value": "Specifieke fobie: situationeel", "parentId": 82 },
+  { "id": 676, "value": "Specifieke leerstoornis", "parentId": 783 },
+  {
+    "id": 678,
+    "value": "Specifieke leerstoornis: met beperkingen in de schriftelijke uitdrukkingsvaardigheid",
+    "parentId": 676
+  },
+  {
+    "id": 677,
+    "value": "Specifieke leerstoornis: met beperkingen in het lezen",
+    "parentId": 676
+  },
+  {
+    "id": 679,
+    "value": "Specifieke leerstoornis: met beperkingen in het rekenen",
+    "parentId": 676
+  },
+  { "id": 127, "value": "Spraakklankstoornis", "parentId": 125 },
+  { "id": 682, "value": "Stereotiepe-bewegingsstoornis", "parentId": 680 },
+  {
+    "id": 683,
+    "value": "Stereotiepe-bewegingsstoornis: met zelfbeschadigende handelingen",
+    "parentId": 682
+  },
+  {
+    "id": 275,
+    "value": "Stimulantium gerelateerde stoornissen",
+    "parentId": 31
+  },
+  { "id": 33, "value": "Stoornis in alcoholgebruik", "parentId": 32 },
+  { "id": 204, "value": "Stoornis in alcoholgebruik: ernstig", "parentId": 33 },
+  { "id": 34, "value": "Stoornis in alcoholgebruik: licht", "parentId": 33 },
+  { "id": 35, "value": "Stoornis in alcoholgebruik: matig", "parentId": 33 },
+  { "id": 215, "value": "Stoornis in cannabisgebruik", "parentId": 214 },
+  { "id": 216, "value": "Stoornis in cannabisgebruik: licht", "parentId": 215 },
+  {
+    "id": 217,
+    "value": "Stoornis in cannabisgebruik: matig, ernstig",
+    "parentId": 215
+  },
+  { "id": 222, "value": "Stoornis in fencyclidinegebruik", "parentId": 221 },
+  {
+    "id": 223,
+    "value": "Stoornis in fencyclidinegebruik: licht",
+    "parentId": 222
+  },
+  {
+    "id": 865,
+    "value": "Stoornis in fencyclidinegebruik: matig, ernstig",
+    "parentId": 222
+  },
+  {
+    "id": 280,
+    "value": "Stoornis in het gebruik van coca\u00efne",
+    "parentId": 276
+  },
+  {
+    "id": 281,
+    "value": "Stoornis in het gebruik van coca\u00efne: licht",
+    "parentId": 280
+  },
+  {
+    "id": 282,
+    "value": "Stoornis in het gebruik van coca\u00efne: matig, ernstig",
+    "parentId": 280
+  },
+  {
+    "id": 278,
+    "value": "Stoornis in het gebruik van een amfetamineachtig middel: licht",
+    "parentId": 277
+  },
+  {
+    "id": 279,
+    "value": "Stoornis in het gebruik van een amfetamineachtig middel: matig, ernstig",
+    "parentId": 277
+  },
+  {
+    "id": 87,
+    "value": "Stoornis in het gebruik van een ander (of onbekend) middel",
+    "parentId": 86
+  },
+  {
+    "id": 88,
+    "value": "Stoornis in het gebruik van een ander (of onbekend) middel: licht",
+    "parentId": 87
+  },
+  {
+    "id": 89,
+    "value": "Stoornis in het gebruik van een ander (of onbekend) middel: matig, ernstig",
+    "parentId": 87
+  },
+  {
+    "id": 283,
+    "value": "Stoornis in het gebruik van een ander of ongespecificeerd stimulantium",
+    "parentId": 276
+  },
+  {
+    "id": 284,
+    "value": "Stoornis in het gebruik van een ander of ongespecificeerd stimulantium: licht",
+    "parentId": 283
+  },
+  {
+    "id": 285,
+    "value": "Stoornis in het gebruik van een ander of ongespecificeerd stimulantium: matig, ernstig",
+    "parentId": 283
+  },
+  {
+    "id": 225,
+    "value": "Stoornis in het gebruik van een hallucinogeen",
+    "parentId": 221
+  },
+  {
+    "id": 226,
+    "value": "Stoornis in het gebruik van een hallucinogeen: licht",
+    "parentId": 225
+  },
+  {
+    "id": 227,
+    "value": "Stoornis in het gebruik van een hallucinogeen: matig, ernstig",
+    "parentId": 225
+  },
+  {
+    "id": 653,
+    "value": "Stoornis in het gebruik van een hypnoticum of anxiolyticum",
+    "parentId": 652
+  },
+  {
+    "id": 654,
+    "value": "Stoornis in het gebruik van een hypnoticum of anxiolyticum: licht",
+    "parentId": 653
+  },
+  {
+    "id": 655,
+    "value": "Stoornis in het gebruik van een hypnoticum of anxiolyticum: matig, ernstig",
+    "parentId": 653
+  },
+  {
+    "id": 640,
+    "value": "Stoornis in het gebruik van een inhalantium",
+    "parentId": 639
+  },
+  {
+    "id": 641,
+    "value": "Stoornis in het gebruik van een inhalantium: licht",
+    "parentId": 640
+  },
+  {
+    "id": 642,
+    "value": "Stoornis in het gebruik van een inhalantium: matig, ernstig",
+    "parentId": 640
+  },
+  {
+    "id": 646,
+    "value": "Stoornis in het gebruik van een opio\u00efde",
+    "parentId": 645
+  },
+  {
+    "id": 647,
+    "value": "Stoornis in het gebruik van een opio\u00efde: licht",
+    "parentId": 646
+  },
+  {
+    "id": 648,
+    "value": "Stoornis in het gebruik van een opio\u00efde: matig, ernstig",
+    "parentId": 646
+  },
+  {
+    "id": 276,
+    "value": "Stoornis in het gebruik van een stimulantium",
+    "parentId": 275
+  },
+  {
+    "id": 277,
+    "value": "Stoornis in het gebruik van een stimulantium: amfetamineachtig middel",
+    "parentId": 276
+  },
+  { "id": 128, "value": "Stoornis in spraakvloeiendheid", "parentId": 125 },
+  {
+    "id": 130,
+    "value": "Stoornis in spraakvloeiendheid ontstaan in de kindertijd (ontwikkelingsstotteren)",
+    "parentId": 128
+  },
+  {
+    "id": 129,
+    "value": "Stoornis in spraakvloeiendheid ontstaan in de volwassenheid",
+    "parentId": 128
+  },
+  { "id": 296, "value": "Stoornis in tabaksgebruik", "parentId": 295 },
+  { "id": 297, "value": "Stoornis in tabaksgebruik: licht", "parentId": 296 },
+  {
+    "id": 83,
+    "value": "Stoornis in tabaksgebruik: matig, ernstig",
+    "parentId": 296
+  },
+  { "id": 685, "value": "Stoornis van Gilles de la Tourette", "parentId": 684 },
+  {
+    "id": 86,
+    "value": "Stoornissen gerelateerd aan een ander (of onbekend) middel",
+    "parentId": 31
+  },
+  { "id": 538, "value": "Stoornissen in de zindelijkheid" },
+  { "id": 126, "value": "Taalstoornis", "parentId": 125 },
+  { "id": 295, "value": "Tabak gerelateerde stoornissen", "parentId": 31 },
+  { "id": 84, "value": "Tabaksonttrekkingssyndroom", "parentId": 295 },
+  { "id": 711, "value": "Tardieve acathisie", "parentId": 704 },
+  { "id": 709, "value": "Tardieve dyskinesie", "parentId": 704 },
+  { "id": 710, "value": "Tardieve dystonie", "parentId": 704 },
+  { "id": 684, "value": "Ticstoornissen", "parentId": 783 },
+  { "id": 161, "value": "Transvestiestoornis", "parentId": 160 },
+  { "id": 768, "value": "Trauma- en stressorgerelateerde stoornissen" },
+  {
+    "id": 357,
+    "value": "Trichotillomanie (haaruittrekstoornis)",
+    "parentId": 351
+  },
+  {
+    "id": 824,
+    "value": "Uiteenvallen van gezin door scheiding of echtscheiding",
+    "parentId": 822
+  },
+  {
+    "id": 330,
+    "value": "Uitgebreide frontotemporale neurocognitieve stoornis",
+    "parentId": 329
+  },
+  {
+    "id": 777,
+    "value": "Uitgebreide neurocognitieve stoornis door alcohol",
+    "parentId": 776
+  },
+  {
+    "id": 779,
+    "value": "Uitgebreide neurocognitieve stoornis door alcohol: amnestisch-confabulerend type",
+    "parentId": 777
+  },
+  {
+    "id": 778,
+    "value": "Uitgebreide neurocognitieve stoornis door alcohol: niet-amnestisch-confabulerend type",
+    "parentId": 777
+  },
+  {
+    "id": 452,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte een andere somatische aandoening",
+    "parentId": 451
+  },
+  {
+    "id": 323,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte van Alzheimer",
+    "parentId": 322
+  },
+  {
+    "id": 324,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte van Alzheimer: met gedragsstoornissen",
+    "parentId": 323
+  },
+  {
+    "id": 325,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte van Alzheimer: zonder gedragsstoornissen",
+    "parentId": 323
+  },
+  {
+    "id": 421,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte van Huntington",
+    "parentId": 420
+  },
+  {
+    "id": 422,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte van Huntington: met gedragsstoornissen",
+    "parentId": 421
+  },
+  {
+    "id": 423,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte van Huntington: zonder gedragsstoornissen",
+    "parentId": 421
+  },
+  {
+    "id": 524,
+    "value": "Uitgebreide neurocognitieve stoornis door de ziekte van Parkinson",
+    "parentId": 523
+  },
+  {
+    "id": 481,
+    "value": "Uitgebreide neurocognitieve stoornis door een ander (of onbekend) middel",
+    "parentId": 480
+  },
+  {
+    "id": 482,
+    "value": "Uitgebreide neurocognitieve stoornis door een ander (of onbekend) middel",
+    "parentId": 481
+  },
+  {
+    "id": 453,
+    "value": "Uitgebreide neurocognitieve stoornis door een andere somatische aandoening: met gedragsstoornissen",
+    "parentId": 452
+  },
+  {
+    "id": 454,
+    "value": "Uitgebreide neurocognitieve stoornis door een andere somatische aandoening: zonder gedragsstoornissen",
+    "parentId": 452
+  },
+  {
+    "id": 332,
+    "value": "Uitgebreide neurocognitieve stoornis door frontotemporale lobaire degeneratie: met gedragsstoornissen",
+    "parentId": 330
+  },
+  {
+    "id": 331,
+    "value": "Uitgebreide neurocognitieve stoornis door frontotemporale lobaire degeneratie: zonder gedragsstoornissen",
+    "parentId": 330
+  },
+  {
+    "id": 486,
+    "value": "Uitgebreide neurocognitieve stoornis door hiv-infectie",
+    "parentId": 485
+  },
+  {
+    "id": 487,
+    "value": "Uitgebreide neurocognitieve stoornis door hiv-infectie: met gedragsstoornissen",
+    "parentId": 486
+  },
+  {
+    "id": 512,
+    "value": "Uitgebreide neurocognitieve stoornis door hiv-infectie: zonder gedragsstoornissen",
+    "parentId": 486
+  },
+  {
+    "id": 476,
+    "value": "Uitgebreide neurocognitieve stoornis door hypnotica of anxiolytica",
+    "parentId": 475
+  },
+  {
+    "id": 477,
+    "value": "Uitgebreide neurocognitieve stoornis door hypnotica of anxiolytica",
+    "parentId": 476
+  },
+  {
+    "id": 471,
+    "value": "Uitgebreide neurocognitieve stoornis door inhalantia",
+    "parentId": 782
+  },
+  {
+    "id": 472,
+    "value": "Uitgebreide neurocognitieve stoornis door inhalantia",
+    "parentId": 471
+  },
+  {
+    "id": 459,
+    "value": "Uitgebreide neurocognitieve stoornis door multipele oorzaken",
+    "parentId": 458
+  },
+  {
+    "id": 460,
+    "value": "Uitgebreide neurocognitieve stoornis door multipele oorzaken: met gedragsstoornissen",
+    "parentId": 459
+  },
+  {
+    "id": 461,
+    "value": "Uitgebreide neurocognitieve stoornis door multipele oorzaken: zonder gedragsstoornissen",
+    "parentId": 459
+  },
+  {
+    "id": 517,
+    "value": "Uitgebreide neurocognitieve stoornis door prionziekte",
+    "parentId": 516
+  },
+  {
+    "id": 518,
+    "value": "Uitgebreide neurocognitieve stoornis door prionziekte: met gedragsstoornissen",
+    "parentId": 517
+  },
+  {
+    "id": 519,
+    "value": "Uitgebreide neurocognitieve stoornis door prionziekte: zonder gedragsstoornissen",
+    "parentId": 517
+  },
+  {
+    "id": 745,
+    "value": "Uitgebreide neurocognitieve stoornis door traumatisch hersenletsel",
+    "parentId": 744
+  },
+  {
+    "id": 746,
+    "value": "Uitgebreide neurocognitieve stoornis door traumatisch hersenletsel: met gedragsstoornissen",
+    "parentId": 745
+  },
+  {
+    "id": 747,
+    "value": "Uitgebreide neurocognitieve stoornis door traumatisch hersenletsel: zonder gedragsstoornissen",
+    "parentId": 745
+  },
+  {
+    "id": 121,
+    "value": "Uitgebreide neurocognitieve stoornis met lewylichaampjes",
+    "parentId": 120
+  },
+  {
+    "id": 732,
+    "value": "Uitgebreide neurocognitieve stoornis met lewylichaampjes: met gedragsstoornissen",
+    "parentId": 121
+  },
+  {
+    "id": 733,
+    "value": "Uitgebreide neurocognitieve stoornis met lewylichaampjes: zonder gedragsstoornissen",
+    "parentId": 121
+  },
+  {
+    "id": 525,
+    "value": "Uitgebreide neurocognitieve stoornis mogelijk of waarschijnlijk door de ziekte van Parkinson: met gedragsstoornissen",
+    "parentId": 524
+  },
+  {
+    "id": 416,
+    "value": "Uitgebreide neurocognitieve stoornis mogelijk of waarschijnlijk door de ziekte van Parkinson: zonder gedragsstoornissen",
+    "parentId": 524
+  },
+  {
+    "id": 329,
+    "value": "Uitgebreide of beperkte frontotemporale neurocognitieve stoornis",
+    "parentId": 95
+  },
+  {
+    "id": 776,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door alcohol",
+    "parentId": 751
+  },
+  {
+    "id": 451,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door de ziekte een andere somatische aandoening",
+    "parentId": 751
+  },
+  {
+    "id": 420,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door de ziekte van Huntington",
+    "parentId": 751
+  },
+  {
+    "id": 523,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door de ziekte van Parkinson",
+    "parentId": 751
+  },
+  {
+    "id": 480,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door een ander (of onbekend) middel",
+    "parentId": 751
+  },
+  {
+    "id": 751,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door een middel / medicatie",
+    "parentId": 95
+  },
+  {
+    "id": 485,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door hiv-infectie",
+    "parentId": 751
+  },
+  {
+    "id": 475,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door hypnotica of anxiolytica",
+    "parentId": 751
+  },
+  {
+    "id": 782,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door inhalantia",
+    "parentId": 751
+  },
+  {
+    "id": 458,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door multipele oorzaken",
+    "parentId": 751
+  },
+  {
+    "id": 516,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door prionziekte",
+    "parentId": 751
+  },
+  {
+    "id": 744,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door traumatisch hersenletsel",
+    "parentId": 95
+  },
+  {
+    "id": 748,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis door traumatisch hersenletsel",
+    "parentId": 744
+  },
+  {
+    "id": 120,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornis met lewylichaampjes",
+    "parentId": 95
+  },
+  {
+    "id": 322,
+    "value": "Uitgebreide of beperkte neurocognitieve stoornissen",
+    "parentId": 95
+  },
+  {
+    "id": 737,
+    "value": "Uitgebreide of beperkte vasculaire neurocognitieve stoornis",
+    "parentId": 95
+  },
+  {
+    "id": 738,
+    "value": "Uitgebreide vasculaire neurocognitieve stoornis",
+    "parentId": 737
+  },
+  {
+    "id": 739,
+    "value": "Uitgebreide vasculaire neurocognitieve stoornis: met gedragsstoornissen",
+    "parentId": 738
+  },
+  {
+    "id": 740,
+    "value": "Uitgebreide vasculaire neurocognitieve stoornis: zonder gedragsstoornissen",
+    "parentId": 738
+  },
+  {
+    "id": 558,
+    "value": "Vermijdende persoonlijkheidsstoornis",
+    "parentId": 557
+  },
+  {
+    "id": 449,
+    "value": "Vermijdende/restrictieve voedselinnamestoornis",
+    "parentId": 446
+  },
+  { "id": 787, "value": "Verstandelijke beperking: ernstig", "parentId": 784 },
+  { "id": 785, "value": "Verstandelijke beperking: licht", "parentId": 784 },
+  { "id": 786, "value": "Verstandelijke beperking: matig", "parentId": 784 },
+  {
+    "id": 122,
+    "value": "Verstandelijke beperking: zeer ernstig",
+    "parentId": 784
+  },
+  { "id": 784, "value": "Verstandelijke beperkingen", "parentId": 783 },
+  { "id": 794, "value": "Vertraagde ejaculatie", "parentId": 793 },
+  {
+    "id": 870,
+    "value": "Verwaarlozing door een levenspartner",
+    "parentId": 407
+  },
+  { "id": 839, "value": "Verwaarlozing van een kind", "parentId": 828 },
+  { "id": 354, "value": "Verzamelstoornis", "parentId": 351 },
+  {
+    "id": 355,
+    "value": "Verzamelstoornis: met excessief verwerven en/of Gering of ontbrekend realiteitsbesef",
+    "parentId": 354
+  },
+  { "id": 446, "value": "Voedings- en eetstoornissen" },
+  {
+    "id": 633,
+    "value": "Voorgeschiedenis van militaire uitzending",
+    "parentId": 630
+  },
+  {
+    "id": 632,
+    "value": "Voorgeschiedenis van zelfbeschadiging",
+    "parentId": 630
+  },
+  { "id": 687, "value": "Voorlopige ticstoornis", "parentId": 684 },
+  { "id": 848, "value": "Voortijdige ejaculatie", "parentId": 793 },
+  { "id": 576, "value": "Voyeurismestoornis", "parentId": 575 },
+  { "id": 695, "value": "Waanstoornis", "parentId": 693 },
+  { "id": 800, "value": "Waanstoornis: achtervolgingstype", "parentId": 695 },
+  { "id": 696, "value": "Waanstoornis: eromane type", "parentId": 695 },
+  { "id": 802, "value": "Waanstoornis: gemengde type", "parentId": 695 },
+  { "id": 798, "value": "Waanstoornis: grootheidstype", "parentId": 695 },
+  { "id": 799, "value": "Waanstoornis: jaloerse type", "parentId": 695 },
+  {
+    "id": 803,
+    "value": "Waanstoornis: ongespecificeerde type",
+    "parentId": 695
+  },
+  { "id": 801, "value": "Waanstoornis: somatische type", "parentId": 695 },
+  { "id": 431, "value": "Ziekteangststoornis", "parentId": 429 },
+  { "id": 273, "value": "Zwakbegaafdheid", "parentId": 268 }
+]

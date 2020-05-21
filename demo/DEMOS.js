@@ -6,6 +6,7 @@ import OriginalDemo from './src/Components/Demos/OriginalDemo/demo';
 import BasicDemo from './src/Components/Demos/BasicDemo';
 import OverrideOnRowAddDemo from './src/Components/Demos/OverrideOnRowAddDemo';
 import OnRowAddDefaultRowDataDemo from './src/Components/Demos/OnRowAddDefaultRowDataDemo';
+import TreeTableSearch from './src/Components/Demos/TreeTableSearch';
 
 export default [
   {
@@ -32,5 +33,11 @@ export default [
     component: OnRowAddDefaultRowDataDemo,
     id: '003',
     publicUrl: 'https://github.com/oze4/material-table-core/blob/master/demo/src/Components/Demos/OnRowAddDefaultRowDataDemo/index.js', // Not required but helpful!
+  },
+  {
+    value: 'Tree Table Search Data',
+    component: TreeTableSearch,
+    id: '004',
+    publicUrl: 'https://github.com/oze4/material-table-core/blob/master/demo/src/Components/Demos/TreeTableSearch/index.js', // Not required but helpful!
   }
 ];

@@ -30,6 +30,9 @@ const OnRowAddDefaultRowDataDemo = () => {
         },
       ]}
       editable={{
+        onRowAddClick: data => {
+          console.log(data);
+        },
         onRowAdd: newRowData => {
           return new Promise((resolve, reject) => {
             setData(oldData => [...oldData, newRowData]);
@@ -37,13 +40,13 @@ const OnRowAddDefaultRowDataDemo = () => {
           })
         }
       }}
-      components={{
-        EditRow: props => {
-          const propsCopy = { ...props };
-          propsCopy.data = DEFAULT_ROW_OBJECT;
-          return <MTableEditRow {...propsCopy} />
-        } 
-      }}
+      // components={{
+      //   EditRow: props => {
+      //     const propsCopy = { ...props };
+      //     propsCopy.data = DEFAULT_ROW_OBJECT;
+      //     return <MTableEditRow {...propsCopy} />
+      //   } 
+      // }}
       options={{
         actionsColumnIndex: -1
       }}

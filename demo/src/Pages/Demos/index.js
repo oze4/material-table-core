@@ -96,7 +96,7 @@ const Demos = (props) => {
           {DEMOS.length &&
             DEMOS.map((demo) =>
               demo.value === selected.value ? (
-                <Fragment>
+                <Fragment key={demo.id}>
                   {demo.publicUrl ? (
                     <div className={`${classes.taRight} ${classes.viewSrc}`}>
                       <Tooltip title="View Source">
