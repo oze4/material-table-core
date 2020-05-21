@@ -18,6 +18,10 @@ const columns = [
     field: 'title',
   },
   {
+    title: 'Type',
+    field: 'type',
+  },
+  {
     title: 'User',
     field: 'user',
   },
@@ -52,7 +56,8 @@ const datas = resolvedIssues.map(data => ({
   assignees: data.assignees,
   comments: data.comments,
   created_at: data.created_at,
-  updated_at: data.updated_at
+  updated_at: data.updated_at,
+  type: data.type,
 }));
 
 const AText = ({ title = "", ...rest }) => (

@@ -34,10 +34,16 @@ const OUTPUT_FILE_PATH = '../resolved_issues.json';
     });
 
     const datas = await getResolvedIssues(github, 'mbrn', 'material-table');
-    fs.writeFileSync(OUTPUT_FILE_PATH, JSON.stringify(datas, null, 2));
+
+    const formattedData = datas.map(d => ({
+      ...d,
+      type: d.pull_request ? 'pull_request' : 'issue',
+    }))
+
+    fs.writeFileSync(OUTPUT_FILE_PATH, JSON.stringify(formattedData, null, 2));
 
     // Notify of success
-    console.log(`\r\n - Found ${datas.length} resolved issue${datas.length > 1 ? 's' : ''}!`);
+    console.log(`\r\n - Found ${formattedData.length} resolved issue${formattedData.length > 1 ? 's' : ''}!`);
     console.log(`\r\n - Updated file has been written to "${path.resolve(__dirname, OUTPUT_FILE_PATH)}"`);
     console.log('\r\n - Now run\`npm run build:demo\` to reflect these changes in the live website');
     console.log('\r\n');
