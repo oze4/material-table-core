@@ -54,7 +54,9 @@ You'll need [a GitHub Personal Access Token](https://help.github.com/en/enterpri
 ## Mark Issue as Resolved
 
  - On the `material-table` issue that you want to mark as resolved, just comment `/mtc::resolved` and we will pick up on that
- - Keep in mind you'll need to re-run [this](#to-update-issue-tracker) script and submit a PR for those changes to show up within the GUI 
+ - Keep in mind you'll need to re-run `npm run update:issue:tracker` for the issue tracker to pick up on these changes
+ - Then you'll need to run `npm run build:demo` to add those changed to the bundle
+ - Finally, submit a PR so changes go live
 
 # For your changes to show up in the GUI
 
