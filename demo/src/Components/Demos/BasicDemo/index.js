@@ -1,24 +1,12 @@
-import React, { useState, Fragment } from "react";
-import MaterialTable, { MTableBodyRow } from "../../../../../src";
+import React from "react";
+import MaterialTable from "../../../../../src";
 import tableIcons from "../../../tableIcons";
 
 const data = [
-  {
-    firstName: "Rivers",
-    lastName: "Cuomo",
-  },
-  {
-    firstName: "Patrick",
-    lastName: "Wilson",
-  },
-  {
-    firstName: "Brian",
-    lastName: "Bell",
-  },
-  {
-    firstName: "Scott",
-    lastName: "Shiner",
-  },
+  { firstName: "Rivers", lastName: "Cuomo" },
+  { firstName: "Patrick", lastName: "Wilson" },
+  { firstName: "Brian", lastName: "Bell" },
+  { firstName: "Scott", lastName: "Shiner" },
 ]
 
 const columns = [
