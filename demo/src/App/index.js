@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   mt120: {
     marginTop: '120px',
   },
+  ptb120: {
+    padding: '120px 0px',
+  },
   root: {
     flexGrow: 1,
   },
@@ -34,8 +37,7 @@ const App = () => {
   return (
     <Fragment>
       <MTableDemoAppBar />
-      <Container className={classes.mt120}>
-        <div style={{ marginTop: 40 }}>
+      <Container className={`${classes.ptb120}`}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/material-table-core" component={Home} />
@@ -44,7 +46,6 @@ const App = () => {
             <Route exact path="/issue-tracker" component={IssueTracker} />
             <Route exact path="/to-do" component={ToDo} />
           </Switch>
-        </div>
       </Container>
     </Fragment>
   );
