@@ -14,7 +14,9 @@
  */
 
 /**
- * Gets all open issues for a GitHub repo.
+ * Gets all issues for X repository that have a comment containing the following text:
+ * '/mtc::resolved'. This is how we track issues that have been resolved in this
+ * repo but have yet to be resolved. 
  *
  * @param {Octokit} octokit   Octokit object
  * @param {string}  owner     GitHub username - the user that owns the repo
@@ -22,16 +24,11 @@
  * @param {string}  type      Type can either be 'paginate' or 'request'. Default is 'request'
  */
 function getResolvedIssues(octokit, owner, repo, type = 'request') {
-  const requestOptions = {
-    owner,
-    repo,
-    issue: 'issue',
-    open: 'open',
-  };
-
+  const requestOptions = { owner, repo };
+  const query = 'GET /search/issues?q=repo%3A:owner/:repo+is%3Aissue+\/mtc%3A%3Aresolved+in%3Acomments
   // Use this query for open issues:
   //// 'GET /search/issues?q=repo%3A:owner/:repo+is%3Aopen+is%3Aissue+\/mtc%3A%3Aresolved+in%3Acomments'
-  const query = 'GET /search/issues?q=repo%3A:owner/:repo+is%3Aissue+\/mtc%3A%3Aresolved+in%3Acomments';
+  ';
   return octokit[type](query, requestOptions)
     .then((results) => {
       return results;
