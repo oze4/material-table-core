@@ -29,6 +29,9 @@ const useStyles = makeStyles((theme) => ({
   mt20: {
     marginTop: '20px',
   },
+  viewSrc: {
+    backgroundColor: '#f7f7f7',
+  }
 }));
 
 const getDefaultDemo = () => DEMOS.find((demo) => demo.default === true);
@@ -95,7 +98,7 @@ const Demos = (props) => {
               demo.value === selected.value ? (
                 <Fragment>
                   {demo.publicUrl ? (
-                    <div className={classes.taRight}>
+                    <div className={`${classes.taRight} ${classes.viewSrc}`}>
                       <Tooltip title="View Source">
                         <IconButton
                           component="a"
