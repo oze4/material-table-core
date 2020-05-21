@@ -2,9 +2,9 @@
  * To add a new demo component, add a new object to the `demos` array below.
  * Make sure the shape matches: `{ value: string, component: DemoComponent, id: unique_string }`
  */
-import OriginalDemo from './src/OriginalDemo/demo';
-import BasicDemo from './src/BasicDemo';
-import OverrideOnRowAddDemo from './src/OverrideOnRowAddDemo';
+import OriginalDemo from './src/Demos/OriginalDemo/demo';
+import BasicDemo from './src/Demos/BasicDemo';
+import OverrideOnRowAddDemo from './src/Demos/OverrideOnRowAddDemo';
 
 export default [
   {

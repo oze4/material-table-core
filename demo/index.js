@@ -20,6 +20,7 @@ import {
   Dialog,
   Slide,
 } from '@material-ui/core';
+
 import {
   BugReport as BugReportIcon,
   Home as HomeIcon,
@@ -28,14 +29,15 @@ import {
   Close as CloseIcon,
   GitHub as GitHubIcon,
 } from '@material-ui/icons';
+
 import { Autocomplete } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
 
 import ErrorBoundary from './ErrorBoundary';
 
 // Page that displays issues and their status
-import IssueTracker from './src/_IssueTracker';
-import ToDo from './src/_ToDo';
+import IssueTracker from './src/Pages/IssueTracker';
+import ToDo from './src/Pages/ToDo';
 
 // To add a new demo component, add a new object to the `demos` array below.
 // Make sure the shape matches: `{ value: string, component: DemoComponent, id: unique_string }`

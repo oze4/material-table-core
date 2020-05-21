@@ -1,4 +1,4 @@
-<a href="/README.md">
+<a href="https://github.com/oze4/material-table-core/">
   <img 
     alt="Go Back" 
     src="goback.png"
@@ -21,6 +21,6 @@ Recently, [I have been very active](https://github.com/mbrn/material-table/issue
 
 # Goals
 
-My main goals include chipping away at the [746 open issues](https://github.com/mbrn/material-table/issues) and [69 open pull requests](https://github.com/mbrn/material-table/pulls), update documentation, [and make minor improvements](#demo) that help us all.
+My main goals include chipping away at the [746 open issues](https://github.com/mbrn/material-table/issues) and [69 open pull requests](https://github.com/mbrn/material-table/pulls), update documentation, [and make minor improvements](https://oze4.github.io/material-table-core/#/) that help us all.
 
 I want to keep things as close to they are now so that if the author of `material-table`, [Mehmet Baran](https://twitter.com/baranmehmet), ever wants to merge this code, we could easily do that. I would gladly provide ownership of the [npm organization](https://docs.npmjs.com/orgs/), [@material-table](https://www.npmjs.com/package/@material-table/core), to him if he ever wanted to publish packages using this name.

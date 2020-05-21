@@ -1,4 +1,4 @@
-<a href="/README.md">
+<a href="https://github.com/oze4/material-table-core/">
   <img 
     alt="Go Back" 
     src="goback.png"
@@ -7,13 +7,16 @@
   />
 </a>
 
-## Demo Documentation
+<br />
+<br />
 
 The demo is a small React app with it's own Webpack config that we build and serve via GitHub Pages.
 
-In `/demo/src/`, directories starting with an underscore are pages, the rest are the demo components.
+# Demo Documentation
 
-Aftering importing your demo component in `/demo/DEMOS.js`, add a new object in `/demo/DEMOS.js` to display your demo in the GUI. 
+ - Place all demo components in `/demo/src/Demos`
+ - Open `/demo/DEMOS.js` and import your component
+   - Create a new object with the shape specified below
 
 **Demo objects must have the following shape:**
 
@@ -25,11 +28,7 @@ Aftering importing your demo component in `/demo/DEMOS.js`, add a new object in 
 }
 ```
 
-### For your changes to show up in the GUI
-
-You will need to run `npm run build:demo` before submitting a PR
-
-## To-Do Documentation
+# To-Do Documentation
 
 In order to add or complete a to-do item, edit `/demo/src/_ToDo/toDos.js`. **Each to-do item must have the following shape:**
 
@@ -41,3 +40,22 @@ In order to add or complete a to-do item, edit `/demo/src/_ToDo/toDos.js`. **Eac
   id: "make_me+as_unique+as_possible" // Used as the key prop in loops
 },      
 ```
+
+# Issue Tracker Documentation
+
+## To Update Issue Tracker
+
+You'll need [a GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for this. 
+
+ - Add an env var to `.env` at project root
+   - `GITHUB_TOKEN=your_token_here`
+ - Run `npm run update:issue:tracker` from the root of the project
+
+## Mark Issue as Resolved
+
+ - On the `material-table` issue that you want to mark as resolved, just comment `/mtc::resolved` and we will pick up on that
+ - Keep in mind you'll need to re-run [this](#to-update-issue-tracker) script and submit a PR for those changes to show up within the GUI 
+
+# For your changes to show up in the GUI
+
+You will need to run `npm run build:demo` before submitting a PR
