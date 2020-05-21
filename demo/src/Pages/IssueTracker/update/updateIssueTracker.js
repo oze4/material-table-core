@@ -22,47 +22,27 @@ const path = require('path');
 const { Octokit } = require('@octokit/rest');
 const { throttling } = require('@octokit/plugin-throttling');
 const OctokitWithPlugins = Octokit.plugin(throttling);
+const { getToken, getResolvedIssues, makeThrottler } = require('./utils');
 
-const { getToken, getResolvedIssues } = require('./utils');
-
-// Constants
-const TOKEN = getToken();
 const OUTPUT_FILE_PATH = '../resolved_issues.json';
 
-const github = new OctokitWithPlugins({
-  auth: TOKEN,
-  throttle: {
-    onRateLimit: (retryAfter, options) => {
-      github.log.warn(
-        `Request quota exhausted for request ${options.method} ${options.url}`
-      );
-      if (options.request.retryCount === 0) {
-        console.log(`Retrying after ${retryAfter} seconds!`);
-        return true;
-      }
-    },
-    onAbuseLimit: (retryAfter, options) => {
-      github.log.warn(
-        `Abuse detected for request ${options.method} ${options.url}`
-      );
-    },
-  },
-});
+(async () => {
+  try {
+    const github = new OctokitWithPlugins({
+      auth: getToken(),
+      throttle: makeThrottler(Octokit),
+    });
 
-getResolvedIssues(github, 'mbrn', 'material-table', 'paginate')
-  .then((datas) => {
-    const dataStr = JSON.stringify(datas, null, 2);
-    fs.writeFileSync(OUTPUT_FILE_PATH, dataStr);
+    const datas = await getResolvedIssues(github, 'mbrn', 'material-table');
+    fs.writeFileSync(OUTPUT_FILE_PATH, JSON.stringify(datas, null, 2));
 
     // Notify of success
-    console.log(
-      `\r\n\r\n - Found ${
-        datas.length
-      } resolved issues!\r\n\r\n - Updated file has been written to ${path.resolve(
-        __dirname,
-        OUTPUT_FILE_PATH
-      )}\r\n\r\n - Now run\`npm run build:demo\` to reflect these changes in the live website\r\n\r\n`
-    );
+    console.log(`\r\n - Found ${datas.length} resolved issue${datas.length > 1 ? 's' : ''}!`);
+    console.log(`\r\n - Updated file has been written to "${path.resolve(__dirname, OUTPUT_FILE_PATH)}"`);
+    console.log('\r\n - Now run\`npm run build:demo\` to reflect these changes in the live website');
+    console.log('\r\n');
+  } catch (err) {
+    console.trace(err);
+  }
+})();
 
-  })
-  .catch((err) => console.log(err));
