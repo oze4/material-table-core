@@ -32,7 +32,7 @@ const OnRowAddDefaultRowDataDemo = () => {
       editable={{
         onRowAdd: newRowData => {
           return new Promise((resolve, reject) => {
-            setData(oldData => [...oldData, ...newRowData]);
+            setData(oldData => [...oldData, newRowData]);
             resolve();
           })
         }
