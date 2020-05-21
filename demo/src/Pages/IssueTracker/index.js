@@ -1,16 +1,40 @@
 import React from 'react';
-import { Typography } from '@material-ui/core';
+import {
+  Typography,
+  IconButton,
+  Tooltip,
+  ButtonGroup,
+  Button,
+  makeStyles,
+} from '@material-ui/core';
+import { Link as LinkIcon } from '@material-ui/icons';
 import MaterialTable from '../../../../src';
 import resolvedIssues from './resolved_issues.json';
 
+const useStyles = makeStyles(theme => ({
+  btnGroupContainer: {
+    textAlign: 'center',
+  },
+  btnGroup: {
+    marginBottom: '20px',
+  }
+}));
+
 const columns = [
   {
-    title: 'URL',
+    title: 'Link',
     field: 'url',
     render: (rowData) => (
-      <a href={rowData.url} rel="noopener noreferrer" target="_blank">
-        {rowData.url}
-      </a>
+      <Tooltip title={rowData.url}>
+        <IconButton
+          component="a"
+          href={rowData.url}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <LinkIcon />
+        </IconButton>
+      </Tooltip>
     ),
   },
   {
@@ -46,7 +70,7 @@ const columns = [
   },
 ];
 
-const datas = resolvedIssues.map(data => ({
+const datas = resolvedIssues.map((data) => ({
   id: data.id,
   url: data.html_url,
   title: data.title,
@@ -60,23 +84,31 @@ const datas = resolvedIssues.map(data => ({
   type: data.type,
 }));
 
-const AText = ({ title = "", ...rest }) => (
-  <a target="_blank" rel="noopener noreferrer" {...rest}>{title}</a>
-)
-
-const HowToMarkIssueAsResolved = ({ text = "" }) => (
-  <AText title={text} href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#mark-issue-as-resolved" />
-);
-
-const HowToUpdateIssueTracker = ({ text = "" }) => (
-  <AText title={text} href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#to-update-issue-tracker" />
-);
-
-const LiveResolvedIssues = ({ text = "" }) => (
-  <AText title={text} href="https://api.github.com/search/issues?q=repo:mbrn/material-table+is:open+is:issue+/mtc::resolved+in:comments" />
-)
+const linkButtons = [
+  {
+    text: "How To Mark Issue As Resolved",
+    href: "https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#mark-issue-as-resolved",
+    id: 0,
+  },
+  {
+    text: "How To Update Issue Tracker",
+    href: "https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#to-update-issue-tracker",
+    id: 1,
+  },
+  {
+    text: "Live Query Resolved Issues/Pull Requests",
+    href: "https://api.github.com/search/issues?q=repo:mbrn/material-table+/mtc::resolved+in:comments",
+    id: 2,
+  }, 
+]
 
 const IssueTracker = () => {
+  const classes = useStyles();
+
+  const handleLink = (event, href) => {
+    window.open(href, '_blank').opener = null;
+  }
+
   return (
     <div>
       <Typography variant="h4">Issue Tracker</Typography>
@@ -85,11 +117,21 @@ const IssueTracker = () => {
         <code>material-table</code> repository. This is where we track our
         progress.
       </p>
-      <p>
-        * See <HowToMarkIssueAsResolved text="here for more on how to" /> mark an issue/pull request as resolved.<br />
-        * See <HowToUpdateIssueTracker text="here for more on how to" /> update the Issue Tracker after marking an issue as resolved.
-      </p>
-      <h4><LiveResolvedIssues text="Click here for a live view of resolved issues/pull requests" /></h4>
+      <div className={classes.btnGroupContainer}>
+        <ButtonGroup
+          disableElevation
+          size="small"
+          variant="outlined"
+          color="primary"
+          className={classes.btnGroup}
+        >
+          {linkButtons.map(btn => (
+            <Button onClick={e => handleLink(e, btn.href)} key={btn.id}>
+              {btn.text}
+            </Button>
+          ))}
+        </ButtonGroup>
+      </div>
       <MaterialTable
         title="Resolved Issues &amp; Pull Requests"
         data={datas}

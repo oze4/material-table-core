@@ -13,6 +13,7 @@ import {
   ListItemIcon,
   ListItemText,
   Dialog,
+  Link as Atag,
 } from '@material-ui/core';
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -30,7 +31,28 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  a: {
+    color: 'white',
+    '&:hover': {
+      textDecoration: 'none'
+    }
+  }
 }));
+
+const A = ({ children, ...rest }) => {
+  const classes = useStyles();
+
+  return (
+    <Atag
+      className={classes.a}
+      rel="noopener noreferrer"
+      target="_blank"
+      {...rest}
+    >
+      {children}
+    </Atag>
+  );
+};
 
 const MTableDemoAppBar = ({ links = navigationLinks }) => {
   const [open, setOpen] = useState(false);
@@ -47,8 +69,10 @@ const MTableDemoAppBar = ({ links = navigationLinks }) => {
   return (
     <AppBar position="fixed">
       <Toolbar>
-        <Typography variant="h6" className={classes.title}>
-          material-table Examples
+        <Typography variant="h6" color="secondary" className={classes.title}>
+          <A href="https://github.com/oze4/material-table-core">
+            @material-table/core
+          </A>
         </Typography>
         <Hidden mdUp>
           <IconButton onClick={handleOpenDialog} style={{ color: 'white' }}>
