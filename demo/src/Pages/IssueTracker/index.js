@@ -52,11 +52,24 @@ const datas = resolvedIssues.map(data => ({
   assignees: data.assignees,
   comments: data.comments,
   created_at: data.created_at,
-  updated_at: data.updated_at,
-  materialTableCore: {
-    resolved: false,
-  }
+  updated_at: data.updated_at
 }));
+
+const MarkIssueAsResolved = ({ title = "" }) => (
+  <a 
+    href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#mark-issue-as-resolved"
+    target="_blank" 
+    rel="noopener noreferrer"
+  >{title}</a>
+);
+
+const UpdateIssueTracker = ({ title = "" }) => (
+  <a 
+    href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#to-update-issue-tracker"
+    target="_blank" 
+    rel="noopener noreferrer"
+  >{title}</a>
+);
 
 const IssueTracker = () => {
   return (
@@ -66,6 +79,10 @@ const IssueTracker = () => {
         One of our goals is to resolve open issues in the{' '}
         <code>material-table</code> repository. This is where we track our
         progress.
+      </p>
+      <p>
+        * See <MarkIssueAsResolved title="here for more on how to" /> mark an issue as resolved.<br />
+        * See <UpdateIssueTracker title="here for more on how to" /> update the Issue Tracker after marking an issue as resolved.
       </p>
       <MaterialTable
         title="Resolved Issues"
