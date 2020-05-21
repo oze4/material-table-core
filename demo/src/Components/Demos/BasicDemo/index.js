@@ -2,9 +2,6 @@ import React, { useState, Fragment } from "react";
 import MaterialTable, { MTableBodyRow } from "../../../../../src";
 import tableIcons from "../../../tableIcons";
 
-const rando = max => Math.floor(Math.random() * max);
-const words = ["Paper", "Rock", "Scissors"];
-
 const data = [
   {
     firstName: "Rivers",
