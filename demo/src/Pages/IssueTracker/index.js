@@ -55,20 +55,16 @@ const datas = resolvedIssues.map(data => ({
   updated_at: data.updated_at
 }));
 
-const MarkIssueAsResolved = ({ title = "" }) => (
-  <a 
-    href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#mark-issue-as-resolved"
-    target="_blank" 
-    rel="noopener noreferrer"
-  >{title}</a>
+const AText = ({ title = "", ...rest }) => (
+  <a target="_blank" rel="noopener noreferrer" {...rest}>{title}</a>
+)
+
+const HowToMarkIssueAsResolved = ({ text = "" }) => (
+  <AText title={text} href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#mark-issue-as-resolved" />
 );
 
-const UpdateIssueTracker = ({ title = "" }) => (
-  <a 
-    href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#to-update-issue-tracker"
-    target="_blank" 
-    rel="noopener noreferrer"
-  >{title}</a>
+const HowToUpdateIssueTracker = ({ text = "" }) => (
+  <AText title={text} href="https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#to-update-issue-tracker" />
 );
 
 const IssueTracker = () => {
@@ -81,8 +77,8 @@ const IssueTracker = () => {
         progress.
       </p>
       <p>
-        * See <MarkIssueAsResolved title="here for more on how to" /> mark an issue/pull request as resolved.<br />
-        * See <UpdateIssueTracker title="here for more on how to" /> update the Issue Tracker after marking an issue as resolved.
+        * See <HowToMarkIssueAsResolved text="here for more on how to" /> mark an issue/pull request as resolved.<br />
+        * See <HowToUpdateIssueTracker text="here for more on how to" /> update the Issue Tracker after marking an issue as resolved.
       </p>
       <MaterialTable
         title="Resolved Issues &amp; Pull Requests"
