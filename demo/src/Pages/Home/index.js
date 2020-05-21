@@ -21,6 +21,8 @@ const Home = ({ links = navigationLinks }) => {
   return (
     <Grid container spacing={2}>
       {links
+        // No need to have a link to the home page on the home page
+        // These are the big card links not a small icon link...
         .filter((nl) => nl.to !== '/')
         .map((link) => (
           <Grid

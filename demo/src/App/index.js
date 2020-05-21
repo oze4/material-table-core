@@ -21,7 +21,9 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '120px',
   },
   ptb120: {
-    padding: '120px 0px',
+    // Don't do `padding: '120px', 0;` it throws off the container
+    paddingTop: '120px',
+    paddingBottom: '120px'
   },
   root: {
     flexGrow: 1,

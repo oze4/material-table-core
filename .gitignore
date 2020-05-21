@@ -6,3 +6,5 @@ node_modules
 yarn.lock
 .idea
 .env
+.docs/
+.docs/build

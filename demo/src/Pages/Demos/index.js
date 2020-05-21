@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect, useMemo } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import {
@@ -31,25 +31,21 @@ const useStyles = makeStyles((theme) => ({
   },
   viewSrc: {
     backgroundColor: '#f7f7f7',
-  }
+  },
 }));
 
 const getDefaultDemo = () => DEMOS.find((demo) => demo.default === true);
 
 const getDemo = (props) => {
   if (!props) {
-    // For default..
     return getDefaultDemo();
   }
 
-  const { id } = props.match.params;
-  if (id) {
-    let out = DEMOS.find((demo) => demo.id === id);
-    if (!out) {
-      out = getDefaultDemo();
-    }
-
-    return out;
+  if (props.match.params.id) {
+    return (
+      DEMOS.find((demo) => demo.id === props.match.params.id) ||
+      getDefaultDemo()
+    );
   }
 };
 
@@ -59,13 +55,19 @@ const Demos = (props) => {
   const classes = useStyles();
 
   const handleSelectionChange = (event, selectedObject, reason) => {
-    setSelected(selectedObject);
-    history.push('/demo/' + selectedObject.id);
+    // Don't change state on clear we want to keep current demo mounted
+    if (reason !== 'clear') {
+      setSelected(selectedObject);
+    }
   };
 
-  React.useEffect(() => {
+  useMemo(() => {
     setSelected(getDemo(props));
   }, [props.match.params.id]);
+
+  useEffect(() => {
+    history.push(`/demo/${selected.id}`);
+  }, [selected]);
 
   return (
     <Fragment>
