@@ -1,6 +1,7 @@
-import React, { Fragment, useState } from 'react';
-import { Link, Route, Switch, HashRouter } from 'react-router-dom';
+import React, { Fragment, useState, useEffect } from 'react';
+import { Link, Route, Switch, HashRouter, useHistory, Redirect } from 'react-router-dom';
 import { render } from 'react-dom';
+import QueryString from 'querystring';
 
 import {
   CssBaseline,
@@ -22,9 +23,6 @@ import {
 } from '@material-ui/core';
 
 import {
-  BugReport as BugReportIcon,
-  Home as HomeIcon,
-  Assignment as ToDoIcon,
   Menu as MenuIcon,
   Close as CloseIcon,
   GitHub as GitHubIcon,
@@ -33,11 +31,14 @@ import {
 import { Autocomplete } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
 
-import ErrorBoundary from './ErrorBoundary';
+import ErrorBoundary from './src/Components/ErrorBoundary';
 
 // Page that displays issues and their status
 import IssueTracker from './src/Pages/IssueTracker';
 import ToDo from './src/Pages/ToDo';
+import Home from './src/Pages/Home';
+
+import navigationLinks from './src/navigationLinks';
 
 // To add a new demo component, add a new object to the `demos` array below.
 // Make sure the shape matches: `{ value: string, component: DemoComponent, id: unique_string }`
@@ -72,17 +73,36 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const findDefaultDemo = () => DEMOS.find((d) => d.default);
+const getDemo = (props) => {
+  if (props) {
+    const { id } = props.match.params;
+    if (id) {
+      let out = DEMOS.find((demo) => demo.id === id);
+      if (out) return out;
+      // For default..
+      return DEMOS.find((demo) => demo.default === true);
+    }
+  }
+  // For default..
+  return DEMOS.find((demo) => demo.default === true);
+};
 
 /**
- * MAIN HOME PAGE
+ * DEMOS PAGE
  */
-const Home = () => {
-  const [selected, setSelected] = useState(findDefaultDemo().value);
+const Demos = (props) => {
+  const [selected, setSelected] = useState(getDemo(props).value);
+  const history = useHistory();
   const classes = useStyles();
 
-  const handleSelectionChange = (event, selectedObject, reason) =>
-    setSelected(selectedObject.value);
+  const handleSelectionChange = (event, selectedObject, reason) => {
+    setSelected(selectedObject);
+    history.push('/demo/' + selectedObject.id);
+  };
+
+  React.useEffect(() => {
+    setSelected(getDemo(props));
+  }, [props.match.params.id])
 
   return (
     <Fragment>
@@ -93,15 +113,15 @@ const Home = () => {
         justify="center"
         alignItems="center"
         spacing={1}
-        className={classes.taCenter}
+        className={(classes.taCenter, classes.mt20)}
       >
         <Grid item xs={12}>
           <div className={classes.autocompleteContainer}>
             <Autocomplete
               options={DEMOS}
-              defaultValue={findDefaultDemo()}
-              style={{ width: 400 }}
-              getOptionLabel={(option) => option.value}
+              value={selected}
+              style={{ minWidth: '90%' }}
+              getOptionLabel={(option) => option.value || ''}
               onChange={handleSelectionChange}
               renderInput={(params) => (
                 <TextField {...params} label="Select Demo" variant="outlined" />
@@ -112,7 +132,7 @@ const Home = () => {
         <Grid item xs={12}>
           {DEMOS.length &&
             DEMOS.map((demo) =>
-              demo.value === selected ? <demo.component key={demo.id} /> : ''
+              demo.value === selected.value ? <demo.component key={demo.id} /> : ''
             )}
         </Grid>
       </Grid>
@@ -127,7 +147,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-const MTableDemoAppBar = () => {
+const MTableDemoAppBar = ({ links = navigationLinks}) => {
   const [open, setOpen] = useState(false);
   const classes = useStyles();
 
@@ -138,27 +158,6 @@ const MTableDemoAppBar = () => {
   const handleCloseDialog = () => {
     setOpen(false);
   };
-
-  const links = [
-    {
-      title: 'Examples',
-      to: '/',
-      icon: HomeIcon,
-      id: 0,
-    },
-    {
-      title: 'Issue Tracker',
-      to: '/issue-tracker',
-      icon: BugReportIcon,
-      id: 1,
-    },
-    {
-      title: 'To Do',
-      to: '/to-do',
-      icon: ToDoIcon,
-      id: 2,
-    }
-  ];
 
   return (
     <AppBar position="fixed">
@@ -205,7 +204,12 @@ const MTableDemoAppBar = () => {
                     <ListItemText primary={l.title} />
                   </ListItem>
                 ))}
-                <ListItem button component="a" target="_blank" href="https://github.com/oze4/material-table-core">
+                <ListItem
+                  button
+                  component="a"
+                  target="_blank"
+                  href="https://github.com/oze4/material-table-core"
+                >
                   <ListItemIcon>
                     <GitHubIcon />
                   </ListItemIcon>
@@ -225,7 +229,11 @@ const MTableDemoAppBar = () => {
               </Link>
             </Tooltip>
           ))}
-          <IconButton target="_blank" href="https://github.com/oze4/material-table-core" style={{ color: 'white' }}>
+          <IconButton
+            target="_blank"
+            href="https://github.com/oze4/material-table-core"
+            style={{ color: 'white' }}
+          >
             <GitHubIcon />
           </IconButton>
         </Hidden>
@@ -250,6 +258,8 @@ const App = () => {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/material-table-core" component={Home} />
+              <Redirect exact from="/demo" to="/demo/default" />
+              <Route exact path="/demo/:id" component={Demos} />
               <Route exact path="/issue-tracker" component={IssueTracker} />
               <Route exact path="/to-do" component={ToDo} />
             </Switch>

@@ -76,16 +76,16 @@ const IssueTracker = () => {
     <div>
       <Typography variant="h4">Issue Tracker</Typography>
       <p>
-        One of our goals is to resolve open issues in the{' '}
+        One of our goals is to resolve open issues/pull requests in the{' '}
         <code>material-table</code> repository. This is where we track our
         progress.
       </p>
       <p>
-        * See <MarkIssueAsResolved title="here for more on how to" /> mark an issue as resolved.<br />
+        * See <MarkIssueAsResolved title="here for more on how to" /> mark an issue/pull request as resolved.<br />
         * See <UpdateIssueTracker title="here for more on how to" /> update the Issue Tracker after marking an issue as resolved.
       </p>
       <MaterialTable
-        title="Resolved Issues"
+        title="Resolved Issues &amp; Pull Requests"
         data={datas}
         columns={columns}
         options={{ pageSize: 5 }}

@@ -5,6 +5,7 @@
 import OriginalDemo from './src/Demos/OriginalDemo/demo';
 import BasicDemo from './src/Demos/BasicDemo';
 import OverrideOnRowAddDemo from './src/Demos/OverrideOnRowAddDemo';
+import OnRowAddDefaultRowDataDemo from './src/Demos/OnRowAddDefaultRowDataDemo';
 
 export default [
   {
@@ -23,4 +24,9 @@ export default [
     component: OverrideOnRowAddDemo,
     id: '002',
   },
+  {
+    value: 'Default Row Data When Adding New Row',
+    component: OnRowAddDefaultRowDataDemo,
+    id: '003',
+  }
 ];

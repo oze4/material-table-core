@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import MaterialTable from '../../../../src';
 import Typography from "@material-ui/core/Typography";
 
-import ErrorBoundary from '../../../ErrorBoundary';
+import ErrorBoundary from '../../Components/ErrorBoundary';
 import * as apiData from "./data.js";
 import tableIcons from '../../tableIcons';
 
