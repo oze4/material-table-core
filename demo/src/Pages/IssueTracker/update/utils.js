@@ -60,7 +60,7 @@ function getToken() {
     const url =
       'https://github.com/oze4/material-table-core/blob/master/.github/DemoDocumentation.md#to-update-issue-tracker';
     throw new Error(
-      `Missing process.env.GITHUB_token. See the following URL for more info:\r\n\r\n${url}\r\n\r\n`
+      `Missing process.env.GITHUB_TOKEN. See the following URL for more info:\r\n\r\n${url}\r\n\r\n`
     );
   }
 
