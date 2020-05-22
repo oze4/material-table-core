@@ -6,6 +6,12 @@ export default [
     id: "000",
   },
   {
+    title: "Document new export property when exporting to CSV",
+    description: "More info on this feature can be found here https://github.com/oze4/material-table-core/pull/3",
+    completed: false,
+    id: "002"
+  },
+  {
     title: "Add NPM info to README",
     description: "Add NPM info to README",
     completed: true,
