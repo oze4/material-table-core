@@ -12,6 +12,12 @@ export default [
     id: "002"
   },
   {
+    title: "Write Proper Tests",
+    description: "Proper tests need to be written in order to streamline contributing/testing",
+    completed: false,
+    id: "0055"
+  },
+  {
     title: "Add NPM info to README",
     description: "Add NPM info to README",
     completed: true,
