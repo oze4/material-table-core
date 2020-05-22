@@ -7,6 +7,7 @@ import BasicDemo from './src/Components/Demos/BasicDemo';
 import OverrideOnRowAddDemo from './src/Components/Demos/OverrideOnRowAddDemo';
 import OnRowAddDefaultRowDataDemo from './src/Components/Demos/OnRowAddDefaultRowDataDemo';
 import TreeTableSearch from './src/Components/Demos/TreeTableSearch';
+import ExportCsvWhenColumnTitleIsNotText from './src/Components/Demos/ExportCsvWhenColumnTitleIsNotText';
 
 export default [
   {
@@ -39,5 +40,11 @@ export default [
     component: TreeTableSearch,
     id: '004',
     publicUrl: 'https://github.com/oze4/material-table-core/blob/master/demo/src/Components/Demos/TreeTableSearch/index.js', // Not required but helpful!
+  },
+  {
+    value: 'Export CSV When Column Title Is Not Text',
+    component: ExportCsvWhenColumnTitleIsNotText,
+    id: '005',
+    publicUrl: 'https://github.com/oze4/material-table-core/blob/master/demo/src/Components/Demos/ExportCsvWhenColumnTitleIsNotText/index.js', // Not required but helpful!
   }
 ];
