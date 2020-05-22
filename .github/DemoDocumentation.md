@@ -28,7 +28,9 @@ The demo is a small React app with it's own Webpack config that we build and ser
   // Import your component and use it here
   component: YourImportedDemoComponent, 
   
-  // Used for `key` prop in loops
+  // Used in URL when linking to certain demo as well as the `key` prop in loops
+  // If the id below were valid, the link to this demo would be
+  //  - https://oze4.github.io/material-table-core/#/demo/make_this_as_unique_as_possible
   id: 'make_this_as_unique_as_possible',
   
   // *Not required, but encouraged* Used as the 'View Source' button within the demo
