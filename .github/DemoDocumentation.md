@@ -45,7 +45,7 @@ In order to add or complete a to-do item, edit `/demo/src/_ToDo/toDos.js`. **Eac
 
 ## To Update Issue Tracker
 
-You'll need [a GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for this. 
+You'll need [a GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for this. This is because we use the GitHub API (see [here](https://github.com/oze4/material-table-core/blob/master/demo/src/Pages/IssueTracker/update/utils.js#L52-L68) and [here](https://github.com/oze4/material-table-core/blob/master/demo/src/Pages/IssueTracker/update/updateIssueTracker.js#L31-L33)) to find all issues with `/mtc::resolved` as a comment [see here](#mark-issue-as-resolved) for more on marking issues as resolved.
 
  - Add an env var to `.env` at project root
    - `GITHUB_TOKEN=your_token_here`
