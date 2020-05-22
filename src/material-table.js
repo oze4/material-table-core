@@ -489,7 +489,6 @@ export default class MaterialTable extends React.Component {
           if (row.tableData.checked) {
             selectedRows.push(row);
           }
-
         });
       };
 
