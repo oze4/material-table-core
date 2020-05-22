@@ -22,9 +22,17 @@ The demo is a small React app with it's own Webpack config that we build and ser
 
 ```javascript
 {
-  value: 'Your Demo Name',               // The name that will appear in the dropdown
-  component: YourImportedDemoComponent,  // Import your component and use it here
-  id: 'make_this_as_unique_as_possible', // Used for `key` prop in loops
+  // The name that will appear in the dropdown
+  value: 'Your Demo Name',  
+  
+  // Import your component and use it here
+  component: YourImportedDemoComponent, 
+  
+  // Used for `key` prop in loops
+  id: 'make_this_as_unique_as_possible',
+  
+  // *Not required, but encouraged* Used as the 'View Source' button within the demo
+  publicUrl: 'https://github.com/oze4/material-table-core/blob/master/demo/src/Components/Demos/OnRowAddDefaultRowDataDemo/index.js'
 }
 ```
 
