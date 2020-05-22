@@ -28,16 +28,29 @@ const TabPanel = ({ children, value, index, ...other }) => (
   </div>
 );
 
-const TabPanelBody = ({ title = '', description = '' }) => (
-  <ExpansionPanel>
-    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-      <Typography>{title}</Typography>
-    </ExpansionPanelSummary>
-    <ExpansionPanelDetails>
-      <Typography>{description}</Typography>
-    </ExpansionPanelDetails>
-  </ExpansionPanel>
-);
+const TabPanelBody = ({ title = '', description = '' }) => {
+
+  const DangerousHtml = ({ html, children }) => {
+    const setDangeriousHtml = (__html) => ({ __html });
+
+    return (
+      <Typography dangerouslySetInnerHTML={setDangeriousHtml(html)}>
+        {children}
+      </Typography>
+    );
+  }
+
+  return ( 
+    <ExpansionPanel>
+      <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+        <DangerousHtml html={title} />
+      </ExpansionPanelSummary>
+      <ExpansionPanelDetails>
+        <DangerousHtml html={description} />
+      </ExpansionPanelDetails>
+    </ExpansionPanel>
+  )
+};
 
 const ToDo = () => {
   const [selectedTab, setSelectedTab] = useState(0);

@@ -7,7 +7,7 @@ export default [
   },
   {
     title: "Document new export property when exporting to CSV",
-    description: "More info on this feature can be found here https://github.com/oze4/material-table-core/pull/3",
+    description: "More info on this feature can be found <a href='https://github.com/oze4/material-table-core/pull/3'>here</a>",
     completed: false,
     id: "002"
   },

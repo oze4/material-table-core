@@ -8,6 +8,7 @@ import navigationLinks from '../../navigationLinks';
 
 const useStyles = makeStyles({
   hover: {
+    textDecoration: 'none',
     transition: 'transform .2s;',
     '&:hover': {
       transform: 'scale(1.05)'
