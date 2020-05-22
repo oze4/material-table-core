@@ -35,14 +35,14 @@ export class MTableToolbar extends React.Component {
     const dataToExport = this.props.exportAllData ? this.props.data : this.props.renderData;
     const data = dataToExport.map(rowData =>
       columns.map(columnDef => {
-        return this.props.getFieldValue(rowData, columnDef);
+        return columnDef.getValueAsText ? columnDef.getValueAsText(rowData) : this.props.getFieldValue(rowData, columnDef);
       })
     );
 
     const builder = new CsvBuilder((this.props.exportFileName || this.props.title || 'data') + '.csv');
     builder
       .setDelimeter(this.props.exportDelimiter)
-      .setColumns(columns.map(columnDef => columnDef.title))
+      .setColumns(columns.map(columnDef => columnDef.titleAsText ? columnDef.titleAsText() : columnDef.title))
       .addRows(data)
       .exportFile();
   }
