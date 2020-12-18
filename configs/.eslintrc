@@ -9,5 +9,8 @@
     "semi": ["error", "always", { "omitLastInOneLineBlock": true }],
     "space-before-function-paren": ["error", "never"]
   },
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
+  "settings": {
+    "version": "detect"
+  }
 }
