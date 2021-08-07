@@ -1,3 +1,13 @@
+# THIS PROJECT IS NOT MANTAINED HERE
+
+### WE'VE MOVED TO [@material-table/core](https://github.com/material-table-core/core)
+
+---- 
+
+----
+
+----
+
 <div align="center">
 
   <h1><a target="_blank" rel="noopener noreferrer" href="https://material-table-core.com">@material-table/core</a></h1>
